@@ -1,0 +1,17 @@
+# Large image files — serve from existing host or optimize first
+web/images/
+
+# Python venv
+__pycache__/
+*.pyc
+venv/
+env/
+
+# IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Worker build artifacts
+worker/dist/
+worker/node_modules/

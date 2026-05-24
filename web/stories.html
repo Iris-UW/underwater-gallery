@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stories · Iris Underwater</title>
+<style>
+:root {
+  --bg: #0a0a0f;
+  --surface: #12121a;
+  --dim: #5a5a6e;
+  --accent: #6ec6f8;
+  --text: #e8e8f0;
+  --gold: #d4a574;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* ─── Nav ─── */
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  padding: 16px 32px;
+  display: flex; justify-content: space-between; align-items: center;
+  background: linear-gradient(180deg, rgba(10,10,15,0.95) 0%, rgba(10,10,15,0) 100%);
+  backdrop-filter: blur(12px);
+}
+nav .logo { font-size: 18px; font-weight: 600; color: var(--accent); letter-spacing: 1px; text-decoration: none; }
+nav .nav-links { display: flex; gap: 24px; align-items: center; }
+nav .nav-links a { color: var(--dim); text-decoration: none; font-size: 14px; transition: color 0.3s; }
+nav .nav-links a:hover, nav .nav-links a.active { color: var(--text); }
+
+/* ─── Lang Switcher ─── */
+.lang-switch { display: flex; gap: 4px; background: var(--surface); border-radius: 6px; padding: 2px; }
+.lang-btn { padding: 4px 8px; border: none; background: none; color: var(--dim); cursor: pointer; font-size: 11px; border-radius: 4px; transition: all 0.2s; }
+.lang-btn.active { background: var(--accent); color: var(--bg); }
+
+/* ─── Header ─── */
+.stories-header {
+  padding: 120px 32px 64px;
+  text-align: center;
+  max-width: 800px; margin: 0 auto;
+}
+.stories-header h1 { font-size: clamp(32px, 5vw, 48px); font-weight: 300; letter-spacing: 2px; margin-bottom: 12px; }
+.stories-header p { color: var(--dim); font-size: 16px; max-width: 500px; margin: 0 auto; }
+
+/* ─── Story Card ─── */
+.story-card {
+  position: relative;
+  margin: 0 0 80px;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 16px;
+  transition: transform 0.4s ease;
+}
+.story-card:hover { transform: scale(1.01); }
+.story-card .cover {
+  width: 100%; height: 420px;
+  object-fit: cover;
+  display: block;
+  filter: brightness(0.7);
+  transition: filter 0.6s ease;
+}
+.story-card:hover .cover { filter: brightness(0.85); }
+.story-card .meta {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  padding: 48px 40px 40px;
+  background: linear-gradient(180deg, transparent 0%, rgba(10,10,15,0.92) 100%);
+}
+.story-card .meta .icon { font-size: 28px; margin-bottom: 8px; }
+.story-card .meta h2 { font-size: 28px; font-weight: 400; letter-spacing: 1px; margin-bottom: 6px; }
+.story-card .meta .count { font-size: 13px; color: var(--dim); letter-spacing: 2px; text-transform: uppercase; }
+
+/* ─── Story Detail (Expanded) ─── */
+.story-detail {
+  display: none;
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 200;
+  background: var(--bg);
+  overflow-y: auto;
+}
+.story-detail.open { display: block; }
+.story-detail .close-btn {
+  position: fixed; top: 20px; right: 28px; z-index: 210;
+  width: 40px; height: 40px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.15);
+  background: rgba(10,10,15,0.8); color: var(--text); font-size: 20px;
+  cursor: pointer; display: flex; align-items: center; justify-content: center;
+  backdrop-filter: blur(12px); transition: all 0.3s;
+}
+.story-detail .close-btn:hover { background: rgba(255,255,255,0.1); }
+
+.story-detail-header {
+  padding: 100px 40px 40px;
+  text-align: center;
+  position: relative;
+}
+.story-detail-header h2 { font-size: 36px; font-weight: 300; letter-spacing: 2px; }
+.story-detail-header .subtitle { color: var(--dim); font-size: 15px; margin-top: 8px; }
+
+/* ─── Horizontal Scroll Strip ─── */
+.hscroll {
+  display: flex; gap: 12px;
+  overflow-x: auto;
+  padding: 0 40px 40px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.hscroll::-webkit-scrollbar { display: none; }
+.hscroll .slide {
+  flex: 0 0 auto;
+  width: 280px; height: 360px;
+  border-radius: 12px;
+  overflow: hidden;
+  scroll-snap-align: start;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.hscroll .slide:hover { transform: scale(1.03); }
+.hscroll .slide img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  filter: brightness(0.8);
+  transition: filter 0.4s;
+}
+.hscroll .slide:hover img { filter: brightness(0.95); }
+.hscroll .slide .caption {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  padding: 20px 16px;
+  background: linear-gradient(180deg, transparent, rgba(0,0,0,0.8));
+}
+.hscroll .slide .caption h4 { font-size: 14px; font-weight: 500; color: #fff; }
+.hscroll .slide .caption span { font-size: 11px; color: var(--dim); }
+
+/* ─── Two Column Section (Camera) ─── */
+.twocol { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; padding: 0 40px 40px; }
+.twocol .col-label { grid-column: 1/-1; text-align: center; font-size: 13px; color: var(--dim); letter-spacing: 2px; padding: 8px 0; }
+.twocol .col-label:first-child { grid-column: 1; }
+.twocol .col-label:last-child { grid-column: 2; }
+.twocol .col { display: flex; flex-direction: column; gap: 12px; }
+.twocol .col .grid-item {
+  border-radius: 10px; overflow: hidden;
+  cursor: pointer; transition: transform 0.3s;
+}
+.twocol .col .grid-item:hover { transform: scale(1.02); }
+.twocol .col .grid-item img { width: 100%; display: block; filter: brightness(0.75); transition: filter 0.4s; }
+.twocol .col .grid-item:hover img { filter: brightness(0.9); }
+.twocol .col .grid-item .cap { padding: 8px 12px; background: rgba(0,0,0,0.5); font-size: 12px; color: var(--dim); }
+
+/* ─── Lightbox ─── */
+.lightbox {
+  display: none;
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 300;
+  background: rgba(0,0,0,0.95);
+  justify-content: center; align-items: center;
+  flex-direction: column;
+}
+.lightbox.open { display: flex; }
+.lightbox img { max-width: 90vw; max-height: 80vh; object-fit: contain; border-radius: 4px; }
+.lightbox .lb-caption { margin-top: 16px; color: var(--dim); font-size: 14px; text-align: center; }
+.lightbox .lb-close {
+  position: absolute; top: 20px; right: 28px;
+  width: 40px; height: 40px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.15);
+  background: none; color: #fff; font-size: 20px; cursor: pointer;
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 768px) {
+  nav { padding: 12px 16px; }
+  .stories-header { padding: 100px 20px 40px; }
+  .story-card .cover { height: 280px; }
+  .story-card .meta { padding: 32px 24px 24px; }
+  .story-card .meta h2 { font-size: 22px; }
+  .hscroll { padding: 0 20px 32px; }
+  .hscroll .slide { width: 220px; height: 300px; }
+  .twocol { grid-template-columns: 1fr; padding: 0 20px 32px; }
+  .twocol .col-label:first-child, .twocol .col-label:last-child { grid-column: 1; }
+  .story-detail-header { padding: 80px 20px 30px; }
+  .story-detail-header h2 { font-size: 26px; }
+}
+  /* ── Chat (loaded from chat.css) ── */
+  </style>
+  <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+
+<!-- Nav -->
+<nav>
+  <a href="index.html" class="logo">IRIS · UW</a>
+  <div class="nav-links">
+    <a href="index.html">Gallery</a>
+    <a href="stories.html" class="active">Stories</a>
+    <div class="lang-switch" id="langSwitch">
+      <button class="lang-btn active" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="zh">中文</button>
+      <button class="lang-btn" data-lang="ja">日本語</button>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+<header class="stories-header">
+  <h1 data-i18n="stories_title">Underwater Stories</h1>
+  <p data-i18n="stories_subtitle">Every dive has a story. Every creature, a voice.</p>
+</header>
+
+<!-- Story Cards -->
+<div id="storyCards"></div>
+
+<!-- Story Detail -->
+<div class="story-detail" id="storyDetail">
+  <button class="close-btn" onclick="closeStory()">✕</button>
+  <div id="storyContent"></div>
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="lb-close">✕</button>
+  <img id="lbImg" src="" alt="">
+  <div class="lb-caption" id="lbCaption"></div>
+</div>
+
+<script src="stories-data.js"></script>
+<script>
+// ─── i18n ───
+const LANG = {
+  en: {
+    stories_title: 'Underwater Stories',
+    stories_subtitle: 'Every dive has a story. Every creature, a voice.',
+    photos_count: 'photos',
+    close: 'Close',
+  },
+  zh: {
+    stories_title: '水下故事',
+    stories_subtitle: '每一次下潜，都是一个故事。每一个生灵，都有自己的声音。',
+    photos_count: '张照片',
+    close: '关闭',
+  },
+  ja: {
+    stories_title: '水中の物語',
+    stories_subtitle: '潜るたびに物語が生まれる。生き物たちは、それぞれの声を持つ。',
+    photos_count: '枚',
+    close: '閉じる',
+  }
+};
+
+let currentLang = localStorage.getItem('iris-lang') || 'en';
+
+function t(key) { return LANG[currentLang]?.[key] || LANG.en[key] || key; }
+
+function setLang(lang) {
+  currentLang = lang;
+  localStorage.setItem('iris-lang', lang);
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    el.textContent = t(el.dataset.i18n);
+  });
+  renderStoryCards();
+}
+
+// Init lang
+document.querySelectorAll('.lang-btn').forEach(b => {
+  b.classList.toggle('active', b.dataset.lang === currentLang);
+  b.addEventListener('click', () => setLang(b.dataset.lang));
+});
+setLang(currentLang);
+
+// ─── Render Story Cards ───
+function renderStoryCards() {
+  const container = document.getElementById('storyCards');
+  container.innerHTML = STORIES.map((s, idx) => {
+    const title = s[`title_${currentLang}`] || s.title_en;
+    const subtitle = s[`subtitle_${currentLang}`] || s.subtitle_en;
+    return `
+    <div class="story-card" onclick="openStory(${idx})">
+      <img class="cover" src="${s.cover_thumb || s.cover}" alt="${title}" loading="${idx < 2 ? 'eager' : 'lazy'}">
+      <div class="meta">
+        ${s.icon ? `<div class="icon">${s.icon}</div>` : ''}
+        <h2>${title}</h2>
+        <div class="count">${s.photo_count} ${t('photos_count')}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ─── Open Story Detail ───
+function openStory(idx) {
+  const s = STORIES[idx];
+  const detail = document.getElementById('storyDetail');
+  const content = document.getElementById('storyContent');
+  const title = s[`title_${currentLang}`] || s.title_en;
+  const subtitle = s[`subtitle_${currentLang}`] || s.subtitle_en;
+
+  let html = `
+    <div class="story-detail-header">
+      <h2>${title}</h2>
+      <div class="subtitle">${subtitle}</div>
+    </div>`;
+
+  if (s.type === 'camera' && s.sections) {
+    html += '<div class="twocol">';
+    s.sections.forEach(sec => {
+      const label = sec[`label_${currentLang}`] || sec.label_en || '';
+      html += `<div class="col"><h3 class="col-label">${label}</h3>`;
+      sec.photos.forEach(p => {
+        html += `<div class="grid-item" onclick="event.stopPropagation();openLightbox('${p.full}','${(p.title||'').replace(/'/g,"\\'")}')">
+          <img src="${p.thumb}" alt="" loading="lazy"><div class="cap">${p.title || ''}</div></div>`;
+      });
+      html += '</div>';
+    });
+    html += '</div>';
+  } else {
+    html += '<div class="hscroll">';
+    s.photos.forEach(p => {
+      html += `<div class="slide" onclick="event.stopPropagation();openLightbox('${p.full}','${(p.title||'').replace(/'/g,"\\'")}')">
+        <img src="${p.thumb}" alt="${p.title||''}" loading="lazy">
+        <div class="caption"><h4>${p.title||''}</h4><span>${p.date||''}</span></div></div>`;
+    });
+    html += '</div>';
+  }
+
+  content.innerHTML = html;
+  detail.classList.add('open');
+  detail.scrollTop = 0;
+  document.body.style.overflow = 'hidden';
+}
+
+function closeStory() {
+  document.getElementById('storyDetail').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// ─── Lightbox ───
+function openLightbox(src, title) {
+  document.getElementById('lbImg').src = src;
+  document.getElementById('lbCaption').textContent = title;
+  document.getElementById('lightbox').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// Keyboard nav
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    closeLightbox();
+    if (document.getElementById('storyDetail').classList.contains('open')) closeStory();
+  }
+});
+
+// Initial render
+renderStoryCards();
+</script>
+
+<!-- AI Chat (Iris persona) -->
+<script src="photo_kb.js"></script>
+<script src="chat.js"></script>
+
+</body>
+</html>

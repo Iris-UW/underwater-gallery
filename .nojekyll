@@ -1,0 +1,2 @@
+# Tells GitHub Pages to serve files starting with underscore
+# (e.g. .well-known, _headers, etc.)
