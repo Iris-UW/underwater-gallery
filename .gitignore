@@ -1,5 +1,6 @@
-# Large image files — serve from existing host or optimize first
-web/images/
+# Large image files — these are optimized webp, OK to track
+# web/images/   ← uncommented: images are needed for the live site
+
 
 # Python venv
 __pycache__/

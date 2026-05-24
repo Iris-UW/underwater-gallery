@@ -4,10 +4,15 @@
    ============================================ */
 
 const CHAT_CONFIG = {
-  // Cloudflare Worker URL — update after deploying worker
-  apiUrl: '/api/chat',          // relative = same domain (GH Pages + CF Worker route)
-  // Fallback: use OpenRouter directly (dev only, exposes key)
-  openrouterKey: '',             // set only for local dev
+  // Option A: Cloudflare Worker (recommended, key hidden)
+  // Deploy worker/ → get URL → paste below:
+  apiUrl: 'https://iris-uw-chat.your-subdomain.workers.dev/api/chat',
+
+  // Option B: relative path (if using Cloudflare Pages with Functions)
+  // apiUrl: '/api/chat',
+
+  // Fallback for local dev ONLY (key exposed in frontend — dev only!)
+  openrouterKey: '',   // ← paste sk-or-v1-... here for local testing
   model: 'qwen/qwen2.5-vl-72b-instruct',
 };
 
