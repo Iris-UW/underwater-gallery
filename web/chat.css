@@ -9,14 +9,14 @@
   bottom: 28px;
   right: 28px;
   z-index: 99990;
-  width: 52px;
-  height: 52px;
+  width: 56px;
+  height: 56px;
   border-radius: 50%;
-  border: 1.5px solid rgba(110,198,248,0.4);
-  background: rgba(10,10,15,0.85);
+  border: 1.5px solid var(--accent, rgba(110,198,248,0.4));
+  background: var(--surface, rgba(10,10,15,0.85));
   backdrop-filter: blur(16px);
   color: var(--accent, #6ec6f8);
-  font-size: 22px;
+  font-size: 26px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -294,5 +294,33 @@
   .chat-fab {
     right: 16px;
     bottom: 16px;
+    width: 44px;
+    height: 44px;
+    font-size: 18px;
   }
+}
+@media (max-width: 380px) {
+  .chat-panel {
+    right: 4px;
+    left: 4px;
+    bottom: 4px;
+    max-height: 90vh;
+    height: 90vh;
+    border-radius: 12px;
+  }
+  .chat-fab {
+    right: 10px;
+    bottom: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+  .chat-header { padding: 12px 14px 10px; }
+  .chat-header .info .name { font-size: 13px; }
+  .chat-messages { padding: 10px 14px; }
+  .chat-msg { font-size: 12px; padding: 8px 12px; }
+  .chat-input-area { padding: 8px 10px 12px; }
+  .chat-input-area textarea { font-size: 12px; padding: 8px 10px; }
+  .chat-suggestions { padding: 0 14px 8px; }
+  .chat-chip { font-size: 10px; padding: 4px 10px; }
 }

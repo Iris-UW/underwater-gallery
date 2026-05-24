@@ -3,20 +3,20 @@ const STORIES = [
   {
     "id": "journey-1",
     "type": "journey",
-    "title_en": "Anilao: 2026-02-14 to 2026-02-22",
-    "title_zh": "阿尼洛潜水日记：2026-02-14 至 2026-02-22",
-    "title_ja": "アニラオ：2026-02-14〜2026-02-22",
+    "title_en": "Tulamben: 2026-02-14 to 2026-02-22",
+    "title_zh": "图蓝本潜水日记：2026-02-14 至 2026-02-22",
+    "title_ja": "トゥランベン：2026-02-14〜2026-02-22",
     "subtitle_en": "44 moments across 9 days",
     "subtitle_zh": "9天，44个瞬间",
     "subtitle_ja": "9日間、44の瞬間",
     "cover": "images/full/20260214-P2140025.webp",
-    "cover_thumb": "images/thumb/20260214-P2140025_thumb.webp",
+    "cover_thumb": "images/thumbnails/20260214-P2140025.webp",
     "photo_count": 44,
     "photos": [
       {
         "filename": "20260214-P2140025.jpg",
         "full": "images/full/20260214-P2140025.webp",
-        "thumb": "images/thumb/20260214-P2140025_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140025.webp",
         "date": "2026-02-14",
         "title": "珊瑚上的晨曦",
         "species": "橙色海兔，疑似Flabellina属",
@@ -29,7 +29,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140028.jpg",
         "full": "images/full/20260214-P2140028.webp",
-        "thumb": "images/thumb/20260214-P2140028_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140028.webp",
         "date": "2026-02-14",
         "title": "珊瑚上的晨曦",
         "species": "疑似橙色海兔",
@@ -42,7 +42,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140035.jpg",
         "full": "images/full/20260214-P2140035.webp",
-        "thumb": "images/thumb/20260214-P2140035_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140035.webp",
         "date": "2026-02-14",
         "title": "珊瑚上的晨曦",
         "species": "橙色海兔，疑似Chromodoris属",
@@ -55,7 +55,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140051.jpg",
         "full": "images/full/20260214-P2140051.webp",
-        "thumb": "images/thumb/20260214-P2140051_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140051.webp",
         "date": "2026-02-14",
         "title": "幽暗中的繁星",
         "species": "不确定，可能是软珊瑚或其他",
@@ -68,7 +68,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140052.jpg",
         "full": "images/full/20260214-P2140052.webp",
-        "thumb": "images/thumb/20260214-P2140052_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140052.webp",
         "date": "2026-02-14",
         "title": "幽暗中的红宝石",
         "species": "软珊瑚蟹",
@@ -81,7 +81,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140063.jpg",
         "full": "images/full/20260214-P2140063.webp",
-        "thumb": "images/thumb/20260214-P2140063_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140063.webp",
         "date": "2026-02-14",
         "title": "幽暗中的触须",
         "species": "未能确定具体类别",
@@ -94,7 +94,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140068.jpg",
         "full": "images/full/20260214-P2140068.webp",
-        "thumb": "images/thumb/20260214-P2140068_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140068.webp",
         "date": "2026-02-14",
         "title": "幽影与霓虹",
         "species": "疑似苔藓虫",
@@ -107,7 +107,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140070.jpg",
         "full": "images/full/20260214-P2140070.webp",
-        "thumb": "images/thumb/20260214-P2140070_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140070.webp",
         "date": "2026-02-14",
         "title": "星点绽放",
         "species": "黑斑鸠海牛",
@@ -120,7 +120,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140101.jpg",
         "full": "images/full/20260214-P2140101.webp",
-        "thumb": "images/thumb/20260214-P2140101_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140101.webp",
         "date": "2026-02-14",
         "title": "紫翼幻影",
         "species": "安娜多彩海牛",
@@ -133,7 +133,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140141.jpg",
         "full": "images/full/20260214-P2140141.webp",
-        "thumb": "images/thumb/20260214-P2140141_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140141.webp",
         "date": "2026-02-14",
         "title": "夜影之光",
         "species": "古巴纳海牛",
@@ -146,7 +146,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140172.jpg",
         "full": "images/full/20260214-P2140172.webp",
-        "thumb": "images/thumb/20260214-P2140172_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140172.webp",
         "date": "2026-02-14",
         "title": "黑星凝视",
         "species": "古巴纳海牛",
@@ -159,7 +159,7 @@ const STORIES = [
       {
         "filename": "20260215-P2152283.jpg",
         "full": "images/full/20260215-P2152283.webp",
-        "thumb": "images/thumb/20260215-P2152283_thumb.webp",
+        "thumb": "images/thumbnails/20260215-P2152283.webp",
         "date": "2026-02-15",
         "title": "点点星光的追寻",
         "species": "海葵虾",
@@ -172,7 +172,7 @@ const STORIES = [
       {
         "filename": "20260215-P2152284.jpg",
         "full": "images/full/20260215-P2152284.webp",
-        "thumb": "images/thumb/20260215-P2152284_thumb.webp",
+        "thumb": "images/thumbnails/20260215-P2152284.webp",
         "date": "2026-02-15",
         "title": "透明之舞",
         "species": "帝王虾",
@@ -185,7 +185,7 @@ const STORIES = [
       {
         "filename": "20260215-P2152320.jpg",
         "full": "images/full/20260215-P2152320.webp",
-        "thumb": "images/thumb/20260215-P2152320_thumb.webp",
+        "thumb": "images/thumbnails/20260215-P2152320.webp",
         "date": "2026-02-15",
         "title": "暗夜之花",
         "species": "翅膀海牛",
@@ -198,7 +198,7 @@ const STORIES = [
       {
         "filename": "20260216-P2162620.jpg",
         "full": "images/full/20260216-P2162620.webp",
-        "thumb": "images/thumb/20260216-P2162620_thumb.webp",
+        "thumb": "images/thumbnails/20260216-P2162620.webp",
         "date": "2026-02-16",
         "title": "月夜轻咏",
         "species": "未知海兔，疑似Flabellina属",
@@ -211,7 +211,7 @@ const STORIES = [
       {
         "filename": "20260216-P2162677.jpg",
         "full": "images/full/20260216-P2162677.webp",
-        "thumb": "images/thumb/20260216-P2162677_thumb.webp",
+        "thumb": "images/thumbnails/20260216-P2162677.webp",
         "date": "2026-02-16",
         "title": "夜色中的金色梦",
         "species": "疑似古巴纳海牛",
@@ -224,7 +224,7 @@ const STORIES = [
       {
         "filename": "20260216-P2162704.jpg",
         "full": "images/full/20260216-P2162704.webp",
-        "thumb": "images/thumb/20260216-P2162704_thumb.webp",
+        "thumb": "images/thumbnails/20260216-P2162704.webp",
         "date": "2026-02-16",
         "title": "焕彩 whispers",
         "species": "安娜多彩海牛",
@@ -237,7 +237,7 @@ const STORIES = [
       {
         "filename": "20260216-P2162723-2.jpg",
         "full": "images/full/20260216-P2162723-2.webp",
-        "thumb": "images/thumb/20260216-P2162723-2_thumb.webp",
+        "thumb": "images/thumbnails/20260216-P2162723-2.webp",
         "date": "2026-02-16",
         "title": "水下梦境的轮廓",
         "species": "黑斑鸠海牛",
@@ -250,7 +250,7 @@ const STORIES = [
       {
         "filename": "20260216-P2162723.jpg",
         "full": "images/full/20260216-P2162723.webp",
-        "thumb": "images/thumb/20260216-P2162723_thumb.webp",
+        "thumb": "images/thumbnails/20260216-P2162723.webp",
         "date": "2026-02-16",
         "title": "幽光藏影",
         "species": "黑斑鸠海牛",
@@ -263,7 +263,7 @@ const STORIES = [
       {
         "filename": "20260217-P2172897.jpg",
         "full": "images/full/20260217-P2172897.webp",
-        "thumb": "images/thumb/20260217-P2172897_thumb.webp",
+        "thumb": "images/thumbnails/20260217-P2172897.webp",
         "date": "2026-02-17",
         "title": "暗蓝之舞",
         "species": "古巴纳海牛",
@@ -276,7 +276,7 @@ const STORIES = [
       {
         "filename": "20260217-P2173081.jpg",
         "full": "images/full/20260217-P2173081.webp",
-        "thumb": "images/thumb/20260217-P2173081_thumb.webp",
+        "thumb": "images/thumbnails/20260217-P2173081.webp",
         "date": "2026-02-17",
         "title": "珊瑚巢里的宝玉",
         "species": "帝王虾",
@@ -289,7 +289,7 @@ const STORIES = [
       {
         "filename": "20260217-P2173085.jpg",
         "full": "images/full/20260217-P2173085.webp",
-        "thumb": "images/thumb/20260217-P2173085_thumb.webp",
+        "thumb": "images/thumbnails/20260217-P2173085.webp",
         "date": "2026-02-17",
         "title": "珊瑚花园的守望者",
         "species": "帝王虾",
@@ -302,7 +302,7 @@ const STORIES = [
       {
         "filename": "20260217-P2173089.jpg",
         "full": "images/full/20260217-P2173089.webp",
-        "thumb": "images/thumb/20260217-P2173089_thumb.webp",
+        "thumb": "images/thumbnails/20260217-P2173089.webp",
         "date": "2026-02-17",
         "title": "红白舞者的邂逅",
         "species": "帝王虾",
@@ -315,7 +315,7 @@ const STORIES = [
       {
         "filename": "20260217-P2173091.jpg",
         "full": "images/full/20260217-P2173091.webp",
-        "thumb": "images/thumb/20260217-P2173091_thumb.webp",
+        "thumb": "images/thumbnails/20260217-P2173091.webp",
         "date": "2026-02-17",
         "title": "深海的印记",
         "species": "帝王虾",
@@ -328,7 +328,7 @@ const STORIES = [
       {
         "filename": "20260218-P2183492.jpg",
         "full": "images/full/20260218-P2183492.webp",
-        "thumb": "images/thumb/20260218-P2183492_thumb.webp",
+        "thumb": "images/thumbnails/20260218-P2183492.webp",
         "date": "2026-02-18",
         "title": "粉红幕后的两个梦境",
         "species": "无法确定具体物种",
@@ -342,7 +342,7 @@ const STORIES = [
       {
         "filename": "20260218-P2183507.jpg",
         "full": "images/full/20260218-P2183507.webp",
-        "thumb": "images/thumb/20260218-P2183507_thumb.webp",
+        "thumb": "images/thumbnails/20260218-P2183507.webp",
         "date": "2026-02-18",
         "title": "红色梦境里的灵魂",
         "species": "虾虎鱼",
@@ -355,7 +355,7 @@ const STORIES = [
       {
         "filename": "20260218-P2183511.jpg",
         "full": "images/full/20260218-P2183511.webp",
-        "thumb": "images/thumb/20260218-P2183511_thumb.webp",
+        "thumb": "images/thumbnails/20260218-P2183511.webp",
         "date": "2026-02-18",
         "title": "Amber Whisper",
         "species": "橙色海兔，疑似Flabellina属",
@@ -368,7 +368,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193635.jpg",
         "full": "images/full/20260219-P2193635.webp",
-        "thumb": "images/thumb/20260219-P2193635_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193635.webp",
         "date": "2026-02-19",
         "title": "橙色韵律的舞者",
         "species": "疑似丘疹叶海牛",
@@ -381,7 +381,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193684.jpg",
         "full": "images/full/20260219-P2193684.webp",
-        "thumb": "images/thumb/20260219-P2193684_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193684.webp",
         "date": "2026-02-19",
         "title": "幽蓝絮语",
         "species": "古巴纳海牛",
@@ -394,7 +394,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193725.jpg",
         "full": "images/full/20260219-P2193725.webp",
-        "thumb": "images/thumb/20260219-P2193725_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193725.webp",
         "date": "2026-02-19",
         "title": "深渊中的画家",
         "species": "不确定的箱鲀",
@@ -407,7 +407,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193782.jpg",
         "full": "images/full/20260219-P2193782.webp",
-        "thumb": "images/thumb/20260219-P2193782_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193782.webp",
         "date": "2026-02-19",
         "title": "溶洞深处的守望者",
         "species": "海洋生物（疑似虾虎鱼）",
@@ -420,7 +420,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193795.jpg",
         "full": "images/full/20260219-P2193795.webp",
-        "thumb": "images/thumb/20260219-P2193795_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193795.webp",
         "date": "2026-02-19",
         "title": "晨光中的柔羽",
         "species": "紫海牛",
@@ -433,7 +433,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193819.jpg",
         "full": "images/full/20260219-P2193819.webp",
-        "thumb": "images/thumb/20260219-P2193819_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193819.webp",
         "date": "2026-02-19",
         "title": "橙影轻舞",
         "species": "疑似伊丽莎白多彩海牛",
@@ -446,7 +446,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193858.jpg",
         "full": "images/full/20260219-P2193858.webp",
-        "thumb": "images/thumb/20260219-P2193858_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193858.webp",
         "date": "2026-02-19",
         "title": "金色穹顶下的隐者",
         "species": "疑似瓷蟹",
@@ -459,7 +459,7 @@ const STORIES = [
       {
         "filename": "20260220-P2203894.jpg",
         "full": "images/full/20260220-P2203894.webp",
-        "thumb": "images/thumb/20260220-P2203894_thumb.webp",
+        "thumb": "images/thumbnails/20260220-P2203894.webp",
         "date": "2026-02-20",
         "title": "橙色面具",
         "species": "青蛙鱼",
@@ -472,7 +472,7 @@ const STORIES = [
       {
         "filename": "20260220-P2203919.jpg",
         "full": "images/full/20260220-P2203919.webp",
-        "thumb": "images/thumb/20260220-P2203919_thumb.webp",
+        "thumb": "images/thumbnails/20260220-P2203919.webp",
         "date": "2026-02-20",
         "title": "深海烈焰之心",
         "species": "青蛙鱼",
@@ -485,7 +485,7 @@ const STORIES = [
       {
         "filename": "20260220-P2203968.jpg",
         "full": "images/full/20260220-P2203968.webp",
-        "thumb": "images/thumb/20260220-P2203968_thumb.webp",
+        "thumb": "images/thumbnails/20260220-P2203968.webp",
         "date": "2026-02-20",
         "title": "深渊之瞳",
         "species": "青蛙鱼",
@@ -498,7 +498,7 @@ const STORIES = [
       {
         "filename": "20260220-P2203985.jpg",
         "full": "images/full/20260220-P2203985.webp",
-        "thumb": "images/thumb/20260220-P2203985_thumb.webp",
+        "thumb": "images/thumbnails/20260220-P2203985.webp",
         "date": "2026-02-20",
         "title": "金色沉思",
         "species": "青蛙鱼",
@@ -511,7 +511,7 @@ const STORIES = [
       {
         "filename": "20260221-P2214396.jpg",
         "full": "images/full/20260221-P2214396.webp",
-        "thumb": "images/thumb/20260221-P2214396_thumb.webp",
+        "thumb": "images/thumbnails/20260221-P2214396.webp",
         "date": "2026-02-21",
         "title": "幽光之舞",
         "species": "翅膀海牛",
@@ -524,7 +524,7 @@ const STORIES = [
       {
         "filename": "20260221-P2214425.jpg",
         "full": "images/full/20260221-P2214425.webp",
-        "thumb": "images/thumb/20260221-P2214425_thumb.webp",
+        "thumb": "images/thumbnails/20260221-P2214425.webp",
         "date": "2026-02-21",
         "title": "幽光羽翼",
         "species": "疑似翅膀海牛",
@@ -537,7 +537,7 @@ const STORIES = [
       {
         "filename": "20260221-P2214435.jpg",
         "full": "images/full/20260221-P2214435.webp",
-        "thumb": "images/thumb/20260221-P2214435_thumb.webp",
+        "thumb": "images/thumbnails/20260221-P2214435.webp",
         "date": "2026-02-21",
         "title": "暗夜之烛",
         "species": "翅膀海牛",
@@ -550,7 +550,7 @@ const STORIES = [
       {
         "filename": "20260221-P2214555.jpg",
         "full": "images/full/20260221-P2214555.webp",
-        "thumb": "images/thumb/20260221-P2214555_thumb.webp",
+        "thumb": "images/thumbnails/20260221-P2214555.webp",
         "date": "2026-02-21",
         "title": "金色梦游者",
         "species": "疑似橙色海兔",
@@ -563,7 +563,7 @@ const STORIES = [
       {
         "filename": "20260222-DSC06475.jpg",
         "full": "images/full/20260222-DSC06475.webp",
-        "thumb": "images/thumb/20260222-DSC06475_thumb.webp",
+        "thumb": "images/thumbnails/20260222-DSC06475.webp",
         "date": "2026-02-22",
         "title": "蓝夜的秘密",
         "species": "安娜多彩海牛",
@@ -576,7 +576,7 @@ const STORIES = [
       {
         "filename": "20260222-DSC06519-3.jpg",
         "full": "images/full/20260222-DSC06519-3.webp",
-        "thumb": "images/thumb/20260222-DSC06519-3_thumb.webp",
+        "thumb": "images/thumbnails/20260222-DSC06519-3.webp",
         "date": "2026-02-22",
         "title": "深蓝之眸",
         "species": "黑双锯鱼",
@@ -598,13 +598,13 @@ const STORIES = [
     "subtitle_zh": "万花筒般的海蛞蝓，每一只都是进化的微缩杰作",
     "subtitle_ja": "万華鏡のようなウミウシたち、それぞれが進化の小さな傑作",
     "cover": "images/full/20260216-P2162723.webp",
-    "cover_thumb": "images/thumb/20260216-P2162723_thumb.webp",
+    "cover_thumb": "images/thumbnails/20260216-P2162723.webp",
     "photo_count": 24,
     "photos": [
       {
         "filename": "20260214-P2140025.jpg",
         "full": "images/full/20260214-P2140025.webp",
-        "thumb": "images/thumb/20260214-P2140025_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140025.webp",
         "date": "2026-02-14",
         "title": "珊瑚上的晨曦",
         "species": "橙色海兔，疑似Flabellina属",
@@ -617,7 +617,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140028.jpg",
         "full": "images/full/20260214-P2140028.webp",
-        "thumb": "images/thumb/20260214-P2140028_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140028.webp",
         "date": "2026-02-14",
         "title": "珊瑚上的晨曦",
         "species": "疑似橙色海兔",
@@ -630,7 +630,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140035.jpg",
         "full": "images/full/20260214-P2140035.webp",
-        "thumb": "images/thumb/20260214-P2140035_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140035.webp",
         "date": "2026-02-14",
         "title": "珊瑚上的晨曦",
         "species": "橙色海兔，疑似Chromodoris属",
@@ -643,7 +643,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140070.jpg",
         "full": "images/full/20260214-P2140070.webp",
-        "thumb": "images/thumb/20260214-P2140070_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140070.webp",
         "date": "2026-02-14",
         "title": "星点绽放",
         "species": "黑斑鸠海牛",
@@ -656,7 +656,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140101.jpg",
         "full": "images/full/20260214-P2140101.webp",
-        "thumb": "images/thumb/20260214-P2140101_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140101.webp",
         "date": "2026-02-14",
         "title": "紫翼幻影",
         "species": "安娜多彩海牛",
@@ -669,7 +669,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140141.jpg",
         "full": "images/full/20260214-P2140141.webp",
-        "thumb": "images/thumb/20260214-P2140141_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140141.webp",
         "date": "2026-02-14",
         "title": "夜影之光",
         "species": "古巴纳海牛",
@@ -682,7 +682,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140172.jpg",
         "full": "images/full/20260214-P2140172.webp",
-        "thumb": "images/thumb/20260214-P2140172_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140172.webp",
         "date": "2026-02-14",
         "title": "黑星凝视",
         "species": "古巴纳海牛",
@@ -695,7 +695,7 @@ const STORIES = [
       {
         "filename": "20260215-P2152320.jpg",
         "full": "images/full/20260215-P2152320.webp",
-        "thumb": "images/thumb/20260215-P2152320_thumb.webp",
+        "thumb": "images/thumbnails/20260215-P2152320.webp",
         "date": "2026-02-15",
         "title": "暗夜之花",
         "species": "翅膀海牛",
@@ -708,7 +708,7 @@ const STORIES = [
       {
         "filename": "20260216-P2162620.jpg",
         "full": "images/full/20260216-P2162620.webp",
-        "thumb": "images/thumb/20260216-P2162620_thumb.webp",
+        "thumb": "images/thumbnails/20260216-P2162620.webp",
         "date": "2026-02-16",
         "title": "月夜轻咏",
         "species": "未知海兔，疑似Flabellina属",
@@ -721,7 +721,7 @@ const STORIES = [
       {
         "filename": "20260216-P2162677.jpg",
         "full": "images/full/20260216-P2162677.webp",
-        "thumb": "images/thumb/20260216-P2162677_thumb.webp",
+        "thumb": "images/thumbnails/20260216-P2162677.webp",
         "date": "2026-02-16",
         "title": "夜色中的金色梦",
         "species": "疑似古巴纳海牛",
@@ -734,7 +734,7 @@ const STORIES = [
       {
         "filename": "20260216-P2162704.jpg",
         "full": "images/full/20260216-P2162704.webp",
-        "thumb": "images/thumb/20260216-P2162704_thumb.webp",
+        "thumb": "images/thumbnails/20260216-P2162704.webp",
         "date": "2026-02-16",
         "title": "焕彩 whispers",
         "species": "安娜多彩海牛",
@@ -747,7 +747,7 @@ const STORIES = [
       {
         "filename": "20260216-P2162723-2.jpg",
         "full": "images/full/20260216-P2162723-2.webp",
-        "thumb": "images/thumb/20260216-P2162723-2_thumb.webp",
+        "thumb": "images/thumbnails/20260216-P2162723-2.webp",
         "date": "2026-02-16",
         "title": "水下梦境的轮廓",
         "species": "黑斑鸠海牛",
@@ -760,7 +760,7 @@ const STORIES = [
       {
         "filename": "20260216-P2162723.jpg",
         "full": "images/full/20260216-P2162723.webp",
-        "thumb": "images/thumb/20260216-P2162723_thumb.webp",
+        "thumb": "images/thumbnails/20260216-P2162723.webp",
         "date": "2026-02-16",
         "title": "幽光藏影",
         "species": "黑斑鸠海牛",
@@ -773,7 +773,7 @@ const STORIES = [
       {
         "filename": "20260217-P2172897.jpg",
         "full": "images/full/20260217-P2172897.webp",
-        "thumb": "images/thumb/20260217-P2172897_thumb.webp",
+        "thumb": "images/thumbnails/20260217-P2172897.webp",
         "date": "2026-02-17",
         "title": "暗蓝之舞",
         "species": "古巴纳海牛",
@@ -786,7 +786,7 @@ const STORIES = [
       {
         "filename": "20260218-P2183511.jpg",
         "full": "images/full/20260218-P2183511.webp",
-        "thumb": "images/thumb/20260218-P2183511_thumb.webp",
+        "thumb": "images/thumbnails/20260218-P2183511.webp",
         "date": "2026-02-18",
         "title": "Amber Whisper",
         "species": "橙色海兔，疑似Flabellina属",
@@ -799,7 +799,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193635.jpg",
         "full": "images/full/20260219-P2193635.webp",
-        "thumb": "images/thumb/20260219-P2193635_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193635.webp",
         "date": "2026-02-19",
         "title": "橙色韵律的舞者",
         "species": "疑似丘疹叶海牛",
@@ -812,7 +812,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193684.jpg",
         "full": "images/full/20260219-P2193684.webp",
-        "thumb": "images/thumb/20260219-P2193684_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193684.webp",
         "date": "2026-02-19",
         "title": "幽蓝絮语",
         "species": "古巴纳海牛",
@@ -825,7 +825,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193795.jpg",
         "full": "images/full/20260219-P2193795.webp",
-        "thumb": "images/thumb/20260219-P2193795_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193795.webp",
         "date": "2026-02-19",
         "title": "晨光中的柔羽",
         "species": "紫海牛",
@@ -838,7 +838,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193819.jpg",
         "full": "images/full/20260219-P2193819.webp",
-        "thumb": "images/thumb/20260219-P2193819_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193819.webp",
         "date": "2026-02-19",
         "title": "橙影轻舞",
         "species": "疑似伊丽莎白多彩海牛",
@@ -851,7 +851,7 @@ const STORIES = [
       {
         "filename": "20260221-P2214396.jpg",
         "full": "images/full/20260221-P2214396.webp",
-        "thumb": "images/thumb/20260221-P2214396_thumb.webp",
+        "thumb": "images/thumbnails/20260221-P2214396.webp",
         "date": "2026-02-21",
         "title": "幽光之舞",
         "species": "翅膀海牛",
@@ -864,7 +864,7 @@ const STORIES = [
       {
         "filename": "20260221-P2214425.jpg",
         "full": "images/full/20260221-P2214425.webp",
-        "thumb": "images/thumb/20260221-P2214425_thumb.webp",
+        "thumb": "images/thumbnails/20260221-P2214425.webp",
         "date": "2026-02-21",
         "title": "幽光羽翼",
         "species": "疑似翅膀海牛",
@@ -877,7 +877,7 @@ const STORIES = [
       {
         "filename": "20260221-P2214435.jpg",
         "full": "images/full/20260221-P2214435.webp",
-        "thumb": "images/thumb/20260221-P2214435_thumb.webp",
+        "thumb": "images/thumbnails/20260221-P2214435.webp",
         "date": "2026-02-21",
         "title": "暗夜之烛",
         "species": "翅膀海牛",
@@ -890,7 +890,7 @@ const STORIES = [
       {
         "filename": "20260221-P2214555.jpg",
         "full": "images/full/20260221-P2214555.webp",
-        "thumb": "images/thumb/20260221-P2214555_thumb.webp",
+        "thumb": "images/thumbnails/20260221-P2214555.webp",
         "date": "2026-02-21",
         "title": "金色梦游者",
         "species": "疑似橙色海兔",
@@ -903,7 +903,7 @@ const STORIES = [
       {
         "filename": "20260222-DSC06475.jpg",
         "full": "images/full/20260222-DSC06475.webp",
-        "thumb": "images/thumb/20260222-DSC06475_thumb.webp",
+        "thumb": "images/thumbnails/20260222-DSC06475.webp",
         "date": "2026-02-22",
         "title": "蓝夜的秘密",
         "species": "安娜多彩海牛",
@@ -926,13 +926,13 @@ const STORIES = [
     "subtitle_zh": "从小丑鱼到青蛙鱼，珊瑚礁的角色们",
     "subtitle_ja": "クマノミからカエルアンコウまで、サンゴ礁の住人たち",
     "cover": "images/full/20260220-P2203894.webp",
-    "cover_thumb": "images/thumb/20260220-P2203894_thumb.webp",
+    "cover_thumb": "images/thumbnails/20260220-P2203894.webp",
     "photo_count": 9,
     "photos": [
       {
         "filename": "20260218-P2183492.jpg",
         "full": "images/full/20260218-P2183492.webp",
-        "thumb": "images/thumb/20260218-P2183492_thumb.webp",
+        "thumb": "images/thumbnails/20260218-P2183492.webp",
         "date": "2026-02-18",
         "title": "粉红幕后的两个梦境",
         "species": "无法确定具体物种",
@@ -946,7 +946,7 @@ const STORIES = [
       {
         "filename": "20260218-P2183507.jpg",
         "full": "images/full/20260218-P2183507.webp",
-        "thumb": "images/thumb/20260218-P2183507_thumb.webp",
+        "thumb": "images/thumbnails/20260218-P2183507.webp",
         "date": "2026-02-18",
         "title": "红色梦境里的灵魂",
         "species": "虾虎鱼",
@@ -959,7 +959,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193725.jpg",
         "full": "images/full/20260219-P2193725.webp",
-        "thumb": "images/thumb/20260219-P2193725_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193725.webp",
         "date": "2026-02-19",
         "title": "深渊中的画家",
         "species": "不确定的箱鲀",
@@ -972,7 +972,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193782.jpg",
         "full": "images/full/20260219-P2193782.webp",
-        "thumb": "images/thumb/20260219-P2193782_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193782.webp",
         "date": "2026-02-19",
         "title": "溶洞深处的守望者",
         "species": "海洋生物（疑似虾虎鱼）",
@@ -985,7 +985,7 @@ const STORIES = [
       {
         "filename": "20260220-P2203894.jpg",
         "full": "images/full/20260220-P2203894.webp",
-        "thumb": "images/thumb/20260220-P2203894_thumb.webp",
+        "thumb": "images/thumbnails/20260220-P2203894.webp",
         "date": "2026-02-20",
         "title": "橙色面具",
         "species": "青蛙鱼",
@@ -998,7 +998,7 @@ const STORIES = [
       {
         "filename": "20260220-P2203919.jpg",
         "full": "images/full/20260220-P2203919.webp",
-        "thumb": "images/thumb/20260220-P2203919_thumb.webp",
+        "thumb": "images/thumbnails/20260220-P2203919.webp",
         "date": "2026-02-20",
         "title": "深海烈焰之心",
         "species": "青蛙鱼",
@@ -1011,7 +1011,7 @@ const STORIES = [
       {
         "filename": "20260220-P2203968.jpg",
         "full": "images/full/20260220-P2203968.webp",
-        "thumb": "images/thumb/20260220-P2203968_thumb.webp",
+        "thumb": "images/thumbnails/20260220-P2203968.webp",
         "date": "2026-02-20",
         "title": "深渊之瞳",
         "species": "青蛙鱼",
@@ -1024,7 +1024,7 @@ const STORIES = [
       {
         "filename": "20260220-P2203985.jpg",
         "full": "images/full/20260220-P2203985.webp",
-        "thumb": "images/thumb/20260220-P2203985_thumb.webp",
+        "thumb": "images/thumbnails/20260220-P2203985.webp",
         "date": "2026-02-20",
         "title": "金色沉思",
         "species": "青蛙鱼",
@@ -1037,7 +1037,7 @@ const STORIES = [
       {
         "filename": "20260222-DSC06519-3.jpg",
         "full": "images/full/20260222-DSC06519-3.webp",
-        "thumb": "images/thumb/20260222-DSC06519-3_thumb.webp",
+        "thumb": "images/thumbnails/20260222-DSC06519-3.webp",
         "date": "2026-02-22",
         "title": "深蓝之眸",
         "species": "黑双锯鱼",
@@ -1059,13 +1059,13 @@ const STORIES = [
     "subtitle_zh": "深蓝中的小小帝王与舞者",
     "subtitle_ja": "深海の小さな皇帝と踊り子たち",
     "cover": "images/full/20260217-P2173085.webp",
-    "cover_thumb": "images/thumb/20260217-P2173085_thumb.webp",
+    "cover_thumb": "images/thumbnails/20260217-P2173085.webp",
     "photo_count": 6,
     "photos": [
       {
         "filename": "20260215-P2152283.jpg",
         "full": "images/full/20260215-P2152283.webp",
-        "thumb": "images/thumb/20260215-P2152283_thumb.webp",
+        "thumb": "images/thumbnails/20260215-P2152283.webp",
         "date": "2026-02-15",
         "title": "点点星光的追寻",
         "species": "海葵虾",
@@ -1078,7 +1078,7 @@ const STORIES = [
       {
         "filename": "20260215-P2152284.jpg",
         "full": "images/full/20260215-P2152284.webp",
-        "thumb": "images/thumb/20260215-P2152284_thumb.webp",
+        "thumb": "images/thumbnails/20260215-P2152284.webp",
         "date": "2026-02-15",
         "title": "透明之舞",
         "species": "帝王虾",
@@ -1091,7 +1091,7 @@ const STORIES = [
       {
         "filename": "20260217-P2173081.jpg",
         "full": "images/full/20260217-P2173081.webp",
-        "thumb": "images/thumb/20260217-P2173081_thumb.webp",
+        "thumb": "images/thumbnails/20260217-P2173081.webp",
         "date": "2026-02-17",
         "title": "珊瑚巢里的宝玉",
         "species": "帝王虾",
@@ -1104,7 +1104,7 @@ const STORIES = [
       {
         "filename": "20260217-P2173085.jpg",
         "full": "images/full/20260217-P2173085.webp",
-        "thumb": "images/thumb/20260217-P2173085_thumb.webp",
+        "thumb": "images/thumbnails/20260217-P2173085.webp",
         "date": "2026-02-17",
         "title": "珊瑚花园的守望者",
         "species": "帝王虾",
@@ -1117,7 +1117,7 @@ const STORIES = [
       {
         "filename": "20260217-P2173089.jpg",
         "full": "images/full/20260217-P2173089.webp",
-        "thumb": "images/thumb/20260217-P2173089_thumb.webp",
+        "thumb": "images/thumbnails/20260217-P2173089.webp",
         "date": "2026-02-17",
         "title": "红白舞者的邂逅",
         "species": "帝王虾",
@@ -1130,7 +1130,7 @@ const STORIES = [
       {
         "filename": "20260217-P2173091.jpg",
         "full": "images/full/20260217-P2173091.webp",
-        "thumb": "images/thumb/20260217-P2173091_thumb.webp",
+        "thumb": "images/thumbnails/20260217-P2173091.webp",
         "date": "2026-02-17",
         "title": "深海的印记",
         "species": "帝王虾",
@@ -1153,13 +1153,13 @@ const STORIES = [
     "subtitle_zh": "水面之下的未解奇观",
     "subtitle_ja": "水面下の未確認の驚異",
     "cover": "images/full/20260214-P2140063.webp",
-    "cover_thumb": "images/thumb/20260214-P2140063_thumb.webp",
+    "cover_thumb": "images/thumbnails/20260214-P2140063.webp",
     "photo_count": 3,
     "photos": [
       {
         "filename": "20260214-P2140051.jpg",
         "full": "images/full/20260214-P2140051.webp",
-        "thumb": "images/thumb/20260214-P2140051_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140051.webp",
         "date": "2026-02-14",
         "title": "幽暗中的繁星",
         "species": "不确定，可能是软珊瑚或其他",
@@ -1172,7 +1172,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140063.jpg",
         "full": "images/full/20260214-P2140063.webp",
-        "thumb": "images/thumb/20260214-P2140063_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140063.webp",
         "date": "2026-02-14",
         "title": "幽暗中的触须",
         "species": "未能确定具体类别",
@@ -1185,7 +1185,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140068.jpg",
         "full": "images/full/20260214-P2140068.webp",
-        "thumb": "images/thumb/20260214-P2140068_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140068.webp",
         "date": "2026-02-14",
         "title": "幽影与霓虹",
         "species": "疑似苔藓虫",
@@ -1208,13 +1208,13 @@ const STORIES = [
     "subtitle_zh": "珊瑚城堡中的盔甲漫游者",
     "subtitle_ja": "サンゴの城を歩く鎧の旅人",
     "cover": "images/full/20260219-P2193858.webp",
-    "cover_thumb": "images/thumb/20260219-P2193858_thumb.webp",
+    "cover_thumb": "images/thumbnails/20260219-P2193858.webp",
     "photo_count": 2,
     "photos": [
       {
         "filename": "20260214-P2140052.jpg",
         "full": "images/full/20260214-P2140052.webp",
-        "thumb": "images/thumb/20260214-P2140052_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140052.webp",
         "date": "2026-02-14",
         "title": "幽暗中的红宝石",
         "species": "软珊瑚蟹",
@@ -1227,7 +1227,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193858.jpg",
         "full": "images/full/20260219-P2193858.webp",
-        "thumb": "images/thumb/20260219-P2193858_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193858.webp",
         "date": "2026-02-19",
         "title": "金色穹顶下的隐者",
         "species": "疑似瓷蟹",
@@ -1250,13 +1250,13 @@ const STORIES = [
     "subtitle_zh": "16个Orange色瞬间",
     "subtitle_ja": "Orangeに染まる16の瞬間",
     "cover": "images/full/20260214-P2140025.webp",
-    "cover_thumb": "images/thumb/20260214-P2140025_thumb.webp",
+    "cover_thumb": "images/thumbnails/20260214-P2140025.webp",
     "photo_count": 16,
     "photos": [
       {
         "filename": "20260214-P2140025.jpg",
         "full": "images/full/20260214-P2140025.webp",
-        "thumb": "images/thumb/20260214-P2140025_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140025.webp",
         "date": "2026-02-14",
         "title": "珊瑚上的晨曦",
         "species": "橙色海兔，疑似Flabellina属",
@@ -1269,7 +1269,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140028.jpg",
         "full": "images/full/20260214-P2140028.webp",
-        "thumb": "images/thumb/20260214-P2140028_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140028.webp",
         "date": "2026-02-14",
         "title": "珊瑚上的晨曦",
         "species": "疑似橙色海兔",
@@ -1282,7 +1282,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140070.jpg",
         "full": "images/full/20260214-P2140070.webp",
-        "thumb": "images/thumb/20260214-P2140070_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140070.webp",
         "date": "2026-02-14",
         "title": "星点绽放",
         "species": "黑斑鸠海牛",
@@ -1295,7 +1295,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140172.jpg",
         "full": "images/full/20260214-P2140172.webp",
-        "thumb": "images/thumb/20260214-P2140172_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140172.webp",
         "date": "2026-02-14",
         "title": "黑星凝视",
         "species": "古巴纳海牛",
@@ -1308,7 +1308,7 @@ const STORIES = [
       {
         "filename": "20260218-P2183492.jpg",
         "full": "images/full/20260218-P2183492.webp",
-        "thumb": "images/thumb/20260218-P2183492_thumb.webp",
+        "thumb": "images/thumbnails/20260218-P2183492.webp",
         "date": "2026-02-18",
         "title": "粉红幕后的两个梦境",
         "species": "无法确定具体物种",
@@ -1322,7 +1322,7 @@ const STORIES = [
       {
         "filename": "20260218-P2183507.jpg",
         "full": "images/full/20260218-P2183507.webp",
-        "thumb": "images/thumb/20260218-P2183507_thumb.webp",
+        "thumb": "images/thumbnails/20260218-P2183507.webp",
         "date": "2026-02-18",
         "title": "红色梦境里的灵魂",
         "species": "虾虎鱼",
@@ -1335,7 +1335,7 @@ const STORIES = [
       {
         "filename": "20260218-P2183511.jpg",
         "full": "images/full/20260218-P2183511.webp",
-        "thumb": "images/thumb/20260218-P2183511_thumb.webp",
+        "thumb": "images/thumbnails/20260218-P2183511.webp",
         "date": "2026-02-18",
         "title": "Amber Whisper",
         "species": "橙色海兔，疑似Flabellina属",
@@ -1348,7 +1348,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193635.jpg",
         "full": "images/full/20260219-P2193635.webp",
-        "thumb": "images/thumb/20260219-P2193635_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193635.webp",
         "date": "2026-02-19",
         "title": "橙色韵律的舞者",
         "species": "疑似丘疹叶海牛",
@@ -1361,7 +1361,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193782.jpg",
         "full": "images/full/20260219-P2193782.webp",
-        "thumb": "images/thumb/20260219-P2193782_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193782.webp",
         "date": "2026-02-19",
         "title": "溶洞深处的守望者",
         "species": "海洋生物（疑似虾虎鱼）",
@@ -1374,7 +1374,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193795.jpg",
         "full": "images/full/20260219-P2193795.webp",
-        "thumb": "images/thumb/20260219-P2193795_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193795.webp",
         "date": "2026-02-19",
         "title": "晨光中的柔羽",
         "species": "紫海牛",
@@ -1387,7 +1387,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193819.jpg",
         "full": "images/full/20260219-P2193819.webp",
-        "thumb": "images/thumb/20260219-P2193819_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193819.webp",
         "date": "2026-02-19",
         "title": "橙影轻舞",
         "species": "疑似伊丽莎白多彩海牛",
@@ -1400,7 +1400,7 @@ const STORIES = [
       {
         "filename": "20260220-P2203894.jpg",
         "full": "images/full/20260220-P2203894.webp",
-        "thumb": "images/thumb/20260220-P2203894_thumb.webp",
+        "thumb": "images/thumbnails/20260220-P2203894.webp",
         "date": "2026-02-20",
         "title": "橙色面具",
         "species": "青蛙鱼",
@@ -1413,7 +1413,7 @@ const STORIES = [
       {
         "filename": "20260220-P2203919.jpg",
         "full": "images/full/20260220-P2203919.webp",
-        "thumb": "images/thumb/20260220-P2203919_thumb.webp",
+        "thumb": "images/thumbnails/20260220-P2203919.webp",
         "date": "2026-02-20",
         "title": "深海烈焰之心",
         "species": "青蛙鱼",
@@ -1426,7 +1426,7 @@ const STORIES = [
       {
         "filename": "20260220-P2203968.jpg",
         "full": "images/full/20260220-P2203968.webp",
-        "thumb": "images/thumb/20260220-P2203968_thumb.webp",
+        "thumb": "images/thumbnails/20260220-P2203968.webp",
         "date": "2026-02-20",
         "title": "深渊之瞳",
         "species": "青蛙鱼",
@@ -1439,7 +1439,7 @@ const STORIES = [
       {
         "filename": "20260220-P2203985.jpg",
         "full": "images/full/20260220-P2203985.webp",
-        "thumb": "images/thumb/20260220-P2203985_thumb.webp",
+        "thumb": "images/thumbnails/20260220-P2203985.webp",
         "date": "2026-02-20",
         "title": "金色沉思",
         "species": "青蛙鱼",
@@ -1452,7 +1452,7 @@ const STORIES = [
       {
         "filename": "20260221-P2214555.jpg",
         "full": "images/full/20260221-P2214555.webp",
-        "thumb": "images/thumb/20260221-P2214555_thumb.webp",
+        "thumb": "images/thumbnails/20260221-P2214555.webp",
         "date": "2026-02-21",
         "title": "金色梦游者",
         "species": "疑似橙色海兔",
@@ -1475,13 +1475,13 @@ const STORIES = [
     "subtitle_zh": "10个White色瞬间",
     "subtitle_ja": "Whiteに染まる10の瞬間",
     "cover": "images/full/20260214-P2140070.webp",
-    "cover_thumb": "images/thumb/20260214-P2140070_thumb.webp",
+    "cover_thumb": "images/thumbnails/20260214-P2140070.webp",
     "photo_count": 10,
     "photos": [
       {
         "filename": "20260214-P2140070.jpg",
         "full": "images/full/20260214-P2140070.webp",
-        "thumb": "images/thumb/20260214-P2140070_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140070.webp",
         "date": "2026-02-14",
         "title": "星点绽放",
         "species": "黑斑鸠海牛",
@@ -1494,7 +1494,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140101.jpg",
         "full": "images/full/20260214-P2140101.webp",
-        "thumb": "images/thumb/20260214-P2140101_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140101.webp",
         "date": "2026-02-14",
         "title": "紫翼幻影",
         "species": "安娜多彩海牛",
@@ -1507,7 +1507,7 @@ const STORIES = [
       {
         "filename": "20260217-P2173081.jpg",
         "full": "images/full/20260217-P2173081.webp",
-        "thumb": "images/thumb/20260217-P2173081_thumb.webp",
+        "thumb": "images/thumbnails/20260217-P2173081.webp",
         "date": "2026-02-17",
         "title": "珊瑚巢里的宝玉",
         "species": "帝王虾",
@@ -1520,7 +1520,7 @@ const STORIES = [
       {
         "filename": "20260217-P2173085.jpg",
         "full": "images/full/20260217-P2173085.webp",
-        "thumb": "images/thumb/20260217-P2173085_thumb.webp",
+        "thumb": "images/thumbnails/20260217-P2173085.webp",
         "date": "2026-02-17",
         "title": "珊瑚花园的守望者",
         "species": "帝王虾",
@@ -1533,7 +1533,7 @@ const STORIES = [
       {
         "filename": "20260217-P2173089.jpg",
         "full": "images/full/20260217-P2173089.webp",
-        "thumb": "images/thumb/20260217-P2173089_thumb.webp",
+        "thumb": "images/thumbnails/20260217-P2173089.webp",
         "date": "2026-02-17",
         "title": "红白舞者的邂逅",
         "species": "帝王虾",
@@ -1546,7 +1546,7 @@ const STORIES = [
       {
         "filename": "20260217-P2173091.jpg",
         "full": "images/full/20260217-P2173091.webp",
-        "thumb": "images/thumb/20260217-P2173091_thumb.webp",
+        "thumb": "images/thumbnails/20260217-P2173091.webp",
         "date": "2026-02-17",
         "title": "深海的印记",
         "species": "帝王虾",
@@ -1559,7 +1559,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193725.jpg",
         "full": "images/full/20260219-P2193725.webp",
-        "thumb": "images/thumb/20260219-P2193725_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193725.webp",
         "date": "2026-02-19",
         "title": "深渊中的画家",
         "species": "不确定的箱鲀",
@@ -1572,7 +1572,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193819.jpg",
         "full": "images/full/20260219-P2193819.webp",
-        "thumb": "images/thumb/20260219-P2193819_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193819.webp",
         "date": "2026-02-19",
         "title": "橙影轻舞",
         "species": "疑似伊丽莎白多彩海牛",
@@ -1585,7 +1585,7 @@ const STORIES = [
       {
         "filename": "20260220-P2203894.jpg",
         "full": "images/full/20260220-P2203894.webp",
-        "thumb": "images/thumb/20260220-P2203894_thumb.webp",
+        "thumb": "images/thumbnails/20260220-P2203894.webp",
         "date": "2026-02-20",
         "title": "橙色面具",
         "species": "青蛙鱼",
@@ -1598,7 +1598,7 @@ const STORIES = [
       {
         "filename": "20260220-P2203919.jpg",
         "full": "images/full/20260220-P2203919.webp",
-        "thumb": "images/thumb/20260220-P2203919_thumb.webp",
+        "thumb": "images/thumbnails/20260220-P2203919.webp",
         "date": "2026-02-20",
         "title": "深海烈焰之心",
         "species": "青蛙鱼",
@@ -1621,13 +1621,13 @@ const STORIES = [
     "subtitle_zh": "8个Red色瞬间",
     "subtitle_ja": "Redに染まる8の瞬間",
     "cover": "images/full/20260214-P2140052.webp",
-    "cover_thumb": "images/thumb/20260214-P2140052_thumb.webp",
+    "cover_thumb": "images/thumbnails/20260214-P2140052.webp",
     "photo_count": 8,
     "photos": [
       {
         "filename": "20260214-P2140052.jpg",
         "full": "images/full/20260214-P2140052.webp",
-        "thumb": "images/thumb/20260214-P2140052_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140052.webp",
         "date": "2026-02-14",
         "title": "幽暗中的红宝石",
         "species": "软珊瑚蟹",
@@ -1640,7 +1640,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140063.jpg",
         "full": "images/full/20260214-P2140063.webp",
-        "thumb": "images/thumb/20260214-P2140063_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140063.webp",
         "date": "2026-02-14",
         "title": "幽暗中的触须",
         "species": "未能确定具体类别",
@@ -1653,7 +1653,7 @@ const STORIES = [
       {
         "filename": "20260214-P2140068.jpg",
         "full": "images/full/20260214-P2140068.webp",
-        "thumb": "images/thumb/20260214-P2140068_thumb.webp",
+        "thumb": "images/thumbnails/20260214-P2140068.webp",
         "date": "2026-02-14",
         "title": "幽影与霓虹",
         "species": "疑似苔藓虫",
@@ -1666,7 +1666,7 @@ const STORIES = [
       {
         "filename": "20260215-P2152283.jpg",
         "full": "images/full/20260215-P2152283.webp",
-        "thumb": "images/thumb/20260215-P2152283_thumb.webp",
+        "thumb": "images/thumbnails/20260215-P2152283.webp",
         "date": "2026-02-15",
         "title": "点点星光的追寻",
         "species": "海葵虾",
@@ -1679,7 +1679,7 @@ const STORIES = [
       {
         "filename": "20260217-P2173081.jpg",
         "full": "images/full/20260217-P2173081.webp",
-        "thumb": "images/thumb/20260217-P2173081_thumb.webp",
+        "thumb": "images/thumbnails/20260217-P2173081.webp",
         "date": "2026-02-17",
         "title": "珊瑚巢里的宝玉",
         "species": "帝王虾",
@@ -1692,7 +1692,7 @@ const STORIES = [
       {
         "filename": "20260217-P2173085.jpg",
         "full": "images/full/20260217-P2173085.webp",
-        "thumb": "images/thumb/20260217-P2173085_thumb.webp",
+        "thumb": "images/thumbnails/20260217-P2173085.webp",
         "date": "2026-02-17",
         "title": "珊瑚花园的守望者",
         "species": "帝王虾",
@@ -1705,7 +1705,7 @@ const STORIES = [
       {
         "filename": "20260217-P2173089.jpg",
         "full": "images/full/20260217-P2173089.webp",
-        "thumb": "images/thumb/20260217-P2173089_thumb.webp",
+        "thumb": "images/thumbnails/20260217-P2173089.webp",
         "date": "2026-02-17",
         "title": "红白舞者的邂逅",
         "species": "帝王虾",
@@ -1718,7 +1718,7 @@ const STORIES = [
       {
         "filename": "20260218-P2183507.jpg",
         "full": "images/full/20260218-P2183507.webp",
-        "thumb": "images/thumb/20260218-P2183507_thumb.webp",
+        "thumb": "images/thumbnails/20260218-P2183507.webp",
         "date": "2026-02-18",
         "title": "红色梦境里的灵魂",
         "species": "虾虎鱼",
@@ -1741,13 +1741,13 @@ const STORIES = [
     "subtitle_zh": "4个Black色瞬间",
     "subtitle_ja": "Blackに染まる4の瞬間",
     "cover": "images/full/20260219-P2193684.webp",
-    "cover_thumb": "images/thumb/20260219-P2193684_thumb.webp",
+    "cover_thumb": "images/thumbnails/20260219-P2193684.webp",
     "photo_count": 4,
     "photos": [
       {
         "filename": "20260219-P2193684.jpg",
         "full": "images/full/20260219-P2193684.webp",
-        "thumb": "images/thumb/20260219-P2193684_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193684.webp",
         "date": "2026-02-19",
         "title": "幽蓝絮语",
         "species": "古巴纳海牛",
@@ -1760,7 +1760,7 @@ const STORIES = [
       {
         "filename": "20260220-P2203968.jpg",
         "full": "images/full/20260220-P2203968.webp",
-        "thumb": "images/thumb/20260220-P2203968_thumb.webp",
+        "thumb": "images/thumbnails/20260220-P2203968.webp",
         "date": "2026-02-20",
         "title": "深渊之瞳",
         "species": "青蛙鱼",
@@ -1773,7 +1773,7 @@ const STORIES = [
       {
         "filename": "20260222-DSC06475.jpg",
         "full": "images/full/20260222-DSC06475.webp",
-        "thumb": "images/thumb/20260222-DSC06475_thumb.webp",
+        "thumb": "images/thumbnails/20260222-DSC06475.webp",
         "date": "2026-02-22",
         "title": "蓝夜的秘密",
         "species": "安娜多彩海牛",
@@ -1786,7 +1786,7 @@ const STORIES = [
       {
         "filename": "20260222-DSC06519-3.jpg",
         "full": "images/full/20260222-DSC06519-3.webp",
-        "thumb": "images/thumb/20260222-DSC06519-3_thumb.webp",
+        "thumb": "images/thumbnails/20260222-DSC06519-3.webp",
         "date": "2026-02-22",
         "title": "深蓝之眸",
         "species": "黑双锯鱼",
@@ -1808,13 +1808,13 @@ const STORIES = [
     "subtitle_zh": "3个Blue色瞬间",
     "subtitle_ja": "Blueに染まる3の瞬間",
     "cover": "images/full/20260219-P2193782.webp",
-    "cover_thumb": "images/thumb/20260219-P2193782_thumb.webp",
+    "cover_thumb": "images/thumbnails/20260219-P2193782.webp",
     "photo_count": 3,
     "photos": [
       {
         "filename": "20260219-P2193782.jpg",
         "full": "images/full/20260219-P2193782.webp",
-        "thumb": "images/thumb/20260219-P2193782_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193782.webp",
         "date": "2026-02-19",
         "title": "溶洞深处的守望者",
         "species": "海洋生物（疑似虾虎鱼）",
@@ -1827,7 +1827,7 @@ const STORIES = [
       {
         "filename": "20260221-P2214396.jpg",
         "full": "images/full/20260221-P2214396.webp",
-        "thumb": "images/thumb/20260221-P2214396_thumb.webp",
+        "thumb": "images/thumbnails/20260221-P2214396.webp",
         "date": "2026-02-21",
         "title": "幽光之舞",
         "species": "翅膀海牛",
@@ -1840,7 +1840,7 @@ const STORIES = [
       {
         "filename": "20260222-DSC06475.jpg",
         "full": "images/full/20260222-DSC06475.webp",
-        "thumb": "images/thumb/20260222-DSC06475_thumb.webp",
+        "thumb": "images/thumbnails/20260222-DSC06475.webp",
         "date": "2026-02-22",
         "title": "蓝夜的秘密",
         "species": "安娜多彩海牛",
@@ -1863,13 +1863,13 @@ const STORIES = [
     "subtitle_zh": "2个Green色瞬间",
     "subtitle_ja": "Greenに染まる2の瞬間",
     "cover": "images/full/20260218-P2183492.webp",
-    "cover_thumb": "images/thumb/20260218-P2183492_thumb.webp",
+    "cover_thumb": "images/thumbnails/20260218-P2183492.webp",
     "photo_count": 2,
     "photos": [
       {
         "filename": "20260218-P2183492.jpg",
         "full": "images/full/20260218-P2183492.webp",
-        "thumb": "images/thumb/20260218-P2183492_thumb.webp",
+        "thumb": "images/thumbnails/20260218-P2183492.webp",
         "date": "2026-02-18",
         "title": "粉红幕后的两个梦境",
         "species": "无法确定具体物种",
@@ -1883,7 +1883,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193684.jpg",
         "full": "images/full/20260219-P2193684.webp",
-        "thumb": "images/thumb/20260219-P2193684_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193684.webp",
         "date": "2026-02-19",
         "title": "幽蓝絮语",
         "species": "古巴纳海牛",
@@ -1906,13 +1906,13 @@ const STORIES = [
     "subtitle_zh": "2个Yellow色瞬间",
     "subtitle_ja": "Yellowに染まる2の瞬間",
     "cover": "images/full/20260218-P2183492.webp",
-    "cover_thumb": "images/thumb/20260218-P2183492_thumb.webp",
+    "cover_thumb": "images/thumbnails/20260218-P2183492.webp",
     "photo_count": 2,
     "photos": [
       {
         "filename": "20260218-P2183492.jpg",
         "full": "images/full/20260218-P2183492.webp",
-        "thumb": "images/thumb/20260218-P2183492_thumb.webp",
+        "thumb": "images/thumbnails/20260218-P2183492.webp",
         "date": "2026-02-18",
         "title": "粉红幕后的两个梦境",
         "species": "无法确定具体物种",
@@ -1926,7 +1926,7 @@ const STORIES = [
       {
         "filename": "20260219-P2193635.jpg",
         "full": "images/full/20260219-P2193635.webp",
-        "thumb": "images/thumb/20260219-P2193635_thumb.webp",
+        "thumb": "images/thumbnails/20260219-P2193635.webp",
         "date": "2026-02-19",
         "title": "橙色韵律的舞者",
         "species": "疑似丘疹叶海牛",
@@ -1948,7 +1948,7 @@ const STORIES = [
     "subtitle_zh": "奥林巴斯 E-M1 II（42张）× 索尼 A7R IV（2张）",
     "subtitle_ja": "オリンパス E-M1 II（42枚）× ソニー A7R IV（2枚）",
     "cover": "images/full/20260214-P2140025.webp",
-    "cover_thumb": "images/thumb/20260214-P2140025_thumb.webp",
+    "cover_thumb": "images/thumbnails/20260214-P2140025.webp",
     "photo_count": 44,
     "sections": [
       {
@@ -1959,253 +1959,253 @@ const STORIES = [
           {
             "filename": "20260214-P2140025.jpg",
             "full": "images/full/20260214-P2140025.webp",
-            "thumb": "images/thumb/20260214-P2140025_thumb.webp",
+            "thumb": "images/thumbnails/20260214-P2140025.webp",
             "title": "珊瑚上的晨曦"
           },
           {
             "filename": "20260214-P2140028.jpg",
             "full": "images/full/20260214-P2140028.webp",
-            "thumb": "images/thumb/20260214-P2140028_thumb.webp",
+            "thumb": "images/thumbnails/20260214-P2140028.webp",
             "title": "珊瑚上的晨曦"
           },
           {
             "filename": "20260214-P2140035.jpg",
             "full": "images/full/20260214-P2140035.webp",
-            "thumb": "images/thumb/20260214-P2140035_thumb.webp",
+            "thumb": "images/thumbnails/20260214-P2140035.webp",
             "title": "珊瑚上的晨曦"
           },
           {
             "filename": "20260214-P2140051.jpg",
             "full": "images/full/20260214-P2140051.webp",
-            "thumb": "images/thumb/20260214-P2140051_thumb.webp",
+            "thumb": "images/thumbnails/20260214-P2140051.webp",
             "title": "幽暗中的繁星"
           },
           {
             "filename": "20260214-P2140052.jpg",
             "full": "images/full/20260214-P2140052.webp",
-            "thumb": "images/thumb/20260214-P2140052_thumb.webp",
+            "thumb": "images/thumbnails/20260214-P2140052.webp",
             "title": "幽暗中的红宝石"
           },
           {
             "filename": "20260214-P2140063.jpg",
             "full": "images/full/20260214-P2140063.webp",
-            "thumb": "images/thumb/20260214-P2140063_thumb.webp",
+            "thumb": "images/thumbnails/20260214-P2140063.webp",
             "title": "幽暗中的触须"
           },
           {
             "filename": "20260214-P2140068.jpg",
             "full": "images/full/20260214-P2140068.webp",
-            "thumb": "images/thumb/20260214-P2140068_thumb.webp",
+            "thumb": "images/thumbnails/20260214-P2140068.webp",
             "title": "幽影与霓虹"
           },
           {
             "filename": "20260214-P2140070.jpg",
             "full": "images/full/20260214-P2140070.webp",
-            "thumb": "images/thumb/20260214-P2140070_thumb.webp",
+            "thumb": "images/thumbnails/20260214-P2140070.webp",
             "title": "星点绽放"
           },
           {
             "filename": "20260214-P2140101.jpg",
             "full": "images/full/20260214-P2140101.webp",
-            "thumb": "images/thumb/20260214-P2140101_thumb.webp",
+            "thumb": "images/thumbnails/20260214-P2140101.webp",
             "title": "紫翼幻影"
           },
           {
             "filename": "20260214-P2140141.jpg",
             "full": "images/full/20260214-P2140141.webp",
-            "thumb": "images/thumb/20260214-P2140141_thumb.webp",
+            "thumb": "images/thumbnails/20260214-P2140141.webp",
             "title": "夜影之光"
           },
           {
             "filename": "20260214-P2140172.jpg",
             "full": "images/full/20260214-P2140172.webp",
-            "thumb": "images/thumb/20260214-P2140172_thumb.webp",
+            "thumb": "images/thumbnails/20260214-P2140172.webp",
             "title": "黑星凝视"
           },
           {
             "filename": "20260215-P2152283.jpg",
             "full": "images/full/20260215-P2152283.webp",
-            "thumb": "images/thumb/20260215-P2152283_thumb.webp",
+            "thumb": "images/thumbnails/20260215-P2152283.webp",
             "title": "点点星光的追寻"
           },
           {
             "filename": "20260215-P2152284.jpg",
             "full": "images/full/20260215-P2152284.webp",
-            "thumb": "images/thumb/20260215-P2152284_thumb.webp",
+            "thumb": "images/thumbnails/20260215-P2152284.webp",
             "title": "透明之舞"
           },
           {
             "filename": "20260215-P2152320.jpg",
             "full": "images/full/20260215-P2152320.webp",
-            "thumb": "images/thumb/20260215-P2152320_thumb.webp",
+            "thumb": "images/thumbnails/20260215-P2152320.webp",
             "title": "暗夜之花"
           },
           {
             "filename": "20260216-P2162620.jpg",
             "full": "images/full/20260216-P2162620.webp",
-            "thumb": "images/thumb/20260216-P2162620_thumb.webp",
+            "thumb": "images/thumbnails/20260216-P2162620.webp",
             "title": "月夜轻咏"
           },
           {
             "filename": "20260216-P2162677.jpg",
             "full": "images/full/20260216-P2162677.webp",
-            "thumb": "images/thumb/20260216-P2162677_thumb.webp",
+            "thumb": "images/thumbnails/20260216-P2162677.webp",
             "title": "夜色中的金色梦"
           },
           {
             "filename": "20260216-P2162704.jpg",
             "full": "images/full/20260216-P2162704.webp",
-            "thumb": "images/thumb/20260216-P2162704_thumb.webp",
+            "thumb": "images/thumbnails/20260216-P2162704.webp",
             "title": "焕彩 whispers"
           },
           {
             "filename": "20260216-P2162723-2.jpg",
             "full": "images/full/20260216-P2162723-2.webp",
-            "thumb": "images/thumb/20260216-P2162723-2_thumb.webp",
+            "thumb": "images/thumbnails/20260216-P2162723-2.webp",
             "title": "水下梦境的轮廓"
           },
           {
             "filename": "20260216-P2162723.jpg",
             "full": "images/full/20260216-P2162723.webp",
-            "thumb": "images/thumb/20260216-P2162723_thumb.webp",
+            "thumb": "images/thumbnails/20260216-P2162723.webp",
             "title": "幽光藏影"
           },
           {
             "filename": "20260217-P2172897.jpg",
             "full": "images/full/20260217-P2172897.webp",
-            "thumb": "images/thumb/20260217-P2172897_thumb.webp",
+            "thumb": "images/thumbnails/20260217-P2172897.webp",
             "title": "暗蓝之舞"
           },
           {
             "filename": "20260217-P2173081.jpg",
             "full": "images/full/20260217-P2173081.webp",
-            "thumb": "images/thumb/20260217-P2173081_thumb.webp",
+            "thumb": "images/thumbnails/20260217-P2173081.webp",
             "title": "珊瑚巢里的宝玉"
           },
           {
             "filename": "20260217-P2173085.jpg",
             "full": "images/full/20260217-P2173085.webp",
-            "thumb": "images/thumb/20260217-P2173085_thumb.webp",
+            "thumb": "images/thumbnails/20260217-P2173085.webp",
             "title": "珊瑚花园的守望者"
           },
           {
             "filename": "20260217-P2173089.jpg",
             "full": "images/full/20260217-P2173089.webp",
-            "thumb": "images/thumb/20260217-P2173089_thumb.webp",
+            "thumb": "images/thumbnails/20260217-P2173089.webp",
             "title": "红白舞者的邂逅"
           },
           {
             "filename": "20260217-P2173091.jpg",
             "full": "images/full/20260217-P2173091.webp",
-            "thumb": "images/thumb/20260217-P2173091_thumb.webp",
+            "thumb": "images/thumbnails/20260217-P2173091.webp",
             "title": "深海的印记"
           },
           {
             "filename": "20260218-P2183492.jpg",
             "full": "images/full/20260218-P2183492.webp",
-            "thumb": "images/thumb/20260218-P2183492_thumb.webp",
+            "thumb": "images/thumbnails/20260218-P2183492.webp",
             "title": "粉红幕后的两个梦境"
           },
           {
             "filename": "20260218-P2183507.jpg",
             "full": "images/full/20260218-P2183507.webp",
-            "thumb": "images/thumb/20260218-P2183507_thumb.webp",
+            "thumb": "images/thumbnails/20260218-P2183507.webp",
             "title": "红色梦境里的灵魂"
           },
           {
             "filename": "20260218-P2183511.jpg",
             "full": "images/full/20260218-P2183511.webp",
-            "thumb": "images/thumb/20260218-P2183511_thumb.webp",
+            "thumb": "images/thumbnails/20260218-P2183511.webp",
             "title": "Amber Whisper"
           },
           {
             "filename": "20260219-P2193635.jpg",
             "full": "images/full/20260219-P2193635.webp",
-            "thumb": "images/thumb/20260219-P2193635_thumb.webp",
+            "thumb": "images/thumbnails/20260219-P2193635.webp",
             "title": "橙色韵律的舞者"
           },
           {
             "filename": "20260219-P2193684.jpg",
             "full": "images/full/20260219-P2193684.webp",
-            "thumb": "images/thumb/20260219-P2193684_thumb.webp",
+            "thumb": "images/thumbnails/20260219-P2193684.webp",
             "title": "幽蓝絮语"
           },
           {
             "filename": "20260219-P2193725.jpg",
             "full": "images/full/20260219-P2193725.webp",
-            "thumb": "images/thumb/20260219-P2193725_thumb.webp",
+            "thumb": "images/thumbnails/20260219-P2193725.webp",
             "title": "深渊中的画家"
           },
           {
             "filename": "20260219-P2193782.jpg",
             "full": "images/full/20260219-P2193782.webp",
-            "thumb": "images/thumb/20260219-P2193782_thumb.webp",
+            "thumb": "images/thumbnails/20260219-P2193782.webp",
             "title": "溶洞深处的守望者"
           },
           {
             "filename": "20260219-P2193795.jpg",
             "full": "images/full/20260219-P2193795.webp",
-            "thumb": "images/thumb/20260219-P2193795_thumb.webp",
+            "thumb": "images/thumbnails/20260219-P2193795.webp",
             "title": "晨光中的柔羽"
           },
           {
             "filename": "20260219-P2193819.jpg",
             "full": "images/full/20260219-P2193819.webp",
-            "thumb": "images/thumb/20260219-P2193819_thumb.webp",
+            "thumb": "images/thumbnails/20260219-P2193819.webp",
             "title": "橙影轻舞"
           },
           {
             "filename": "20260219-P2193858.jpg",
             "full": "images/full/20260219-P2193858.webp",
-            "thumb": "images/thumb/20260219-P2193858_thumb.webp",
+            "thumb": "images/thumbnails/20260219-P2193858.webp",
             "title": "金色穹顶下的隐者"
           },
           {
             "filename": "20260220-P2203894.jpg",
             "full": "images/full/20260220-P2203894.webp",
-            "thumb": "images/thumb/20260220-P2203894_thumb.webp",
+            "thumb": "images/thumbnails/20260220-P2203894.webp",
             "title": "橙色面具"
           },
           {
             "filename": "20260220-P2203919.jpg",
             "full": "images/full/20260220-P2203919.webp",
-            "thumb": "images/thumb/20260220-P2203919_thumb.webp",
+            "thumb": "images/thumbnails/20260220-P2203919.webp",
             "title": "深海烈焰之心"
           },
           {
             "filename": "20260220-P2203968.jpg",
             "full": "images/full/20260220-P2203968.webp",
-            "thumb": "images/thumb/20260220-P2203968_thumb.webp",
+            "thumb": "images/thumbnails/20260220-P2203968.webp",
             "title": "深渊之瞳"
           },
           {
             "filename": "20260220-P2203985.jpg",
             "full": "images/full/20260220-P2203985.webp",
-            "thumb": "images/thumb/20260220-P2203985_thumb.webp",
+            "thumb": "images/thumbnails/20260220-P2203985.webp",
             "title": "金色沉思"
           },
           {
             "filename": "20260221-P2214396.jpg",
             "full": "images/full/20260221-P2214396.webp",
-            "thumb": "images/thumb/20260221-P2214396_thumb.webp",
+            "thumb": "images/thumbnails/20260221-P2214396.webp",
             "title": "幽光之舞"
           },
           {
             "filename": "20260221-P2214425.jpg",
             "full": "images/full/20260221-P2214425.webp",
-            "thumb": "images/thumb/20260221-P2214425_thumb.webp",
+            "thumb": "images/thumbnails/20260221-P2214425.webp",
             "title": "幽光羽翼"
           },
           {
             "filename": "20260221-P2214435.jpg",
             "full": "images/full/20260221-P2214435.webp",
-            "thumb": "images/thumb/20260221-P2214435_thumb.webp",
+            "thumb": "images/thumbnails/20260221-P2214435.webp",
             "title": "暗夜之烛"
           },
           {
             "filename": "20260221-P2214555.jpg",
             "full": "images/full/20260221-P2214555.webp",
-            "thumb": "images/thumb/20260221-P2214555_thumb.webp",
+            "thumb": "images/thumbnails/20260221-P2214555.webp",
             "title": "金色梦游者"
           }
         ]
@@ -2218,13 +2218,13 @@ const STORIES = [
           {
             "filename": "20260222-DSC06475.jpg",
             "full": "images/full/20260222-DSC06475.webp",
-            "thumb": "images/thumb/20260222-DSC06475_thumb.webp",
+            "thumb": "images/thumbnails/20260222-DSC06475.webp",
             "title": "蓝夜的秘密"
           },
           {
             "filename": "20260222-DSC06519-3.jpg",
             "full": "images/full/20260222-DSC06519-3.webp",
-            "thumb": "images/thumb/20260222-DSC06519-3_thumb.webp",
+            "thumb": "images/thumbnails/20260222-DSC06519-3.webp",
             "title": "深蓝之眸"
           }
         ]

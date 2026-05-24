@@ -23,7 +23,7 @@ def load_photos():
 
 def find_thumbnail(p):
     base = os.path.splitext(p["filename"])[0]
-    return f"images/thumb/{base}_thumb.webp"
+    return f"images/thumbnails/{base}.webp"
 
 
 def find_full(p):
@@ -33,6 +33,13 @@ def find_full(p):
 
 def build_stories(photos):
     stories = []
+
+    # 从第一张照片提取地点信息
+    first_photo = photos[0] if photos else {}
+    loc = first_photo.get("location", {})
+    site_en = loc.get("site", "Tulamben")
+    site_cn = loc.get("site_cn", "图蓝本")
+    site_ja = loc.get("site_ja", "トゥランベン")
 
     # ===== 1. 时间线故事：按拍摄日分组 =====
     days = defaultdict(list)
@@ -79,9 +86,9 @@ def build_stories(photos):
             stories.append({
                 "id": f"journey-{idx+1}",
                 "type": "journey",
-                "title_en": f"Anilao: {start} to {end}" if start != end else f"Anilao: {start}",
-                "title_zh": f"阿尼洛潜水日记：{start} 至 {end}" if start != end else f"阿尼洛一日：{start}",
-                "title_ja": f"アニラオ：{start}〜{end}" if start != end else f"アニラオ：{start}",
+                "title_en": f"{site_en}: {start} to {end}" if start != end else f"{site_en}: {start}",
+                "title_zh": f"{site_cn}潜水日记：{start} 至 {end}" if start != end else f"{site_cn}一日：{start}",
+                "title_ja": f"{site_ja}：{start}〜{end}" if start != end else f"{site_ja}：{start}",
                 "subtitle_en": f"{len(story_photos)} moments across {day_count} days",
                 "subtitle_zh": f"{day_count}天，{len(story_photos)}个瞬间",
                 "subtitle_ja": f"{day_count}日間、{len(story_photos)}の瞬間",

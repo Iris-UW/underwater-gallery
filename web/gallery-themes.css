@@ -1,0 +1,67 @@
+/* ============================================
+   Gallery Themes — 3 Skins
+   English: Deep Sea (深海)
+   Chinese: Palace Wall + Bamboo (宫墙竹韵)
+   Japanese: Kyoto Tea Ceremony (京都茶道)
+   ============================================ */
+
+/* ── English (default): Deep Sea ── */
+:root,
+[data-theme="en"] {
+  --bg: #050810;
+  --surface: #0c1220;
+  --surface2: #111a28;
+  --text: #d0dce8;
+  --dim: #3a5068;
+  --accent: #00e5ff;
+  --accent2: #ff6b9d;
+  --accent3: #7cffb3;
+  --glow: rgba(0, 229, 255, 0.15);
+  --border: rgba(255, 255, 255, 0.06);
+  --overlay-strong: linear-gradient(0deg, var(--bg) 0%, transparent 50%, rgba(5,8,16,0.4) 100%);
+  --overlay-card: linear-gradient(transparent 50%, rgba(5,8,16,0.85) 100%);
+  --nav-bg: linear-gradient(180deg, rgba(5,8,16,0.95) 0%, rgba(5,8,16,0) 100%);
+  --footer-border: rgba(255,255,255,0.05);
+  --tag-bg: rgba(0,229,255,0.12);
+  --lb-bg: rgba(0,0,0,0.97);
+}
+
+/* ── Chinese: Palace Wall + Bamboo (宫墙竹韵) ── */
+[data-theme="zh"] {
+  --bg: #0d0b08;
+  --surface: #1a1310;
+  --surface2: #221b16;
+  --text: #e8ddd0;
+  --dim: #8a7560;
+  --accent: #c43a31;
+  --accent2: #789262;
+  --accent3: #d4a574;
+  --glow: rgba(196, 58, 49, 0.12);
+  --border: rgba(255, 255, 255, 0.04);
+  --overlay-strong: linear-gradient(0deg, var(--bg) 0%, transparent 50%, rgba(13,11,8,0.4) 100%);
+  --overlay-card: linear-gradient(transparent 50%, rgba(13,11,8,0.88) 100%);
+  --nav-bg: linear-gradient(180deg, rgba(13,11,8,0.95) 0%, rgba(13,11,8,0) 100%);
+  --footer-border: rgba(255,255,255,0.04);
+  --tag-bg: rgba(196,58,49,0.12);
+  --lb-bg: rgba(8,6,4,0.98);
+}
+
+/* ── Japanese: Kyoto Tea Ceremony (京都茶道) ── */
+[data-theme="ja"] {
+  --bg: #1a1814;
+  --surface: #252320;
+  --surface2: #2d2a26;
+  --text: #e8e0d5;
+  --dim: #7a7265;
+  --accent: #c5a55a;
+  --accent2: #8c7a5e;
+  --accent3: #a8957a;
+  --glow: rgba(197, 165, 90, 0.12);
+  --border: rgba(255, 255, 255, 0.04);
+  --overlay-strong: linear-gradient(0deg, var(--bg) 0%, transparent 50%, rgba(26,24,20,0.4) 100%);
+  --overlay-card: linear-gradient(transparent 50%, rgba(26,24,20,0.88) 100%);
+  --nav-bg: linear-gradient(180deg, rgba(26,24,20,0.95) 0%, rgba(26,24,20,0) 100%);
+  --footer-border: rgba(255,255,255,0.04);
+  --tag-bg: rgba(197,165,90,0.12);
+  --lb-bg: rgba(10,9,8,0.98);
+}
