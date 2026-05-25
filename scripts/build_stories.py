@@ -294,7 +294,7 @@ def main():
         print(f"  [{s['type']}] {s.get('title_zh', s.get('title_en',''))} ({s['photo_count']}张)")
 
     # 也输出一个纯JS版本方便嵌入HTML
-    js_path = os.path.join(os.path.dirname(__file__), "..", "web", "stories-data.js")
+    js_path = os.path.join(os.path.dirname(__file__), "..", "docs", "stories-data.js")
     with open(js_path, "w") as f:
         f.write(f"// Auto-generated stories data\nconst STORIES = {json.dumps(stories, ensure_ascii=False, indent=2)};\n")
     print(f"📄 JS数据已写入 {js_path}")

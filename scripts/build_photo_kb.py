@@ -8,7 +8,7 @@ import json, os
 BASE = os.path.dirname(os.path.abspath(__file__))
 # data/ is one level up from scripts/
 DATA = os.path.join(BASE, '..', 'data', 'photos_metadata.json')
-OUT  = os.path.join(BASE, '..', 'web', 'photo_kb.js')
+OUT  = os.path.join(BASE, '..', 'docs', 'photo_kb.js')
 
 with open(DATA) as f:
     data = json.load(f)
@@ -24,7 +24,8 @@ for i, p in enumerate(photos):
     cat     = t.get('category', '') or ''
     colors  = ', '.join(t.get('primary_colors', []))
     behavior= t.get('behavior', '') or ''
-    line = (f"#{i+1:02d} | {p['date']} | {p['camera_info']['camera']} "
+    camera = p.get('camera', '') or p.get('camera_info', {}).get('camera', '?')
+    line = (f"#{i+1:02d} | {p['date']} | {camera} "
            f"| f/{p.get('f_number','?')} | ISO{p.get('iso','?')} "
            f"| {species}{' ('+latin+')' if latin else ''} "
            f"| {cat} | [{colors}] | {behavior} | \"{title}\"")

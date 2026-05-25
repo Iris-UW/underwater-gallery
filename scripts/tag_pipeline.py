@@ -24,8 +24,8 @@ from pathlib import Path
 
 
 # ===================== 配置区 =====================
-PHOTO_DIR = "/Volumes/IRIS/2026/已修图"
-LOCAL_WEBP_DIR = os.path.join(os.path.dirname(__file__), "..", "web", "images", "full")
+PHOTO_DIR = os.path.join(os.path.dirname(__file__), "..", "docs", "images", "full")
+LOCAL_WEBP_DIR = os.path.join(os.path.dirname(__file__), "..", "docs", "images", "full")
 METADATA_JSON = os.path.join(os.path.dirname(__file__), "..", "data", "photos_metadata.json")
 OUTPUT_JSON = METADATA_JSON  # 原地更新
 
@@ -71,14 +71,40 @@ TULAMBEN_SPECIES_CONTEXT = """
 - 蓝环章鱼（Hapalochlaena 属）
 """
 
-SYSTEM_PROMPT = f"""你是一位海洋生物学专家，擅长识别水下微距摄影中的生物物种。
+SYSTEM_PROMPT = f"""你是一位海洋生物学专家，擅长通过细致观察识别水下微距摄影中的生物物种。
 
 {TULAMBEN_SPECIES_CONTEXT}
 
-请分析这张水下微距照片，以 JSON 格式返回以下字段：
+## 分析流程
+
+请按以下步骤分析照片：
+
+**第一步：仔细观察**
+先列出你看到的所有高辨识度视觉特征，包括：
+- 触角形态（鳃状/羽状/棒状/环状等）
+- 体表花纹（斑点/条纹/网格/渐变/环带）
+- 眼睛特征（位置/大小/颜色）
+- 附肢结构（大螯/步足/泳足/触手）
+- 体形轮廓（纺锤形/侧扁/圆盘/蠕虫形）
+- 颜色分布（主色/副色/边界）
+- 栖息基底（珊瑚/沙地/海绵/海藻/岩石）
+
+**第二步：基于特征推断**
+- 先判断大类（门/纲/目）
+- 再缩小到科（Family）
+- 然后定位属（Genus）
+- 最后给出最可能的种（Species）
+
+**第三步：输出 JSON**
 {{
-  "species_cn": "中文俗名（如：安娜多彩海牛）",
-  "species_latin": "拉丁学名（如：Chromodoris annae）",
+  "visual_features": ["特征1", "特征2", "特征3"],
+  "substrate": "栖息基底描述",
+  "family_cn": "科中文名",
+  "family_latin": "科拉丁名",
+  "genus": "属拉丁名",
+  "species_cn": "中文俗名",
+  "species_latin": "拉丁学名",
+  "species_en": "英文俗名",
   "category": "鱼 / 海兔 / 海牛 / 虾 / 螃蟹 / 头足类 / 珊瑚 / 海葵 / 其他",
   "primary_colors": ["主色1", "主色2"],
   "behavior": "游动 / 静止 / 进食 / 产卵 / 拟态 / 防御 / 求偶 / 其他",
@@ -87,10 +113,12 @@ SYSTEM_PROMPT = f"""你是一位海洋生物学专家，擅长识别水下微距
   "notes": "简短补充说明"
 }}
 
-注意：
-- 如果无法确定具体物种，填写大类 + 描述性特征（如"橙色海兔，疑似Chromodoris属"）
-- 颜色使用中文描述，如"蓝紫""荧光橙""半透明白""墨黑""金黄"
-- category 只能从给定选项中选择"""
+重要：
+- 必须先用第一步详细描述视觉特征，再进行分类
+- 如果无法确定具体物种，填写"疑似[属名] sp."并降低 confidence
+- 颜色使用中文描述："蓝紫""荧光橙""半透明白""墨黑""金黄"
+- category 只能从给定选项中选择
+- species_en 填写英文通用名（如 "Anna's Chromodoris"），如果不存在可留空"""
 
 
 def encode_image_base64(filepath):
@@ -167,7 +195,7 @@ def call_vision_api(image_path, api_provider="anthropic"):
                         "X-Title": "Iris Underwater Macro"
                     }
                 )
-                model = "openai/gpt-4o"
+                model = "qwen/qwen2.5-vl-72b-instruct"
             else:
                 client = openai.OpenAI()
                 model = "gpt-4o"
@@ -239,11 +267,29 @@ def process_photos(limit=None, dry_run=False, api="manual"):
 
         try:
             tags = call_vision_api(fpath, api_provider=api)
+            # 类别归一化
+            raw_cat = tags.get("category", "其他")
+            CATEGORY_MAP = {
+                "鱼": "鱼", "鱼类": "鱼", "鮟鱇鱼": "鱼", "海马": "鱼", "海龙": "鱼",
+                "海兔": "海兔", "裸鳃类": "海兔", "海兔/裸鳃类": "海兔", "海兔 / 裸鳃类": "海兔",
+                "海牛": "海牛", "海兔 / 海牛": "海牛",
+                "虾": "虾", "虾类": "虾",
+                "螃蟹": "螃蟹", "蟹类": "螃蟹", "蟹": "螃蟹",
+                "头足类": "头足类", "章鱼": "头足类", "乌贼": "头足类",
+                "珊瑚": "珊瑚",
+                "海葵": "海葵",
+                "其他": "其他",
+            }
+            normalized = "其他"
+            for key, val in CATEGORY_MAP.items():
+                if key in raw_cat:
+                    normalized = val
+                    break
+            tags["category"] = normalized
             p["ai_tags"] = tags
             species = tags.get("species_cn", "?")
-            cat = tags.get("category", "?")
             conf = tags.get("confidence", 0)
-            print(f"✅ {species} ({cat}) 信心:{conf}")
+            print(f"✅ {species} ({normalized}) 信心:{conf}")
         except Exception as e:
             print(f"❌ {e}")
             p["ai_tags"] = {"error": str(e)}

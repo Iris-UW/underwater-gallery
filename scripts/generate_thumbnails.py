@@ -7,9 +7,9 @@ import os
 import json
 from PIL import Image
 
-PHOTO_DIR = "/Volumes/IRIS/2026/已修图"
+PHOTO_DIR = os.path.join(os.path.dirname(__file__), "..", "docs", "images", "full")
 METADATA_JSON = os.path.join(os.path.dirname(__file__), "..", "data", "photos_metadata.json")
-WEB_IMG_DIR = os.path.join(os.path.dirname(__file__), "..", "web", "images")
+WEB_IMG_DIR = os.path.join(os.path.dirname(__file__), "..", "docs", "images")
 THUMB_DIR = os.path.join(WEB_IMG_DIR, "thumbnails")
 FULL_DIR = os.path.join(WEB_IMG_DIR, "full")
 

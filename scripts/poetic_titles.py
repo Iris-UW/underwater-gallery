@@ -19,7 +19,7 @@
 import json, os, sys, time, base64, argparse
 from datetime import datetime
 
-LOCAL_WEBP_DIR = os.path.join(os.path.dirname(__file__), "..", "web", "images", "full")
+LOCAL_WEBP_DIR = os.path.join(os.path.dirname(__file__), "..", "docs", "images", "full")
 METADATA_JSON = os.path.join(os.path.dirname(__file__), "..", "data", "photos_metadata.json")
 
 # ===== 提示词：引导AI生成诗意标题 =====

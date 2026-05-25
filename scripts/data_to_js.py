@@ -12,7 +12,7 @@ import json, os, sys
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 METADATA_JSON = os.path.join(BASE, "..", "data", "photos_metadata.json")
-OUTPUT_JS = os.path.join(BASE, "..", "web", "gallery-data.js")
+OUTPUT_JS = os.path.join(BASE, "..", "docs", "gallery-data.js")
 
 
 def build(dry_run=False):
