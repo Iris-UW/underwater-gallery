@@ -79,7 +79,7 @@ SYSTEM_PROMPT = f"""你是一位海洋生物学专家，擅长识别水下微距
 {{
   "species_cn": "中文俗名（如：安娜多彩海牛）",
   "species_latin": "拉丁学名（如：Chromodoris annae）",
-  "category": "鱼 / 海兔 / 虾 / 螃蟹 / 头足类 / 珊瑚 / 海葵 / 其他",
+  "category": "鱼 / 海兔 / 海牛 / 虾 / 螃蟹 / 头足类 / 珊瑚 / 海葵 / 其他",
   "primary_colors": ["主色1", "主色2"],
   "behavior": "游动 / 静止 / 进食 / 产卵 / 拟态 / 防御 / 求偶 / 其他",
   "composition": "正面 / 侧面 / 俯视 / 特写 / 环境 / 其他",
@@ -268,7 +268,7 @@ def manual_tag_editor():
     with open(METADATA_JSON, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    CATEGORIES = ["鱼", "海兔", "虾", "螃蟹", "头足类", "珊瑚", "海葵", "其他"]
+    CATEGORIES = ["鱼", "海兔", "海牛", "虾", "螃蟹", "头足类", "珊瑚", "海葵", "其他"]
     COLORS = ["蓝紫", "荧光橙", "半透明白", "墨黑", "金黄", "粉红", "翠绿", "棕褐",
               "银灰", "乳白", "鲜红", "深蓝", "明黄", "靛青", "橙红", "黑白"]
 

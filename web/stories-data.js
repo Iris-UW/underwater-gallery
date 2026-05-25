@@ -20,7 +20,7 @@ const STORIES = [
         "date": "2026-02-14",
         "title": "珊瑚上的晨曦",
         "species": "橙色海兔，疑似Flabellina属",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "半透明白",
           "橙色"
@@ -33,7 +33,7 @@ const STORIES = [
         "date": "2026-02-14",
         "title": "珊瑚上的晨曦",
         "species": "疑似橙色海兔",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "橙色",
           "粉红"
@@ -124,7 +124,7 @@ const STORIES = [
         "date": "2026-02-14",
         "title": "紫翼幻影",
         "species": "安娜多彩海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "蓝紫",
           "白色"
@@ -137,7 +137,7 @@ const STORIES = [
         "date": "2026-02-14",
         "title": "夜影之光",
         "species": "古巴纳海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "墨黑",
           "荧光橙"
@@ -150,7 +150,7 @@ const STORIES = [
         "date": "2026-02-14",
         "title": "黑星凝视",
         "species": "古巴纳海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "墨黑",
           "橙色"
@@ -202,7 +202,7 @@ const STORIES = [
         "date": "2026-02-16",
         "title": "月夜轻咏",
         "species": "未知海兔，疑似Flabellina属",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "半透明白",
           "荧光橙"
@@ -215,7 +215,7 @@ const STORIES = [
         "date": "2026-02-16",
         "title": "夜色中的金色梦",
         "species": "疑似古巴纳海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "荧光黄",
           "蓝紫"
@@ -228,7 +228,7 @@ const STORIES = [
         "date": "2026-02-16",
         "title": "焕彩 whispers",
         "species": "安娜多彩海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "蓝紫",
           "荧光黄"
@@ -241,7 +241,7 @@ const STORIES = [
         "date": "2026-02-16",
         "title": "水下梦境的轮廓",
         "species": "黑斑鸠海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "半透明白",
           "墨黑"
@@ -254,7 +254,7 @@ const STORIES = [
         "date": "2026-02-16",
         "title": "幽光藏影",
         "species": "黑斑鸠海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "半透明白",
           "墨黑"
@@ -267,7 +267,7 @@ const STORIES = [
         "date": "2026-02-17",
         "title": "暗蓝之舞",
         "species": "古巴纳海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "蓝紫",
           "荧光橙"
@@ -372,7 +372,7 @@ const STORIES = [
         "date": "2026-02-19",
         "title": "橙色韵律的舞者",
         "species": "疑似丘疹叶海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "橙色",
           "黄色"
@@ -385,7 +385,7 @@ const STORIES = [
         "date": "2026-02-19",
         "title": "幽蓝絮语",
         "species": "古巴纳海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "黑色",
           "绿色"
@@ -437,7 +437,7 @@ const STORIES = [
         "date": "2026-02-19",
         "title": "橙影轻舞",
         "species": "疑似伊丽莎白多彩海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "白色",
           "橙色"
@@ -528,7 +528,7 @@ const STORIES = [
         "date": "2026-02-21",
         "title": "幽光羽翼",
         "species": "疑似翅膀海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "半透明白",
           "淡蓝"
@@ -541,7 +541,7 @@ const STORIES = [
         "date": "2026-02-21",
         "title": "暗夜之烛",
         "species": "翅膀海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "半透明白",
           "淡蓝"
@@ -554,7 +554,7 @@ const STORIES = [
         "date": "2026-02-21",
         "title": "金色梦游者",
         "species": "疑似橙色海兔",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "橙色",
           "棕色"
@@ -608,7 +608,7 @@ const STORIES = [
         "date": "2026-02-14",
         "title": "珊瑚上的晨曦",
         "species": "橙色海兔，疑似Flabellina属",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "半透明白",
           "橙色"
@@ -621,7 +621,7 @@ const STORIES = [
         "date": "2026-02-14",
         "title": "珊瑚上的晨曦",
         "species": "疑似橙色海兔",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "橙色",
           "粉红"
@@ -647,7 +647,7 @@ const STORIES = [
         "date": "2026-02-14",
         "title": "星点绽放",
         "species": "黑斑鸠海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "白色",
           "橙色"
@@ -660,7 +660,7 @@ const STORIES = [
         "date": "2026-02-14",
         "title": "紫翼幻影",
         "species": "安娜多彩海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "蓝紫",
           "白色"
@@ -673,7 +673,7 @@ const STORIES = [
         "date": "2026-02-14",
         "title": "夜影之光",
         "species": "古巴纳海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "墨黑",
           "荧光橙"
@@ -686,7 +686,7 @@ const STORIES = [
         "date": "2026-02-14",
         "title": "黑星凝视",
         "species": "古巴纳海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "墨黑",
           "橙色"
@@ -699,7 +699,7 @@ const STORIES = [
         "date": "2026-02-15",
         "title": "暗夜之花",
         "species": "翅膀海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "紫红",
           "半透明白"
@@ -712,7 +712,7 @@ const STORIES = [
         "date": "2026-02-16",
         "title": "月夜轻咏",
         "species": "未知海兔，疑似Flabellina属",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "半透明白",
           "荧光橙"
@@ -725,7 +725,7 @@ const STORIES = [
         "date": "2026-02-16",
         "title": "夜色中的金色梦",
         "species": "疑似古巴纳海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "荧光黄",
           "蓝紫"
@@ -738,7 +738,7 @@ const STORIES = [
         "date": "2026-02-16",
         "title": "焕彩 whispers",
         "species": "安娜多彩海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "蓝紫",
           "荧光黄"
@@ -751,7 +751,7 @@ const STORIES = [
         "date": "2026-02-16",
         "title": "水下梦境的轮廓",
         "species": "黑斑鸠海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "半透明白",
           "墨黑"
@@ -764,7 +764,7 @@ const STORIES = [
         "date": "2026-02-16",
         "title": "幽光藏影",
         "species": "黑斑鸠海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "半透明白",
           "墨黑"
@@ -777,7 +777,7 @@ const STORIES = [
         "date": "2026-02-17",
         "title": "暗蓝之舞",
         "species": "古巴纳海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "蓝紫",
           "荧光橙"
@@ -790,7 +790,7 @@ const STORIES = [
         "date": "2026-02-18",
         "title": "Amber Whisper",
         "species": "橙色海兔，疑似Flabellina属",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "橙色",
           "半透明白"
@@ -803,7 +803,7 @@ const STORIES = [
         "date": "2026-02-19",
         "title": "橙色韵律的舞者",
         "species": "疑似丘疹叶海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "橙色",
           "黄色"
@@ -816,7 +816,7 @@ const STORIES = [
         "date": "2026-02-19",
         "title": "幽蓝絮语",
         "species": "古巴纳海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "黑色",
           "绿色"
@@ -829,7 +829,7 @@ const STORIES = [
         "date": "2026-02-19",
         "title": "晨光中的柔羽",
         "species": "紫海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "紫色",
           "橙色"
@@ -842,7 +842,7 @@ const STORIES = [
         "date": "2026-02-19",
         "title": "橙影轻舞",
         "species": "疑似伊丽莎白多彩海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "白色",
           "橙色"
@@ -855,7 +855,7 @@ const STORIES = [
         "date": "2026-02-21",
         "title": "幽光之舞",
         "species": "翅膀海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "半透明白",
           "蓝色"
@@ -868,7 +868,7 @@ const STORIES = [
         "date": "2026-02-21",
         "title": "幽光羽翼",
         "species": "疑似翅膀海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "半透明白",
           "淡蓝"
@@ -881,7 +881,7 @@ const STORIES = [
         "date": "2026-02-21",
         "title": "暗夜之烛",
         "species": "翅膀海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "半透明白",
           "淡蓝"
@@ -894,7 +894,7 @@ const STORIES = [
         "date": "2026-02-21",
         "title": "金色梦游者",
         "species": "疑似橙色海兔",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "橙色",
           "棕色"
@@ -1260,7 +1260,7 @@ const STORIES = [
         "date": "2026-02-14",
         "title": "珊瑚上的晨曦",
         "species": "橙色海兔，疑似Flabellina属",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "半透明白",
           "橙色"
@@ -1273,7 +1273,7 @@ const STORIES = [
         "date": "2026-02-14",
         "title": "珊瑚上的晨曦",
         "species": "疑似橙色海兔",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "橙色",
           "粉红"
@@ -1299,7 +1299,7 @@ const STORIES = [
         "date": "2026-02-14",
         "title": "黑星凝视",
         "species": "古巴纳海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "墨黑",
           "橙色"
@@ -1352,7 +1352,7 @@ const STORIES = [
         "date": "2026-02-19",
         "title": "橙色韵律的舞者",
         "species": "疑似丘疹叶海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "橙色",
           "黄色"
@@ -1391,7 +1391,7 @@ const STORIES = [
         "date": "2026-02-19",
         "title": "橙影轻舞",
         "species": "疑似伊丽莎白多彩海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "白色",
           "橙色"
@@ -1485,7 +1485,7 @@ const STORIES = [
         "date": "2026-02-14",
         "title": "星点绽放",
         "species": "黑斑鸠海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "白色",
           "橙色"
@@ -1498,7 +1498,7 @@ const STORIES = [
         "date": "2026-02-14",
         "title": "紫翼幻影",
         "species": "安娜多彩海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "蓝紫",
           "白色"
@@ -1751,7 +1751,7 @@ const STORIES = [
         "date": "2026-02-19",
         "title": "幽蓝絮语",
         "species": "古巴纳海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "黑色",
           "绿色"
@@ -1844,7 +1844,7 @@ const STORIES = [
         "date": "2026-02-22",
         "title": "蓝夜的秘密",
         "species": "安娜多彩海牛",
-        "category": "海兔",
+        "category": "海牛",
         "colors": [
           "蓝色",
           "黑色"

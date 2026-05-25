@@ -93,8 +93,17 @@ h2:first-of-type { margin-top: 0; }
 </head>
 <body oncontextmenu="return false">
 
+<!-- Password Protection -->
+<div id="loginScreen" style="position:fixed;inset:0;z-index:9999;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;font-family:inherit;">
+  <div style="font-size:32px;font-weight:200;letter-spacing:3px;color:var(--accent);">潮騒</div>
+  <div style="font-size:13px;color:var(--dim);letter-spacing:1px;margin-bottom:8px;" data-i18n="admin_login_hint">Enter password to access admin</div>
+  <input id="adminPwd" type="password" placeholder="password" style="padding:10px 16px;font-size:14px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text);outline:none;width:220px;text-align:center;font-family:inherit;" data-i18n-placeholder="admin_pwd_placeholder">
+  <button id="adminLoginBtn" style="padding:10px 32px;font-size:13px;border:none;border-radius:8px;background:var(--accent);color:var(--bg);cursor:pointer;letter-spacing:1px;font-family:inherit;" data-i18n="admin_login_btn">Enter</button>
+  <div id="loginError" style="font-size:12px;color:#e74c3c;height:16px;"></div>
+</div>
+
 <nav>
-  <a href="index.html" class="logo">海瞳</a>
+  <a href="index.html" class="logo">潮騒</a>
   <div class="links">
     <a href="index.html">Gallery</a>
     <a href="stories.html">Stories</a>
@@ -107,6 +116,7 @@ h2:first-of-type { margin-top: 0; }
   </div>
 </nav>
 
+<div id="adminContent" style="display:none;">
 <main>
   <h1 id="adminTitle">Admin · 管理</h1>
   <p id="adminSub">Visitor log &amp; contact information</p>
@@ -116,30 +126,6 @@ h2:first-of-type { margin-top: 0; }
     <div class="empty-state">No visitors recorded yet. Visitors will appear here when they browse the gallery.</div>
   </div>
 
-  <h2>📬 联系方式</h2>
-  <div class="contact-card">
-    <div class="contact-item">
-      <span class="icon">📘</span>
-      <div>
-        <div class="label">Facebook</div>
-        <div class="value" style="color:var(--dim)">（待补充）</div>
-      </div>
-    </div>
-    <div class="contact-item">
-      <span class="icon">📕</span>
-      <div>
-        <div class="label">小红书</div>
-        <div class="value">942663499</div>
-      </div>
-    </div>
-    <div class="contact-item">
-      <span class="icon">✉️</span>
-      <div>
-        <div class="label">Email</div>
-        <div class="value"><a href="mailto:iris_bleu@qq.com">iris_bleu@qq.com</a></div>
-      </div>
-    </div>
-  </div>
 </main>
 
 <script src="gallery-i18n.js"></script>
@@ -241,6 +227,35 @@ h2:first-of-type { margin-top: 0; }
   }
 
   renderVisitors();
+})();
+
+// ─── Admin Password Protection ───
+(function(){
+  const ADMIN_PWD = 'ChaoRan2026!';
+
+  function checkPwd() {
+    const input = document.getElementById('adminPwd').value;
+    if (input === ADMIN_PWD) {
+      localStorage.setItem('iris_admin_auth', '1');
+      document.getElementById('loginScreen').style.display = 'none';
+      document.getElementById('adminContent').style.display = '';
+    } else {
+      const lang = localStorage.getItem('iris-lang') || 'en';
+      document.getElementById('loginError').textContent =
+        lang === 'zh' ? '密码错误，请重试。' : (lang === 'ja' ? 'パスワードが違います。' : 'Wrong password.');
+    }
+  }
+
+  // Already authenticated?
+  if (localStorage.getItem('iris_admin_auth') === '1') {
+    document.getElementById('loginScreen').style.display = 'none';
+    document.getElementById('adminContent').style.display = '';
+  }
+
+  document.getElementById('adminLoginBtn').addEventListener('click', checkPwd);
+  document.getElementById('adminPwd').addEventListener('keydown', function(e){
+    if (e.key === 'Enter') checkPwd();
+  });
 })();
 </script>
 

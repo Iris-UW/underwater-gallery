@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Quiet Deep · 海瞳 · 潮騒</title>
+<title>The Quiet Deep · 潮騒</title>
 <link rel="stylesheet" href="gallery-themes.css">
 <style>
 /* ===== Reset & Base ===== */
@@ -504,6 +504,9 @@ img {
   .footer { padding: 50px 5vw; }
   .footer .brand { font-size: 12px; letter-spacing: 4px; }
   .footer .desc { font-size: 11px; max-width: 300px; }
+  .footer-contact { display: flex; gap: 16px; justify-content: center; margin: 8px 0 4px; flex-wrap: wrap; }
+  .footer-contact a { color: var(--accent); text-decoration: none; font-size: 12px; letter-spacing: 1px; }
+  .footer-contact a:hover { text-decoration: underline; }
 }
 
 /* Mobile portrait (< 480px) */
@@ -553,7 +556,7 @@ img {
 
 <!-- Nav -->
 <nav class="top-nav">
-  <a href="index.html" class="nav-brand">海瞳</a>
+  <a href="index.html" class="nav-brand">潮騒</a>
   <div class="nav-right">
     <a href="index.html" class="nav-link active" data-i18n-nav="gallery">Gallery</a>
     <a href="stories.html" class="nav-link" data-i18n-nav="stories">Stories</a>
@@ -616,10 +619,14 @@ img {
 
 <!-- ========== FOOTER ========== -->
 <footer class="footer">
-  <div class="brand">The Quiet Deep · 海瞳 · 潮騒</div>
+  <div class="brand">The Quiet Deep · 潮騒</div>
   <div class="desc" data-i18n-ui="footer_desc_en">
     Underwater Macro Photography<br>
     Tulamben, Bali · 2026
+  </div>
+  <div class="footer-contact" id="footerContact">
+    <a href="mailto:iris_bleu@qq.com" data-i18n-ui="contact_email">📧 Email</a>
+    <a href="https://www.xiaohongshu.com/user/942663499" target="_blank" data-i18n-ui="contact_xhs">📕 小红书</a>
   </div>
   <div class="copyright" data-i18n-ui="copyright">All Rights Reserved · All Photos by Iris</div>
 </footer>
