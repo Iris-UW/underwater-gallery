@@ -89,6 +89,281 @@ h2:first-of-type { margin-top: 0; }
   main { padding: 100px 16px 40px; }
   .contact-card { padding: 16px 18px; }
 }
+
+/* ═══════════════════════════════════════════
+   Admin Tabs
+   ═══════════════════════════════════════════ */
+.admin-tabs {
+  display: flex; gap: 4px;
+  margin-bottom: 32px;
+  background: var(--surface);
+  border-radius: 10px; padding: 4px;
+  width: fit-content;
+}
+.admin-tab {
+  padding: 8px 20px; border: none; background: none;
+  color: var(--dim); cursor: pointer; font-size: 13px;
+  border-radius: 7px; transition: all 0.2s;
+  font-family: inherit; letter-spacing: 0.5px;
+}
+.admin-tab:hover { color: var(--text); }
+.admin-tab.active { background: var(--accent); color: var(--bg); }
+
+/* ═══════════════════════════════════════════
+   Story Manager — Two-column layout
+   ═══════════════════════════════════════════ */
+.story-manager {
+  display: flex; gap: 24px;
+  min-height: 500px;
+}
+.story-list {
+  width: 300px; flex-shrink: 0;
+  display: flex; flex-direction: column; gap: 8px;
+  max-height: 70vh; overflow-y: auto;
+}
+.story-editor {
+  flex: 1; min-width: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px; padding: 24px;
+  max-height: 70vh; overflow-y: auto;
+}
+.story-editor-empty {
+  display: flex; align-items: center; justify-content: center;
+  color: var(--dim); font-size: 14px; height: 200px;
+}
+
+/* Story list cards */
+.story-section-label {
+  font-size: 10px; letter-spacing: 2px;
+  color: var(--dim); text-transform: uppercase;
+  padding: 8px 4px 0; margin-top: 8px;
+}
+.story-section-label:first-child { margin-top: 0; }
+.story-card {
+  padding: 10px 12px; border-radius: 8px;
+  cursor: pointer; transition: all 0.2s;
+  border: 1px solid transparent;
+  display: flex; justify-content: space-between; align-items: center;
+  background: var(--bg);
+}
+.story-card:hover { border-color: var(--border); background: var(--surface); }
+.story-card.active { border-color: var(--accent); background: var(--surface); }
+.story-card .sc-title { font-size: 13px; color: var(--text); font-weight: 500; line-height: 1.3; }
+.story-card .sc-meta { font-size: 10px; color: var(--dim); margin-top: 2px; }
+.story-card .sc-actions { display: flex; gap: 4px; opacity: 0; transition: opacity 0.2s; }
+.story-card:hover .sc-actions { opacity: 1; }
+.story-card .sc-btn {
+  width: 24px; height: 24px; border: none; background: none;
+  cursor: pointer; font-size: 12px; color: var(--dim);
+  border-radius: 4px; display: flex; align-items: center; justify-content: center;
+}
+.story-card .sc-btn:hover { background: var(--border); color: var(--text); }
+.story-card .sc-btn.danger:hover { color: #e74c3c; }
+
+.btn-new-story {
+  padding: 8px 14px; border: 1px dashed var(--border);
+  background: none; color: var(--dim); cursor: pointer;
+  font-size: 12px; border-radius: 8px; transition: all 0.2s;
+  font-family: inherit; text-align: center; margin-top: 8px;
+}
+.btn-new-story:hover { border-color: var(--accent); color: var(--accent); }
+
+/* ═══════════════════════════════════════════
+   Editor Form
+   ═══════════════════════════════════════════ */
+.editor-form { display: flex; flex-direction: column; gap: 20px; }
+.editor-header {
+  display: flex; justify-content: space-between; align-items: flex-start;
+}
+.editor-header h3 { font-size: 16px; font-weight: 500; margin: 0; }
+
+.field-group { display: flex; flex-direction: column; gap: 6px; }
+.field-group label {
+  font-size: 10px; letter-spacing: 1.5px;
+  color: var(--dim); text-transform: uppercase;
+}
+.field-group input,
+.field-group textarea,
+.field-group select {
+  padding: 8px 12px; border: 1px solid var(--border);
+  border-radius: 6px; background: var(--bg); color: var(--text);
+  font-size: 13px; font-family: inherit; outline: none;
+  transition: border-color 0.2s;
+}
+.field-group input:focus,
+.field-group textarea:focus,
+.field-group select:focus { border-color: var(--accent); }
+.field-group textarea { resize: vertical; min-height: 60px; }
+
+.lang-tabs {
+  display: flex; gap: 2px; margin-bottom: 4px;
+}
+.lang-tab {
+  padding: 4px 10px; border: none; background: none;
+  color: var(--dim); cursor: pointer; font-size: 10px;
+  border-radius: 4px; font-family: inherit;
+}
+.lang-tab.active { background: var(--accent); color: var(--bg); }
+
+/* Type selector */
+.type-selector {
+  display: flex; gap: 4px;
+}
+.type-option {
+  padding: 6px 14px; border: 1px solid var(--border);
+  background: var(--bg); color: var(--dim); cursor: pointer;
+  font-size: 11px; border-radius: 6px; font-family: inherit;
+  transition: all 0.2s;
+}
+.type-option.active { border-color: var(--accent); color: var(--accent); }
+
+/* ═══════════════════════════════════════════
+   Photo Picker (in story editor)
+   ═══════════════════════════════════════════ */
+.photo-picker-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+  gap: 6px;
+}
+.photo-picker-item {
+  position: relative;
+  aspect-ratio: 1; overflow: hidden;
+  border-radius: 6px; cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.2s, opacity 0.2s;
+}
+.photo-picker-item:hover { opacity: 0.85; }
+.photo-picker-item.selected { border-color: var(--accent); }
+.photo-picker-item img {
+  width: 100%; height: 100%; object-fit: cover;
+}
+.photo-picker-item .check-mark {
+  position: absolute; top: 3px; right: 3px;
+  width: 18px; height: 18px; border-radius: 50%;
+  background: var(--accent); color: var(--bg);
+  display: none; align-items: center; justify-content: center;
+  font-size: 10px; font-weight: 700;
+}
+.photo-picker-item.selected .check-mark { display: flex; }
+.photo-picker-item .order-num {
+  position: absolute; bottom: 3px; left: 3px;
+  background: rgba(0,0,0,0.7); color: #fff;
+  font-size: 9px; padding: 1px 5px; border-radius: 3px;
+  display: none;
+}
+.photo-picker-item.selected .order-num { display: block; }
+.photo-picker-item .pick-caption {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  background: rgba(0,0,0,0.6); color: #fff;
+  font-size: 8px; padding: 2px 4px; text-align: center;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  display: none;
+}
+.photo-picker-item:hover .pick-caption { display: block; }
+.photo-picker-item.dragging { opacity: 0.4; }
+.photo-picker-item.drag-over { border-color: var(--accent); border-style: dashed; }
+
+/* Photo caption editor modal */
+.caption-modal-overlay {
+  position: fixed; inset: 0; z-index: 200;
+  background: rgba(0,0,0,0.5);
+  display: flex; align-items: center; justify-content: center;
+}
+.caption-modal {
+  background: var(--bg); border: 1px solid var(--border);
+  border-radius: 12px; padding: 24px; width: 90%; max-width: 420px;
+  max-height: 80vh; overflow-y: auto;
+}
+.caption-modal h4 { font-size: 14px; font-weight: 500; margin-bottom: 16px; }
+.caption-modal .field-group { margin-bottom: 12px; }
+.caption-modal .btn-row { display: flex; gap: 8px; justify-content: flex-end; margin-top: 16px; }
+.caption-modal button {
+  padding: 8px 20px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text); cursor: pointer;
+  border-radius: 6px; font-size: 12px; font-family: inherit;
+}
+.caption-modal button.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+
+/* ═══════════════════════════════════════════
+   Photo Browser (standalone)
+   ═══════════════════════════════════════════ */
+.photo-browser { display: flex; flex-direction: column; gap: 16px; }
+.browser-filters {
+  display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+}
+.browser-filters select,
+.browser-filters input {
+  padding: 6px 10px; border: 1px solid var(--border);
+  border-radius: 6px; background: var(--bg); color: var(--text);
+  font-size: 12px; font-family: inherit; outline: none;
+}
+.browser-filters select:focus,
+.browser-filters input:focus { border-color: var(--accent); }
+.browser-filters .filter-count {
+  font-size: 11px; color: var(--dim); margin-left: auto;
+}
+.browser-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 8px;
+}
+.browser-item {
+  position: relative; aspect-ratio: 1; overflow: hidden;
+  border-radius: 8px; cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.browser-item:hover { transform: scale(1.05); box-shadow: 0 4px 16px rgba(0,0,0,0.3); }
+.browser-item img { width: 100%; height: 100%; object-fit: cover; }
+.browser-item .browser-info {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  background: linear-gradient(transparent, rgba(0,0,0,0.7));
+  color: #fff; font-size: 9px; padding: 16px 6px 4px;
+}
+
+/* Browser lightbox (simplified) */
+.browser-lightbox {
+  position: fixed; inset: 0; z-index: 300;
+  background: rgba(0,0,0,0.92);
+  display: flex; align-items: center; justify-content: center;
+  flex-direction: column;
+}
+.browser-lightbox img {
+  max-width: 90vw; max-height: 70vh; object-fit: contain;
+  border-radius: 4px;
+}
+.browser-lightbox .bl-info {
+  color: #ccc; font-size: 12px; margin-top: 12px;
+  text-align: center; max-width: 80vw;
+}
+.browser-lightbox .bl-close {
+  position: absolute; top: 20px; right: 24px;
+  background: none; border: none; color: #fff;
+  font-size: 28px; cursor: pointer; opacity: 0.7;
+}
+.browser-lightbox .bl-close:hover { opacity: 1; }
+
+/* Action bar */
+.editor-actions {
+  display: flex; gap: 8px; padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+.editor-actions button {
+  padding: 8px 18px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text);
+  cursor: pointer; border-radius: 6px; font-size: 12px;
+  font-family: inherit; transition: all 0.2s;
+}
+.editor-actions button.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+.editor-actions button.danger { color: #e74c3c; border-color: #e74c3c; }
+.editor-actions button:hover { opacity: 0.85; }
+
+/* Responsive: stack on small screens */
+@media (max-width: 768px) {
+  .story-manager { flex-direction: column; }
+  .story-list { width: 100%; max-height: 200px; }
+  .story-editor { max-height: none; }
+}
 </style>
 </head>
 <body oncontextmenu="return false">
@@ -119,16 +394,52 @@ h2:first-of-type { margin-top: 0; }
 <div id="adminContent" style="display:none;">
 <main>
   <h1 id="adminTitle">Admin · 管理</h1>
-  <p id="adminSub">Visitor log &amp; contact information</p>
+  <p id="adminSub">Visitor log, story editor &amp; photo browser</p>
 
-  <h2>📊 访客记录</h2>
-  <div id="visitorList">
-    <div class="empty-state">No visitors recorded yet. Visitors will appear here when they browse the gallery.</div>
+  <div class="admin-tabs" id="adminTabs">
+    <button class="admin-tab active" data-tab="visitors">📊 访客记录</button>
+    <button class="admin-tab" data-tab="stories">📝 故事管理</button>
+    <button class="admin-tab" data-tab="photos">🖼️ 照片浏览</button>
+  </div>
+
+  <!-- Tab: Visitors -->
+  <div class="tab-panel" id="panel-visitors">
+    <h2>📊 访客记录</h2>
+    <div id="visitorList">
+      <div class="empty-state">No visitors recorded yet.</div>
+    </div>
+  </div>
+
+  <!-- Tab: Story Manager -->
+  <div class="tab-panel" id="panel-stories" style="display:none;">
+    <div class="story-manager">
+      <div class="story-list" id="storyList">
+        <div class="empty-state" id="storyListEmpty">Loading stories...</div>
+      </div>
+      <div class="story-editor" id="storyEditor">
+        <div class="story-editor-empty">← Select a story from the list, or create a new one</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab: Photo Browser -->
+  <div class="tab-panel" id="panel-photos" style="display:none;">
+    <div class="photo-browser" id="photoBrowser">
+      <div class="browser-filters" id="browserFilters">
+        <select id="filterCategory"><option value="">All Categories</option></select>
+        <select id="filterDate"><option value="">All Dates</option></select>
+        <input type="text" id="filterSearch" placeholder="Search filename or species...">
+        <span class="filter-count" id="filterCount"></span>
+      </div>
+      <div class="browser-grid" id="browserGrid"></div>
+    </div>
   </div>
 
 </main>
 
 <script src="gallery-i18n.js"></script>
+<script src="gallery-data.js"></script>
+<script src="stories-data.js"></script>
 <script>
 // Visitor tracking
 (function(){
@@ -256,6 +567,735 @@ h2:first-of-type { margin-top: 0; }
   document.getElementById('adminPwd').addEventListener('keydown', function(e){
     if (e.key === 'Enter') checkPwd();
   });
+})();
+</script>
+
+<script>
+// ═══════════════════════════════════════════════════
+// Admin Story Editor + Photo Browser
+// ═══════════════════════════════════════════════════
+(function(){
+  'use strict';
+
+  // ─── State ────────────────────────────────────────
+  let allPhotos = [];
+  let curatedStories = [];    // working copy of curation.json
+  let autoStories = [];       // from stories-data.js
+  let currentStoryId = null;
+  let photoMap = {};          // filename → photo object
+  let storiesData = null;     // raw stories.json data
+
+  // ─── DOM refs ────────────────────────────────────
+  const $ = id => document.getElementById(id);
+
+  // ─── Data Loading ────────────────────────────────
+  async function loadAllData() {
+    // Load photos from global gallery-data.js
+    if (typeof PHOTOS !== 'undefined' && PHOTOS.length) {
+      allPhotos = PHOTOS;
+    } else {
+      console.warn('PHOTOS global not found, trying fetch...');
+      try {
+        const resp = await fetch('gallery-data.json');
+        if (resp.ok) { const data = await resp.json(); allPhotos = data.photos || []; }
+      } catch(e) { console.error('Cannot load photos:', e); }
+    }
+    // Build photo map
+    photoMap = {};
+    allPhotos.forEach(p => { photoMap[p.filename] = p; });
+
+    // Load stories from global stories-data.js
+    if (typeof STORIES !== 'undefined' && STORIES.length) {
+      storiesData = STORIES;
+    } else {
+      console.warn('STORIES global not found');
+      storiesData = [];
+    }
+
+    // Separate: curated stories have type "curated" or "dive-log"
+    if (storiesData.length) {
+      curatedStories = storiesData
+        .filter(s => s.type === 'curated' || s.type === 'dive-log')
+        .map(s => {
+          // Convert STORIES output format back to curation input format
+          const fnames = (s.photos || []).map(p => p.filename || '');
+          // Find original filename from cover path
+          let coverFn = '';
+          if (s.cover) {
+            const coverStem = s.cover.replace(/^images\/full\//,'').replace(/\.webp$/,'');
+            const match = allPhotos.find(p => p.filename.replace(/\.[^.]+$/,'') === coverStem);
+            if (match) coverFn = match.filename;
+          }
+          const cs = {
+            id: s.id,
+            type: s.type,
+            priority: s.priority || 99,
+            photo_filenames: fnames,
+            cover_filename: coverFn,
+            narrative_en: s.narrative_en || '',
+            narrative_zh: s.narrative_zh || '',
+            narrative_ja: s.narrative_ja || '',
+            photo_captions: {}
+          };
+          if (s.type === 'curated') {
+            cs.title_en = s.title_en || '';
+            cs.title_zh = s.title_zh || '';
+            cs.title_ja = s.title_ja || '';
+            cs.subtitle_en = s.subtitle_en || '';
+            cs.subtitle_zh = s.subtitle_zh || '';
+            cs.subtitle_ja = s.subtitle_ja || '';
+          } else {
+            cs.trip_name_en = s.title_en || '';
+            cs.trip_name_zh = s.title_zh || '';
+            cs.trip_name_ja = s.title_ja || '';
+            cs.date_range = s.date_range || '';
+            cs.dive_count = s.dive_count || '';
+            cs.site_en = s.site_en || '';
+            cs.site_zh = s.site_zh || '';
+            cs.site_ja = s.site_ja || '';
+            cs.conditions_en = s.conditions_en || '';
+            cs.conditions_zh = s.conditions_zh || '';
+            cs.conditions_ja = s.conditions_ja || '';
+          }
+          return cs;
+        });
+      
+      const curatedIds = new Set(curatedStories.map(s => s.id));
+      autoStories = storiesData.filter(s => !curatedIds.has(s.id));
+    }
+
+    console.log(`Loaded: ${allPhotos.length} photos, ${curatedStories.length} curated, ${autoStories.length} auto stories`);
+  }
+
+  // ─── Tab Switching ────────────────────────────────
+  function initTabs() {
+    document.querySelectorAll('.admin-tab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.admin-tab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const tab = btn.dataset.tab;
+        document.querySelectorAll('.tab-panel').forEach(p => p.style.display = 'none');
+        const panel = document.getElementById('panel-' + tab);
+        if (panel) panel.style.display = '';
+        // Lazy render
+        if (tab === 'stories' && !storyListRendered) renderStoryList();
+        if (tab === 'photos' && !photoBrowserRendered) renderPhotoBrowser();
+      });
+    });
+  }
+
+  // ─── Story List ───────────────────────────────────
+  let storyListRendered = false;
+  function renderStoryList() {
+    storyListRendered = true;
+    const container = $('storyList');
+    if (!allPhotos.length) {
+      container.innerHTML = '<div class="empty-state">Loading photos... please wait</div>';
+      return;
+    }
+
+    let html = '';
+
+    // Curated stories section
+    if (curatedStories.length) {
+      html += '<div class="story-section-label">🎨 策展故事</div>';
+      curatedStories.forEach(s => {
+        const count = (s.photo_filenames || []).length;
+        html += storyCardHTML(s, count);
+      });
+    }
+
+    // Auto stories section  
+    if (autoStories.length) {
+      html += '<div class="story-section-label">🤖 自动生成</div>';
+      autoStories.forEach(s => {
+        const count = s.photo_count || (s.photos ? s.photos.length : 0);
+        html += autoStoryCardHTML(s, count);
+      });
+    }
+
+    html += '<button class="btn-new-story" onclick="window._adminCreateStory()">+ 新建故事集</button>';
+    container.innerHTML = html;
+
+    // Highlight current
+    if (currentStoryId) highlightStoryCard(currentStoryId);
+  }
+
+  function storyCardHTML(s, count) {
+    const title = s.title_zh || s.trip_name_zh || s.id;
+    const typeLabel = s.type === 'dive-log' ? '潜水日志' : '策展';
+    return `
+      <div class="story-card" data-sid="${s.id}" onclick="window._adminEditStory('${s.id}')">
+        <div>
+          <div class="sc-title">${esc(title)}</div>
+          <div class="sc-meta">${typeLabel} · ${count} photos</div>
+        </div>
+        <div class="sc-actions">
+          <button class="sc-btn" title="Edit" onclick="event.stopPropagation();window._adminEditStory('${s.id}')">✏️</button>
+          <button class="sc-btn danger" title="Delete" onclick="event.stopPropagation();window._adminDeleteStory('${s.id}')">🗑️</button>
+        </div>
+      </div>`;
+  }
+
+  function autoStoryCardHTML(s, count) {
+    const title = s.title_zh || s.id;
+    return `
+      <div class="story-card" data-sid="${s.id}" onclick="window._adminEditAutoStory('${s.id}')">
+        <div>
+          <div class="sc-title">${esc(title)}</div>
+          <div class="sc-meta">自动生成 · ${count} photos</div>
+        </div>
+        <div class="sc-actions">
+          <button class="sc-btn" title="Edit" onclick="event.stopPropagation();window._adminEditAutoStory('${s.id}')">✏️</button>
+        </div>
+      </div>`;
+  }
+
+  function highlightStoryCard(id) {
+    document.querySelectorAll('.story-card').forEach(c => c.classList.remove('active'));
+    const card = document.querySelector(`.story-card[data-sid="${id}"]`);
+    if (card) card.classList.add('active');
+  }
+
+  // ─── Story Editor ─────────────────────────────────
+  function openStoryEditor(story) {
+    currentStoryId = story.id;
+    highlightStoryCard(story.id);
+
+    const editor = $('storyEditor');
+    const isDiveLog = story.type === 'dive-log';
+    const selectedFnames = story.photo_filenames || [];
+    const photoCaptions = story.photo_captions || {};
+
+    let html = '<div class="editor-form">';
+    // Header
+    html += `<div class="editor-header"><h3>${esc(story.title_zh || story.trip_name_zh || story.id)}</h3></div>`;
+
+    // Type selector
+    html += `<div class="field-group"><label>类型</label>
+      <div class="type-selector">
+        <button class="type-option${story.type==='curated'?' active':''}" onclick="window._adminSetType('curated')">策展 Curated</button>
+        <button class="type-option${story.type==='dive-log'?' active':''}" onclick="window._adminSetType('dive-log')">潜水日志 Dive Log</button>
+      </div></div>`;
+
+    // ID + Priority
+    html += `<div style="display:flex;gap:8px;">
+      <div class="field-group" style="flex:1"><label>ID</label><input id="ef-id" value="${esc(story.id)}" placeholder="unique-id"></div>
+      <div class="field-group" style="width:80px"><label>Priority</label><input id="ef-priority" type="number" value="${story.priority||99}" min="1"></div>
+    </div>`;
+
+    // Title fields (curated = title_*, dive-log = trip_name_*)
+    const titleKey = isDiveLog ? 'trip_name' : 'title';
+    html += trilingualFields('标题 Title', titleKey, story);
+
+    if (!isDiveLog) {
+      html += trilingualFields('副标题 Subtitle', 'subtitle', story);
+    }
+
+    // Dive-log extra fields
+    if (isDiveLog) {
+      html += `<div style="display:flex;gap:8px;">
+        <div class="field-group" style="flex:1"><label>日期范围 Date Range</label><input id="ef-date_range" value="${esc(story.date_range||'')}"></div>
+        <div class="field-group" style="width:100px"><label>潜数 Dives</label><input id="ef-dive_count" value="${esc(story.dive_count||'')}"></div>
+      </div>`;
+      html += trilingualFields('潜点 Site', 'site', story);
+      html += trilingualFields('条件 Conditions', 'conditions', story);
+    }
+
+    // Cover photo
+    html += `<div class="field-group"><label>封面照片 Cover</label>
+      <select id="ef-cover">${selectedFnames.map(fn => `<option value="${esc(fn)}"${story.cover_filename===fn?' selected':''}>${esc(fn)}</option>`).join('')}</select></div>`;
+
+    // Narrative
+    html += trilingualTextarea('叙事 Narrative', 'narrative', story);
+
+    // Photo picker
+    html += `<div class="field-group"><label>照片选择 (${selectedFnames.length} selected)</label>
+      <div class="photo-picker-grid" id="photoPickerGrid"></div></div>`;
+
+    // Actions
+    html += `<div class="editor-actions">
+      <button class="primary" onclick="window._adminSaveStory()">💾 Save Edits (in memory)</button>
+      <button onclick="window._adminExportJSON()">📥 Export curation.json</button>
+      <button class="danger" onclick="window._adminDeleteStory('${story.id}')">🗑️ Delete Story</button>
+    </div>`;
+
+    html += '</div>';
+    editor.innerHTML = html;
+
+    // Render photo picker
+    renderPhotoPicker(selectedFnames, photoCaptions);
+
+    // Init language tabs
+    initLangTabs();
+  }
+
+  function trilingualFields(label, key, story) {
+    const langs = [
+      { code: 'zh', label: '中文' },
+      { code: 'en', label: 'EN' },
+      { code: 'ja', label: '日本語' }
+    ];
+    let html = `<div class="field-group"><label>${label}</label>
+      <div class="lang-tabs">${langs.map((l,i) => `<button class="lang-tab${i===0?' active':''}" data-lang="${l.code}" data-group="${key}">${l.label}</button>`).join('')}</div>`;
+    langs.forEach((l, i) => {
+      const val = story[key+'_'+l.code] || '';
+      html += `<input id="ef-${key}-${l.code}" value="${esc(val)}" placeholder="${l.label}" style="${i>0?'display:none':''}" data-lang="${l.code}" data-group="${key}">`;
+    });
+    html += '</div>';
+    return html;
+  }
+
+  function trilingualTextarea(label, key, story) {
+    const langs = [
+      { code: 'zh', label: '中文' },
+      { code: 'en', label: 'EN' },
+      { code: 'ja', label: '日本語' }
+    ];
+    let html = `<div class="field-group"><label>${label}</label>
+      <div class="lang-tabs">${langs.map((l,i) => `<button class="lang-tab${i===0?' active':''}" data-lang="${l.code}" data-group="${key}">${l.label}</button>`).join('')}</div>`;
+    langs.forEach((l, i) => {
+      const val = story[key+'_'+l.code] || '';
+      html += `<textarea id="ef-${key}-${l.code}" rows="4" placeholder="${l.label}" style="${i>0?'display:none':''}" data-lang="${l.code}" data-group="${key}">${esc(val)}</textarea>`;
+    });
+    html += '</div>';
+    return html;
+  }
+
+  function initLangTabs() {
+    document.querySelectorAll('.lang-tab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const group = btn.dataset.group;
+        const lang = btn.dataset.lang;
+        // Update active
+        btn.parentElement.querySelectorAll('.lang-tab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        // Show/hide inputs
+        btn.parentElement.parentElement.querySelectorAll(`input[data-group="${group}"], textarea[data-group="${group}"]`).forEach(el => {
+          el.style.display = el.dataset.lang === lang ? '' : 'none';
+        });
+      });
+    });
+  }
+
+  // ─── Photo Picker ─────────────────────────────────
+  function renderPhotoPicker(selectedFnames, photoCaptions) {
+    const grid = $('photoPickerGrid');
+    if (!grid) return;
+
+    // Show all photos, mark selected ones
+    let html = '';
+    allPhotos.forEach((p, idx) => {
+      const isSelected = selectedFnames.includes(p.filename);
+      const orderNum = isSelected ? selectedFnames.indexOf(p.filename) + 1 : '';
+      const thumb = thumbPath(p.filename);
+      const caption = photoCaptions[p.filename] || '';
+      html += `
+        <div class="photo-picker-item${isSelected?' selected':''}" 
+             data-filename="${esc(p.filename)}" data-idx="${idx}"
+             draggable="true"
+             onclick="window._adminTogglePhoto('${esc(p.filename)}')"
+             ondragstart="window._adminDragStart(event)"
+             ondragover="window._adminDragOver(event)"
+             ondrop="window._adminDrop(event)"
+             ondragend="window._adminDragEnd(event)">
+          <img src="${thumb}" alt="" loading="lazy">
+          <div class="check-mark">✓</div>
+          <div class="order-num">${orderNum}</div>
+          <div class="pick-caption" onclick="event.stopPropagation();window._adminEditCaption('${esc(p.filename)}')" title="Click to edit caption">${esc(caption || (p.ai_tags?.species_cn || ''))}</div>
+        </div>`;
+    });
+    grid.innerHTML = html;
+    updatePickerCounts();
+  }
+
+  function updatePickerCounts() {
+    const selected = document.querySelectorAll('.photo-picker-item.selected');
+    const label = document.querySelector('.photo-picker-grid').previousElementSibling;
+    if (label) label.textContent = `照片选择 (${selected.length} selected)`;
+    // Update cover select
+    const coverSelect = $('ef-cover');
+    if (coverSelect) {
+      const fnames = Array.from(selected).map(el => el.dataset.filename);
+      coverSelect.innerHTML = fnames.map((fn, i) => 
+        `<option value="${esc(fn)}"${i===0?' selected':''}>${esc(fn)}</option>`
+      ).join('');
+      if (!fnames.length) coverSelect.innerHTML = '<option value="">-- no photos selected --</option>';
+    }
+  }
+
+  // ─── Caption Editor Modal ─────────────────────────
+  window._adminEditCaption = function(filename) {
+    const story = findCurrentStory();
+    if (!story) return;
+    const captions = story.photo_captions || {};
+    const current = captions[filename] || {};
+    const aiTags = (photoMap[filename] || {}).ai_tags || {};
+    const defaults = {
+      zh: aiTags.species_cn || '',
+      en: aiTags.species_cn || '',  // fallback
+      ja: aiTags.species_cn || ''
+    };
+
+    const overlay = document.createElement('div');
+    overlay.className = 'caption-modal-overlay';
+    overlay.id = 'captionModal';
+    overlay.innerHTML = `
+      <div class="caption-modal">
+        <h4>编辑照片标注 · ${esc(filename)}</h4>
+        <div class="field-group"><label>中文</label><input id="cap-zh" value="${esc(current.zh||defaults.zh)}" placeholder="${esc(defaults.zh)}"></div>
+        <div class="field-group"><label>English</label><input id="cap-en" value="${esc(current.en||defaults.en)}" placeholder="${esc(defaults.en)}"></div>
+        <div class="field-group"><label>日本語</label><input id="cap-ja" value="${esc(current.ja||defaults.ja)}" placeholder="${esc(defaults.ja)}"></div>
+        <div style="font-size:10px;color:var(--dim);margin-bottom:8px;">AI 标签: ${esc(aiTags.species_cn||'(none)')} / ${esc(aiTags.species_latin||'')}</div>
+        <div class="btn-row">
+          <button onclick="document.getElementById('captionModal').remove()">取消</button>
+          <button class="primary" onclick="window._adminSaveCaption('${esc(filename)}')">保存</button>
+        </div>
+      </div>`;
+    document.body.appendChild(overlay);
+    overlay.addEventListener('click', function(e) { if (e.target === overlay) overlay.remove(); });
+  };
+
+  window._adminSaveCaption = function(filename) {
+    const story = findCurrentStory();
+    if (!story) return;
+    if (!story.photo_captions) story.photo_captions = {};
+    story.photo_captions[filename] = {
+      zh: $('cap-zh')?.value || '',
+      en: $('cap-en')?.value || '',
+      ja: $('cap-ja')?.value || ''
+    };
+    document.getElementById('captionModal')?.remove();
+    // Refresh picker
+    const selectedFnames = story.photo_filenames || [];
+    renderPhotoPicker(selectedFnames, story.photo_captions);
+  };
+
+  // ─── Drag & Drop ──────────────────────────────────
+  let dragFilename = null;
+  window._adminDragStart = function(e) {
+    dragFilename = e.target.closest('.photo-picker-item')?.dataset.filename;
+    if (dragFilename) {
+      e.target.closest('.photo-picker-item').classList.add('dragging');
+      e.dataTransfer.effectAllowed = 'move';
+    }
+  };
+  window._adminDragOver = function(e) {
+    e.preventDefault();
+    e.dataTransfer.dropEffect = 'move';
+    const item = e.target.closest('.photo-picker-item');
+    if (item) item.classList.add('drag-over');
+  };
+  window._adminDrop = function(e) {
+    e.preventDefault();
+    const targetItem = e.target.closest('.photo-picker-item');
+    if (targetItem) targetItem.classList.remove('drag-over');
+    const targetFn = targetItem?.dataset.filename;
+    if (!dragFilename || !targetFn || dragFilename === targetFn) return;
+
+    const story = findCurrentStory();
+    if (!story) return;
+    const fnames = story.photo_filenames || [];
+    const fromIdx = fnames.indexOf(dragFilename);
+    const toIdx = fnames.indexOf(targetFn);
+    if (fromIdx === -1 || toIdx === -1) return;
+    fnames.splice(fromIdx, 1);
+    fnames.splice(toIdx, 0, dragFilename);
+    story.photo_filenames = fnames;
+    renderPhotoPicker(fnames, story.photo_captions || {});
+  };
+  window._adminDragEnd = function(e) {
+    document.querySelectorAll('.photo-picker-item').forEach(el => el.classList.remove('dragging', 'drag-over'));
+    dragFilename = null;
+  };
+
+  // ─── Story CRUD ───────────────────────────────────
+  function findCurrentStory() {
+    // Check curated first
+    let story = curatedStories.find(s => s.id === currentStoryId);
+    if (!story) {
+      // Check auto
+      story = autoStories.find(s => s.id === currentStoryId);
+    }
+    return story;
+  }
+
+  window._adminEditStory = function(id) {
+    const story = curatedStories.find(s => s.id === id);
+    if (story) openStoryEditor(JSON.parse(JSON.stringify(story)));
+  };
+
+  window._adminEditAutoStory = function(id) {
+    // Convert auto story to curated format
+    const auto = autoStories.find(s => s.id === id);
+    if (!auto) return;
+    const curated = {
+      id: auto.id,
+      type: 'curated',
+      priority: auto.priority || 99,
+      title_en: auto.title_en || '',
+      title_zh: auto.title_zh || '',
+      title_ja: auto.title_ja || '',
+      subtitle_en: auto.subtitle_en || '',
+      subtitle_zh: auto.subtitle_zh || '',
+      subtitle_ja: auto.subtitle_ja || '',
+      narrative_en: auto.narrative_en || '',
+      narrative_zh: auto.narrative_zh || '',
+      narrative_ja: auto.narrative_ja || '',
+      cover_filename: '',
+      photo_filenames: (auto.photos || []).map(p => p.filename || ''),
+      photo_captions: {}
+    };
+    // Add to curated if not exists
+    const existing = curatedStories.findIndex(s => s.id === id);
+    if (existing >= 0) {
+      curatedStories[existing] = curated;
+    } else {
+      curatedStories.push(curated);
+    }
+    // Remove from auto list
+    autoStories = autoStories.filter(s => s.id !== id);
+    renderStoryList();
+    openStoryEditor(JSON.parse(JSON.stringify(curated)));
+  };
+
+  window._adminCreateStory = function() {
+    const id = 'story-' + Date.now();
+    const story = {
+      id, type: 'curated', priority: 99,
+      title_en: 'New Story', title_zh: '新故事', title_ja: '新しいストーリー',
+      subtitle_en: '', subtitle_zh: '', subtitle_ja: '',
+      narrative_en: '', narrative_zh: '', narrative_ja: '',
+      cover_filename: '', photo_filenames: [], photo_captions: {}
+    };
+    curatedStories.push(story);
+    renderStoryList();
+    openStoryEditor(JSON.parse(JSON.stringify(story)));
+  };
+
+  window._adminDeleteStory = function(id) {
+    if (!confirm('Delete this story? This cannot be undone.')) return;
+    curatedStories = curatedStories.filter(s => s.id !== id);
+    currentStoryId = null;
+    $('storyEditor').innerHTML = '<div class="story-editor-empty">← Select a story or create a new one</div>';
+    // Re-add to auto if it was originally auto
+    if (storiesData) {
+      const orig = storiesData.find(s => s.id === id);
+      if (orig && !curatedStories.find(s => s.id === id)) {
+        autoStories.push(orig);
+      }
+    }
+    renderStoryList();
+  };
+
+  window._adminSetType = function(type) {
+    const story = findCurrentStory();
+    if (!story) return;
+    story.type = type;
+    // Ensure type-specific fields exist
+    if (type === 'dive-log' && !story.trip_name_en) {
+      story.trip_name_en = story.title_en || '';
+      story.trip_name_zh = story.title_zh || '';
+      story.trip_name_ja = story.title_ja || '';
+      story.date_range = ''; story.dive_count = '';
+      story.site_en = ''; story.site_zh = ''; story.site_ja = '';
+      story.conditions_en = ''; story.conditions_zh = ''; story.conditions_ja = '';
+    }
+    if (type === 'curated' && !story.title_en) {
+      story.title_en = story.trip_name_en || '';
+      story.title_zh = story.trip_name_zh || '';
+      story.title_ja = story.trip_name_ja || '';
+    }
+    openStoryEditor(JSON.parse(JSON.stringify(story)));
+  };
+
+  window._adminTogglePhoto = function(filename) {
+    const story = findCurrentStory();
+    if (!story) return;
+    const fnames = story.photo_filenames || [];
+    const idx = fnames.indexOf(filename);
+    if (idx >= 0) {
+      fnames.splice(idx, 1);
+    } else {
+      fnames.push(filename);
+    }
+    story.photo_filenames = fnames;
+    renderPhotoPicker(fnames, story.photo_captions || {});
+  };
+
+  window._adminSaveStory = function() {
+    const story = findCurrentStory();
+    if (!story) return;
+
+    // Collect form values
+    story.id = $('ef-id')?.value || story.id;
+    story.priority = parseInt($('ef-priority')?.value) || 99;
+    const isDiveLog = story.type === 'dive-log';
+
+    // Titles
+    const titleKey = isDiveLog ? 'trip_name' : 'title';
+    ['zh','en','ja'].forEach(lang => {
+      story[titleKey+'_'+lang] = $('ef-'+titleKey+'-'+lang)?.value || '';
+    });
+
+    // Subtitles (curated only)
+    if (!isDiveLog) {
+      ['zh','en','ja'].forEach(lang => {
+        story['subtitle_'+lang] = $('ef-subtitle-'+lang)?.value || '';
+      });
+    }
+
+    // Narrative
+    ['zh','en','ja'].forEach(lang => {
+      story['narrative_'+lang] = $('ef-narrative-'+lang)?.value || '';
+    });
+
+    // Dive-log extras
+    if (isDiveLog) {
+      story.date_range = $('ef-date_range')?.value || '';
+      story.dive_count = $('ef-dive_count')?.value || '';
+      ['zh','en','ja'].forEach(lang => {
+        story['site_'+lang] = $('ef-site-'+lang)?.value || '';
+        story['conditions_'+lang] = $('ef-conditions-'+lang)?.value || '';
+      });
+    }
+
+    // Cover
+    story.cover_filename = $('ef-cover')?.value || '';
+
+    // Update in curatedStories array
+    const idx = curatedStories.findIndex(s => s.id === currentStoryId);
+    if (idx >= 0) {
+      curatedStories[idx] = story;
+    }
+
+    renderStoryList();
+    openStoryEditor(JSON.parse(JSON.stringify(story)));
+    showToast('Saved! (in memory — export to download curation.json)');
+  };
+
+  // ─── Export ───────────────────────────────────────
+  window._adminExportJSON = function() {
+    window._adminSaveStory(); // save first
+    const output = {
+      _comment: "Curation config for underwater gallery stories",
+      _usage: "Edit this file, then run: python scripts/rebuild.py --step 6 --step 5 --step 7",
+      curated_stories: curatedStories
+    };
+    const blob = new Blob([JSON.stringify(output, null, 2)], {type: 'application/json'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = 'curation.json';
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
+  // ─── Photo Browser ────────────────────────────────
+  let photoBrowserRendered = false;
+  function renderPhotoBrowser() {
+    photoBrowserRendered = true;
+
+    // Populate filters
+    const categories = [...new Set(allPhotos.map(p => (p.ai_tags||{}).category||'其他'))].sort();
+    $('filterCategory').innerHTML = '<option value="">All Categories</option>' +
+      categories.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
+
+    const dates = [...new Set(allPhotos.map(p => String(p.date||'').slice(0,7)))].filter(Boolean).sort();
+    $('filterDate').innerHTML = '<option value="">All Dates</option>' +
+      dates.map(d => `<option value="${d}">${d}</option>`).join('');
+
+    // Render grid
+    applyPhotoFilters();
+
+    // Bind filters
+    $('filterCategory').addEventListener('change', applyPhotoFilters);
+    $('filterDate').addEventListener('change', applyPhotoFilters);
+    $('filterSearch').addEventListener('input', applyPhotoFilters);
+  }
+
+  function applyPhotoFilters() {
+    const cat = $('filterCategory')?.value || '';
+    const date = $('filterDate')?.value || '';
+    const search = ($('filterSearch')?.value || '').toLowerCase();
+
+    let filtered = allPhotos;
+    if (cat) filtered = filtered.filter(p => (p.ai_tags||{}).category === cat);
+    if (date) filtered = filtered.filter(p => String(p.date||'').startsWith(date));
+    if (search) {
+      filtered = filtered.filter(p => {
+        const ai = p.ai_tags || {};
+        return p.filename.toLowerCase().includes(search) ||
+               (ai.species_cn||'').toLowerCase().includes(search) ||
+               (ai.species_latin||'').toLowerCase().includes(search);
+      });
+    }
+
+    $('filterCount').textContent = `${filtered.length} photo${filtered.length !== 1 ? 's' : ''}`;
+
+    const grid = $('browserGrid');
+    grid.innerHTML = filtered.map(p => {
+      const ai = p.ai_tags || {};
+      const thumb = thumbPath(p.filename);
+      return `
+        <div class="browser-item" onclick="window._adminBrowserLightbox('${esc(p.filename)}')">
+          <img src="${thumb}" alt="" loading="lazy">
+          <div class="browser-info">${esc(p.date||'')} · ${esc(ai.category||'')}</div>
+        </div>`;
+    }).join('');
+  }
+
+  window._adminBrowserLightbox = function(filename) {
+    const p = photoMap[filename];
+    if (!p) return;
+    const full = fullPath(filename);
+    const ai = p.ai_tags || {};
+
+    const lb = document.createElement('div');
+    lb.className = 'browser-lightbox';
+    lb.id = 'browserLb';
+    lb.innerHTML = `
+      <button class="bl-close" onclick="document.getElementById('browserLb').remove()">×</button>
+      <img src="${full}" alt="">
+      <div class="bl-info">
+        ${esc(ai.species_cn||'')} ${esc(ai.species_latin||'')} · ${esc(ai.category||'')}<br>
+        ${p.date||''} · f/${p.f_number||'?'} · ${p.exposure_time||'?'}s · ISO${p.iso||'?'} · ${(p.camera_info?.camera||'').includes('OLYMPUS')?'Olympus E-M1 II':'Sony A7R IV'}
+      </div>`;
+    document.body.appendChild(lb);
+    lb.addEventListener('click', function(e) { if (e.target === lb) lb.remove(); });
+  };
+
+  // ─── Helpers ──────────────────────────────────────
+  function esc(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
+  function thumbPath(fn) { return 'images/thumbnails/' + fn.replace(/\.[^.]+$/, '') + '.webp'; }
+  function fullPath(fn) { return 'images/full/' + fn.replace(/\.[^.]+$/, '') + '.webp'; }
+
+  function showToast(msg) {
+    const toast = document.createElement('div');
+    toast.style.cssText = 'position:fixed;bottom:24px;right:24px;background:var(--accent);color:var(--bg);padding:10px 20px;border-radius:8px;font-size:13px;z-index:400;transition:opacity 0.5s;';
+    toast.textContent = msg;
+    document.body.appendChild(toast);
+    setTimeout(() => { toast.style.opacity = '0'; setTimeout(() => toast.remove(), 500); }, 2000);
+  }
+
+  // ─── Init ─────────────────────────────────────────
+  async function init() {
+    await loadAllData();
+    initTabs();
+  }
+
+  // Start when admin content is visible
+  const observer = new MutationObserver(() => {
+    if ($('adminContent').style.display !== 'none') {
+      observer.disconnect();
+      init();
+    }
+  });
+  observer.observe($('adminContent'), { attributes: true, attributeFilter: ['style'] });
+
+  // Also start immediately if already authenticated
+  if (localStorage.getItem('iris_admin_auth') === '1') {
+    init();
+  }
 })();
 </script>
 
