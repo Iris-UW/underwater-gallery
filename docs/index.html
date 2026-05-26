@@ -107,6 +107,14 @@ body {
   opacity: 0; transform: translateY(30px);
   animation: fadeSlideUp 0.8s 0.5s forwards;
 }
+.hero-slide .caption .subtitle-poetic {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--dim);
+  margin-top: 6px;
+  opacity: 0; transform: translateY(20px);
+  animation: fadeSlideUp 0.8s 0.65s forwards;
+}
 .hero-slide .caption .line {
   display: block;
   height: 1px;
@@ -729,17 +737,33 @@ if (typeof PHOTOS === 'undefined') {
       slide.dataset.photoIdx = i;
       slide.style.cursor = 'zoom-in';
       const poeticCn = p.ai_tags?.poetic_title || '';
-      const showTitle = poeticCn.trim() !== '';
       const speciesDisplay = ti18n(p.ai_tags?.species_cn || '');
       const catDisplay = ci18n(p.ai_tags?.category || '');
-      const titleI18n = showTitle ? ptitle18n(poeticCn) : '';
+      const lang = localStorage.getItem('iris-lang') || 'en';
+      
+      // Title logic: prefer translated poetic title; fall back to species name for non-ZH
+      let heroTitle = '';
+      let heroSubtitle = '';
+      if (poeticCn) {
+        const translated = ptitle18n(poeticCn);
+        if (lang === 'zh' || translated !== poeticCn) {
+          // Chinese or has real translation → use as main title
+          heroTitle = translated;
+        } else {
+          // No translation for non-ZH → species as title, poetic as subtitle
+          heroTitle = speciesDisplay;
+          heroSubtitle = poeticCn;
+        }
+      }
+      const showLine = heroTitle !== '';
       slide.innerHTML = `
         <div class="bg" style="background-image:url('${imgPath}')"></div>
         <div class="overlay"></div>
         <div class="caption">
           <div class="category">${speciesDisplay}${catDisplay ? ' · ' + catDisplay : ''}</div>
-          <h2>${titleI18n}</h2>
-          ${showTitle ? '<div class="line"></div>' : ''}
+          <h2>${heroTitle}</h2>
+          ${heroSubtitle ? `<div class="subtitle-poetic">${heroSubtitle}</div>` : ''}
+          ${showLine ? '<div class="line"></div>' : ''}
           <div class="date">${p.date || ''} · ${p.camera_info?.camera?.includes('OLYMPUS') ? 'Olympus' : 'Sony'} · f/${p.f_number || '?'}</div>
         </div>`;
       // Click hero slide → open lightbox
@@ -801,7 +825,14 @@ if (typeof PHOTOS === 'undefined') {
       ].join(' ').toLowerCase();
       
       const poeticCn = p.ai_tags?.poetic_title || '';
-      const title = poeticCn.trim() ? ptitle18n(poeticCn) : ti18n(p.ai_tags?.species_cn || '');
+      const lang = localStorage.getItem('iris-lang') || 'en';
+      let title;
+      if (poeticCn.trim()) {
+        const translated = ptitle18n(poeticCn);
+        title = (lang === 'zh' || translated !== poeticCn) ? translated : ti18n(p.ai_tags?.species_cn || '');
+      } else {
+        title = ti18n(p.ai_tags?.species_cn || '');
+      }
       card.innerHTML = `
         <img src="${thumb}" alt="${p.filename}" loading="lazy">
         <div class="card-overlay">
@@ -899,7 +930,14 @@ if (typeof PHOTOS === 'undefined') {
     const poetic = tags.poetic_title || '';
     const speciesName = ti18n(tags.species_cn || '');
     const latinName = tags.species_latin || '';
-    const mainTitle = poetic.trim() ? ptitle18n(poetic) : (speciesName || p.filename);
+    const lang = localStorage.getItem('iris-lang') || 'en';
+    let mainTitle;
+    if (poetic.trim()) {
+      const translated = ptitle18n(poetic);
+      mainTitle = (lang === 'zh' || translated !== poetic) ? translated : (speciesName || p.filename);
+    } else {
+      mainTitle = speciesName || p.filename;
+    }
     // Use background-image + protective overlay (anti-download)
     document.getElementById('lb-image-wrap').innerHTML = `
       <div style="background-image:url('${full}');background-size:contain;background-position:center;background-repeat:no-repeat;width:100%;height:100%;" class="no-save"></div>

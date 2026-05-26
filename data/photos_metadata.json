@@ -2443,66 +2443,6 @@
       }
     },
     {
-      "filename": "2f1275e1b81c57ad6df7d7a9d8666fdd.JPG",
-      "file_size_mb": 9.2,
-      "width": 6000,
-      "height": 4000,
-      "aspect_ratio": "6000:4000",
-      "date": "2025-05-03",
-      "time": "15:32:30",
-      "datetime_original": "2025:05:03 15:32:30",
-      "make": "Canon",
-      "model": "",
-      "camera": "Canon",
-      "lens": "",
-      "f_number": 2.8,
-      "exposure_time": "30.0",
-      "focal_length": "16.0",
-      "focal_length_35mm": "",
-      "iso": 3200,
-      "flash": "关闭",
-      "location": {
-        "country": "Indonesia",
-        "region": "Bali",
-        "site": "Tulamben",
-        "site_cn": "图蓝本",
-        "notes": "世界级微距潜点"
-      },
-      "ai_tags": {
-        "visual_features": [
-          "天空中繁星点点",
-          "银河清晰可见",
-          "地平线上的微光",
-          "前景中的传统建筑屋顶",
-          "模糊的树木轮廓",
-          "远处的海平面"
-        ],
-        "substrate": "海滩和沙滩边的建筑",
-        "family_cn": "无",
-        "family_latin": "无",
-        "genus": "无",
-        "species_cn": "无",
-        "species_latin": "无",
-        "species_en": "无",
-        "category": "其他",
-        "primary_colors": [
-          "深蓝",
-          "金色"
-        ],
-        "behavior": "其他",
-        "composition": "环境",
-        "confidence": 1.0,
-        "notes": "这张照片展示了一个奇妙的夜晚星空场景，银河横跨天空，地平线上有一线微光，可能是因为远处的城市或海洋活动。前景中的传统屋顶和周围的植物增加了一些地面的元素，但没有水下生物出现。",
-        "poetic_title": "星空下的红瓦梦",
-        "poetic_reason": "标题结合了画面中璀璨的星空和红色屋顶的元素，营造出一种梦幻而宁静的氛围。"
-      },
-      "poetic_title": {},
-      "web_paths": {
-        "thumbnail": "images/thumbnails/2f1275e1b81c57ad6df7d7a9d8666fdd.webp",
-        "full": "images/full/2f1275e1b81c57ad6df7d7a9d8666fdd.webp"
-      }
-    },
-    {
       "filename": "5ffadd171d138643fbc210de40b4bd44.JPG",
       "file_size_mb": 2.48,
       "width": 3674,
@@ -4822,304 +4762,6 @@
       }
     },
     {
-      "filename": "图蓝本-1-203.JPG",
-      "file_size_mb": 12.78,
-      "width": 5333,
-      "height": 4000,
-      "aspect_ratio": "5333:4000",
-      "date": "2025-05-01",
-      "time": "12:45:02",
-      "datetime_original": "2025:05:01 12:45:02",
-      "make": "SONY",
-      "model": "ILCE-7RM4",
-      "camera": "SONY ILCE-7RM4",
-      "lens": "FE 90mm F2.8 Macro G OSS",
-      "f_number": 11.0,
-      "exposure_time": "0.005",
-      "focal_length": "90.0",
-      "focal_length_35mm": "90",
-      "iso": 200,
-      "flash": "关闭",
-      "location": {
-        "country": "Indonesia",
-        "region": "Bali",
-        "site": "Tulamben",
-        "site_cn": "图蓝本",
-        "notes": "世界级微距潜点"
-      },
-      "ai_tags": {
-        "visual_features": [
-          "透明的身体",
-          "背部有许多小型凸起",
-          "触角细长",
-          "体表颜色为金黄色和白色相间"
-        ],
-        "substrate": "不明，可能为海水背景",
-        "family_cn": "海牛科",
-        "family_latin": "Nudibranchia",
-        "genus": "疑似Jorunna属或Flabellina属",
-        "species_cn": "疑似某种翅膀海牛",
-        "species_latin": "suspected Flabellina spec.",
-        "species_en": "",
-        "category": "海兔",
-        "primary_colors": [
-          "透明",
-          "金黄色",
-          "白色"
-        ],
-        "behavior": "静止",
-        "composition": "特写",
-        "confidence": 0.75,
-        "notes": "由于类似翅膀海牛的特征，例如透明的身体和背部的凸起，但具体种类难以确定，有可能是某一Flabellina属的物种。",
-        "poetic_title": "金翅静影",
-        "poetic_reason": "Regenerated: simple poetic title, habitat-neutral"
-      },
-      "poetic_title": {},
-      "web_paths": {
-        "thumbnail": "images/thumbnails/图蓝本-1-203.webp",
-        "full": "images/full/图蓝本-1-203.webp"
-      }
-    },
-    {
-      "filename": "图蓝本-1-227.JPG",
-      "file_size_mb": 7.02,
-      "width": 5338,
-      "height": 4000,
-      "aspect_ratio": "5338:4000",
-      "date": "2025-05-02",
-      "time": "10:45:25",
-      "datetime_original": "2025:05:02 10:45:25",
-      "make": "SONY",
-      "model": "ILCE-7RM4",
-      "camera": "SONY ILCE-7RM4",
-      "lens": "FE 90mm F2.8 Macro G OSS",
-      "f_number": 11.0,
-      "exposure_time": "0.008",
-      "focal_length": "90.0",
-      "focal_length_35mm": "135",
-      "iso": 100,
-      "flash": "关闭",
-      "location": {
-        "country": "Indonesia",
-        "region": "Bali",
-        "site": "Tulamben",
-        "site_cn": "图蓝本",
-        "notes": "世界级微距潜点"
-      },
-      "ai_tags": {
-        "visual_features": [
-          "体表透明",
-          "具有多个分节",
-          "附肢边缘呈现出金黄色亮点",
-          "体型细长且多节",
-          "头部较小，位于前端",
-          "具有多对分枝状附肢"
-        ],
-        "substrate": "细小沙粒基底",
-        "family_cn": "桡足类",
-        "family_latin": "Copepoda",
-        "genus": "疑似Nematobrachion",
-        "species_cn": "水泡桡足",
-        "species_latin": "Nematobrachion sp.",
-        "species_en": "Bubble Shrimp",
-        "category": "其他",
-        "primary_colors": [
-          "半透明白",
-          "金黄"
-        ],
-        "behavior": "静止",
-        "composition": "特写",
-        "confidence": 0.7,
-        "notes": "这是一种透明的桡足类生物，常见于浅海区域，由于其形态的特殊性，在某些生物分类中可能归属于特定的科属还需要更进一步的观测和研究。",
-        "poetic_title": "幽光之舞",
-        "poetic_reason": "画面中的生物在黑暗背景下显得如同在幽光中翩翩起舞，透明的身体和金色的点缀增添了梦幻的氛围。"
-      },
-      "poetic_title": {},
-      "web_paths": {
-        "thumbnail": "images/thumbnails/图蓝本-1-227.webp",
-        "full": "images/full/图蓝本-1-227.webp"
-      }
-    },
-    {
-      "filename": "图蓝本-1-228.JPG",
-      "file_size_mb": 8.57,
-      "width": 5338,
-      "height": 4000,
-      "aspect_ratio": "5338:4000",
-      "date": "2025-05-02",
-      "time": "10:35:42",
-      "datetime_original": "2025:05:02 10:35:42",
-      "make": "SONY",
-      "model": "ILCE-7RM4",
-      "camera": "SONY ILCE-7RM4",
-      "lens": "FE 90mm F2.8 Macro G OSS",
-      "f_number": 11.0,
-      "exposure_time": "0.005",
-      "focal_length": "90.0",
-      "focal_length_35mm": "135",
-      "iso": 100,
-      "flash": "关闭",
-      "location": {
-        "country": "Indonesia",
-        "region": "Bali",
-        "site": "Tulamben",
-        "site_cn": "图蓝本",
-        "notes": "世界级微距潜点"
-      },
-      "ai_tags": {
-        "visual_features": [
-          "触角羽状分枝",
-          "体表有蓝色斑点和黑色线条组成的复杂图案",
-          "体侧有许多黄色凸起的颗粒状结构",
-          "体形轮廓扁平",
-          "主要颜色为奶油色带有蓝色和黑色图案"
-        ],
-        "substrate": "珊瑚海藻的表面，水下背景显得较暗",
-        "family_cn": "裸鳃类",
-        "family_latin": "Nudibranchia",
-        "genus": "Hypselodoris",
-        "species_cn": "紫海牛",
-        "species_latin": "Hypselodoris bullocki",
-        "species_en": "Bullock's Hypselodoris",
-        "category": "海兔",
-        "primary_colors": [
-          "奶油色",
-          "蓝黑"
-        ],
-        "behavior": "静止",
-        "composition": "特写",
-        "confidence": 0.9,
-        "notes": "这种海牛的黄色嵌叶状结构和蓝色斑点是其显著识别特征。它与背景的珊瑚形成了鲜明对比，使它在同一家族中的其他成员中脱颖而出。",
-        "poetic_title": "蓝点之梦",
-        "poetic_reason": "画面中的生物身上点缀着蓝色的斑点，仿佛在梦境中漂浮，给人一种神秘而梦幻的感觉。"
-      },
-      "poetic_title": {},
-      "web_paths": {
-        "thumbnail": "images/thumbnails/图蓝本-1-228.webp",
-        "full": "images/full/图蓝本-1-228.webp"
-      }
-    },
-    {
-      "filename": "图蓝本-1-229.JPG",
-      "file_size_mb": 9.12,
-      "width": 5338,
-      "height": 4000,
-      "aspect_ratio": "5338:4000",
-      "date": "2025-05-02",
-      "time": "10:15:59",
-      "datetime_original": "2025:05:02 10:15:59",
-      "make": "SONY",
-      "model": "ILCE-7RM4",
-      "camera": "SONY ILCE-7RM4",
-      "lens": "FE 90mm F2.8 Macro G OSS",
-      "f_number": 9.0,
-      "exposure_time": "0.005",
-      "focal_length": "90.0",
-      "focal_length_35mm": "135",
-      "iso": 100,
-      "flash": "关闭",
-      "location": {
-        "country": "Indonesia",
-        "region": "Bali",
-        "site": "Tulamben",
-        "site_cn": "图蓝本",
-        "notes": "世界级微距潜点"
-      },
-      "ai_tags": {
-        "visual_features": [
-          "细长身体",
-          "背部斑点",
-          "白色腹部",
-          "扁平头部",
-          "字母头部为心形的待触手",
-          "透明触角（须）",
-          "五对细小步足"
-        ],
-        "substrate": "珊瑚（可能为抚摸珊瑚）",
-        "family_cn": "清虾科",
-        "family_latin": "Lysmatidae",
-        "genus": "Lysmata",
-        "species_cn": "清洁虾",
-        "species_latin": "Lysmata amboinensis",
-        "species_en": "Scerah Amboin",
-        "category": "虾",
-        "primary_colors": [
-          "浅棕",
-          "黄"
-        ],
-        "behavior": "静止",
-        "composition": "侧面",
-        "confidence": 0.95,
-        "notes": "清洁虾通常栖息在珊瑚上，为其他海洋生物提供清洁服务。",
-        "poetic_title": "黄影静谧",
-        "poetic_reason": "Regenerated: simple poetic title, habitat-neutral"
-      },
-      "poetic_title": {},
-      "web_paths": {
-        "thumbnail": "images/thumbnails/图蓝本-1-229.webp",
-        "full": "images/full/图蓝本-1-229.webp"
-      }
-    },
-    {
-      "filename": "图蓝本-1-231.JPG",
-      "file_size_mb": 13.17,
-      "width": 5239,
-      "height": 4000,
-      "aspect_ratio": "5239:4000",
-      "date": "2025-05-02",
-      "time": "09:50:45",
-      "datetime_original": "2025:05:02 09:50:45",
-      "make": "SONY",
-      "model": "ILCE-7RM4",
-      "camera": "SONY ILCE-7RM4",
-      "lens": "FE 90mm F2.8 Macro G OSS",
-      "f_number": 9.0,
-      "exposure_time": "0.00625",
-      "focal_length": "90.0",
-      "focal_length_35mm": "135",
-      "iso": 100,
-      "flash": "关闭",
-      "location": {
-        "country": "Indonesia",
-        "region": "Bali",
-        "site": "Tulamben",
-        "site_cn": "图蓝本",
-        "notes": "世界级微距潜点"
-      },
-      "ai_tags": {
-        "visual_features": [
-          "纺锤形体形",
-          "磳形触手",
-          "红色体表覆盖深色斑点",
-          "透明的附肢",
-          "圆而突出的眼睛"
-        ],
-        "substrate": "蓝色背景，可能是水体中开放空间",
-        "family_cn": "鳞头鲉科",
-        "family_latin": "Scorpaenidae",
-        "genus": "Cyclothonemicrodon",
-        "species_cn": "微齿鳞头鲉",
-        "species_latin": "Cyclothonemicrodon",
-        "species_en": "Baby Scorpaenidae",
-        "category": "鱼",
-        "primary_colors": [
-          "红色",
-          "半透明蓝"
-        ],
-        "behavior": "静止",
-        "composition": "特写",
-        "confidence": 0.85,
-        "notes": "此个体可能是幼年状态，体表红色与深色斑点为典型特征",
-        "poetic_title": "红蓝静影",
-        "poetic_reason": "Regenerated: simple poetic title, habitat-neutral"
-      },
-      "poetic_title": {},
-      "web_paths": {
-        "thumbnail": "images/thumbnails/图蓝本-1-231.webp",
-        "full": "images/full/图蓝本-1-231.webp"
-      }
-    },
-    {
       "filename": "图蓝本-1-234.JPG",
       "file_size_mb": 20.27,
       "width": 6000,
@@ -5155,183 +4797,6 @@
       "web_paths": {
         "thumbnail": "images/thumbnails/图蓝本-1-234.webp",
         "full": "images/full/图蓝本-1-234.webp"
-      }
-    },
-    {
-      "filename": "图蓝本-1-240.JPG",
-      "file_size_mb": 10.17,
-      "width": 5333,
-      "height": 4000,
-      "aspect_ratio": "5333:4000",
-      "date": "2025-05-03",
-      "time": "12:03:18",
-      "datetime_original": "2025:05:03 12:03:18",
-      "make": "SONY",
-      "model": "ILCE-7RM4",
-      "camera": "SONY ILCE-7RM4",
-      "lens": "FE 90mm F2.8 Macro G OSS",
-      "f_number": 14.0,
-      "exposure_time": "0.01",
-      "focal_length": "90.0",
-      "focal_length_35mm": "90",
-      "iso": 100,
-      "flash": "关闭",
-      "location": {
-        "country": "Indonesia",
-        "region": "Bali",
-        "site": "Tulamben",
-        "site_cn": "图蓝本",
-        "notes": "世界级微距潜点"
-      },
-      "ai_tags": {
-        "visual_features": [
-          "大螯显著尖锐且具有多个尖刺",
-          "体表有复杂的脊和凹槽",
-          "眼睛突出呈球状并带有点状特征",
-          "整体形态侧扁",
-          "粉红色带有一些白色区域"
-        ],
-        "substrate": "粉色珊瑚或类似结构",
-        "family_cn": "箭蟹科",
-        "family_latin": "Stenorhynchidae",
-        "genus": "Stenorhynchus",
-        "species_cn": "箭蟹",
-        "species_latin": "Stenorhynchus angustirostris",
-        "species_en": "Mantis Shrimp Crab",
-        "category": "螃蟹",
-        "primary_colors": [
-          "粉红",
-          "白色"
-        ],
-        "behavior": "静止",
-        "composition": "侧面",
-        "confidence": 0.95,
-        "notes": "照片中展示的是一种箭蟹，箭蟹以其锐利且具有防御性和捕食能力的大螯而闻名。",
-        "poetic_title": "粉红梦境的守护者",
-        "poetic_reason": "画面中的生物在粉红色的背景下显得神秘而梦幻，仿佛在守护着一个粉红梦境。"
-      },
-      "poetic_title": {},
-      "web_paths": {
-        "thumbnail": "images/thumbnails/图蓝本-1-240.webp",
-        "full": "images/full/图蓝本-1-240.webp"
-      }
-    },
-    {
-      "filename": "图蓝本-1-257.JPG",
-      "file_size_mb": 1.48,
-      "width": 2667,
-      "height": 2000,
-      "aspect_ratio": "2667:2000",
-      "date": "2025-05-05",
-      "time": "16:26:36",
-      "datetime_original": "2025:05:05 16:26:36",
-      "make": "SONY",
-      "model": "ILCE-7RM4",
-      "camera": "SONY ILCE-7RM4",
-      "lens": "FE 90mm F2.8 Macro G OSS",
-      "f_number": 6.3,
-      "exposure_time": "0.005",
-      "focal_length": "90.0",
-      "focal_length_35mm": "90",
-      "iso": 125,
-      "flash": "关闭",
-      "location": {
-        "country": "Indonesia",
-        "region": "Bali",
-        "site": "Tulamben",
-        "site_cn": "图蓝本",
-        "notes": "世界级微距潜点"
-      },
-      "ai_tags": {
-        "visual_features": [
-          "细羽状触足",
-          "透明红色的身体",
-          "单个明显的眼睛",
-          "底部有沙粒和生物碎屑附着"
-        ],
-        "substrate": "沙地和细小生物碎屑覆盖",
-        "family_cn": "UME科",
-        "family_latin": "Umidae",
-        "genus": "疑似Sphirom/photo lower confidence",
-        "species_cn": "未知UME品种",
-        "species_latin": "疑似Sphirom/photo lower confidence",
-        "species_en": "",
-        "category": "其他",
-        "primary_colors": [
-          "透明红色",
-          "白色"
-        ],
-        "behavior": "静止",
-        "composition": "特写",
-        "confidence": 0.4,
-        "notes": "该生物具有极高的伪装能力，可能为特定UME物种，但难以从现有图片判断具体种类",
-        "poetic_title": "幽暗中的绒羽",
-        "poetic_reason": "画面中的生物在黑暗背景下显得如同绒羽般柔软，营造出一种神秘而宁静的氛围。"
-      },
-      "poetic_title": {},
-      "web_paths": {
-        "thumbnail": "images/thumbnails/图蓝本-1-257.webp",
-        "full": "images/full/图蓝本-1-257.webp"
-      }
-    },
-    {
-      "filename": "图蓝本-1-258.JPG",
-      "file_size_mb": 3.34,
-      "width": 2648,
-      "height": 2000,
-      "aspect_ratio": "2648:2000",
-      "date": "2025-05-05",
-      "time": "16:40:20",
-      "datetime_original": "2025:05:05 16:40:20",
-      "make": "SONY",
-      "model": "ILCE-7RM4",
-      "camera": "SONY ILCE-7RM4",
-      "lens": "FE 90mm F2.8 Macro G OSS",
-      "f_number": 10.0,
-      "exposure_time": "0.005",
-      "focal_length": "90.0",
-      "focal_length_35mm": "90",
-      "iso": 125,
-      "flash": "关闭",
-      "location": {
-        "country": "Indonesia",
-        "region": "Bali",
-        "site": "Tulamben",
-        "site_cn": "图蓝本",
-        "notes": "世界级微距潜点"
-      },
-      "ai_tags": {
-        "visual_features": [
-          "透明的身体",
-          "明显的复眼",
-          "细长的触角",
-          "短而有力的足",
-          "纤细的腮状结构",
-          " Football shape"
-        ],
-        "substrate": "似乎附着在珊瑚或海绵表面",
-        "family_cn": "虾科",
-        "family_latin": "Caridea",
-        "genus": "疑似Stenopus",
-        "species_cn": "疑似美人虾",
-        "species_latin": "疑似Stenopus sp.",
-        "species_en": "",
-        "category": "虾",
-        "primary_colors": [
-          "透明",
-          "淡紫色"
-        ],
-        "behavior": "静止",
-        "composition": "特写",
-        "confidence": 0.7,
-        "notes": "照片中生物具有透明的身体和明显的复眼，初步判断为某种虾类，但具体为哪一属种尚需进一步确认。",
-        "poetic_title": "紫影静谧",
-        "poetic_reason": "Regenerated: simple poetic title, habitat-neutral"
-      },
-      "poetic_title": {},
-      "web_paths": {
-        "thumbnail": "images/thumbnails/图蓝本-1-258.webp",
-        "full": "images/full/图蓝本-1-258.webp"
       }
     },
     {
@@ -5913,7 +5378,7 @@
         "species_cn": "清洁虾",
         "species_latin": "Lysmata amboinensis",
         "species_en": " Cleaner Shrimp Goby",
-        "category": "鱼",
+        "category": "虾",
         "primary_colors": [
           "透明",
           "橙色"
@@ -6031,7 +5496,7 @@
         "species_cn": "斑点壶海鞘瓷蟹",
         "species_latin": "Histiophryne sp.",
         "species_en": "Panda Frogfish",
-        "category": "鱼",
+        "category": "螃蟹",
         "primary_colors": [
           "半透明蓝紫色",
           "墨黑",
@@ -7178,7 +6643,7 @@
         "species_cn": "海天使",
         "species_latin": "Clione limacina",
         "species_en": "Sea Angel",
-        "category": "海牛",
+        "category": "海兔",
         "primary_colors": [
           "橙色",
           "白色"
@@ -8239,7 +7704,7 @@
         "species_cn": "翅膀海牛",
         "species_latin": "Flabellina exoptata",
         "species_en": "Flabellina",
-        "category": "海牛",
+        "category": "海兔",
         "primary_colors": [
           "透明",
           "绿色"
@@ -10745,7 +10210,7 @@
         "species_cn": "蓝海龙",
         "species_latin": "Glaucus atlanticus",
         "species_en": "Blue Glaucus",
-        "category": "海牛",
+        "category": "海兔",
         "primary_colors": [
           "蓝紫",
           "金黄",
@@ -11044,7 +10509,7 @@
         "species_cn": "翅膀海牛",
         "species_latin": "Flabellina nudybranch sp.",
         "species_en": "Wing nudibranch",
-        "category": "海牛",
+        "category": "海兔",
         "primary_colors": [
           "橙色",
           "白色"
