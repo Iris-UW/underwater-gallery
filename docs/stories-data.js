@@ -140,7 +140,7 @@ const STORIES = [
         "full": "images/full/图蓝本Aug-04 3.webp",
         "thumb": "images/thumbnails/图蓝本Aug-04 3.webp",
         "date": "2025-08-03",
-        "title": "珊瑚上的晨曦",
+        "title": "晨光乍泄",
         "species": "",
         "category": "其他",
         "colors": []
@@ -224,7 +224,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-111.webp",
         "thumb": "images/thumbnails/图蓝本-1-111.webp",
         "date": "2025-04-27",
-        "title": "珊瑚间的幽灵",
+        "title": "珊瑚枝上的精灵",
         "species": "巴氏豆丁海马",
         "category": "鱼",
         "colors": [
@@ -237,7 +237,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-187.webp",
         "thumb": "images/thumbnails/图蓝本-1-187.webp",
         "date": "2025-04-29",
-        "title": "橙色梦境中的幽灵",
+        "title": "斑驳记忆",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -277,7 +277,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-02.webp",
         "thumb": "images/thumbnails/图蓝本Jun-02.webp",
         "date": "2025-06-29",
-        "title": "珊瑚上的舞者",
+        "title": "白紫华尔兹",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -361,7 +361,7 @@ const STORIES = [
         "full": "images/full/图蓝本Aug-04 3.webp",
         "thumb": "images/thumbnails/图蓝本Aug-04 3.webp",
         "date": "2025-08-03",
-        "title": "珊瑚上的晨曦",
+        "title": "晨光乍泄",
         "species": "",
         "category": "其他",
         "colors": []
@@ -538,7 +538,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-108.webp",
         "thumb": "images/thumbnails/图蓝本-1-108.webp",
         "date": "2025-04-26",
-        "title": "珊瑚间的隐者",
+        "title": "暗处的静默",
         "species": "",
         "category": "其他",
         "colors": []
@@ -571,7 +571,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-111.webp",
         "thumb": "images/thumbnails/图蓝本-1-111.webp",
         "date": "2025-04-27",
-        "title": "珊瑚间的幽灵",
+        "title": "珊瑚枝上的精灵",
         "species": "巴氏豆丁海马",
         "category": "鱼",
         "colors": [
@@ -597,7 +597,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-113.webp",
         "thumb": "images/thumbnails/图蓝本-1-113.webp",
         "date": "2025-04-27",
-        "title": "幽暗中的舞者",
+        "title": "紫色丘陵",
         "species": "疣状叶海牛",
         "category": "海兔",
         "colors": [
@@ -625,7 +625,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-187 2.webp",
         "thumb": "images/thumbnails/图蓝本-1-187 2.webp",
         "date": "2025-04-29",
-        "title": "橙色梦境中的幽灵",
+        "title": "紫雾中的行者",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -638,7 +638,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-187.webp",
         "thumb": "images/thumbnails/图蓝本-1-187.webp",
         "date": "2025-04-29",
-        "title": "橙色梦境中的幽灵",
+        "title": "斑驳记忆",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -703,7 +703,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1 2.webp",
         "thumb": "images/thumbnails/图蓝本-1 2.webp",
         "date": "2025-05-02",
-        "title": "金色梦境",
+        "title": "沙漠玫瑰",
         "species": "古巴纳海牛",
         "category": "海兔",
         "colors": [
@@ -755,7 +755,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-4.webp",
         "thumb": "images/thumbnails/图蓝本-1-4.webp",
         "date": "2025-05-04",
-        "title": "幽暗中的舞者",
+        "title": "暮色三重奏",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -769,7 +769,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-5.webp",
         "thumb": "images/thumbnails/图蓝本-1-5.webp",
         "date": "2025-05-04",
-        "title": "珊瑚间的隐者",
+        "title": "紫气东来",
         "species": "疑似紫海牛",
         "category": "海兔",
         "colors": [
@@ -782,7 +782,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-6.webp",
         "thumb": "images/thumbnails/图蓝本-1-6.webp",
         "date": "2025-05-04",
-        "title": "幽影之舞",
+        "title": "琥珀猎手",
         "species": "疑似Thalamita sp.",
         "category": "螃蟹",
         "colors": [
@@ -796,7 +796,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-7.webp",
         "thumb": "images/thumbnails/图蓝本-1-7.webp",
         "date": "2025-05-04",
-        "title": "珊瑚间的幽灵",
+        "title": "雪中红樱",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -917,7 +917,7 @@ const STORIES = [
         "full": "images/full/99505f64b5f026d4b26235f58d83edb8.webp",
         "thumb": "images/thumbnails/99505f64b5f026d4b26235f58d83edb8.webp",
         "date": "2025-05-08",
-        "title": "深海的条纹梦",
+        "title": "橙色条纹的私语",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -943,7 +943,7 @@ const STORIES = [
         "full": "images/full/a38fed734d214060694a35fb59a07ea2.webp",
         "thumb": "images/thumbnails/a38fed734d214060694a35fb59a07ea2.webp",
         "date": "2025-05-08",
-        "title": "珊瑚间的隐者",
+        "title": "琥珀色的隐士",
         "species": "海葵虾",
         "category": "虾",
         "colors": [
@@ -982,7 +982,7 @@ const STORIES = [
         "full": "images/full/c7fb19d469194c3aae8e9a2829db57ed.webp",
         "thumb": "images/thumbnails/c7fb19d469194c3aae8e9a2829db57ed.webp",
         "date": "2025-05-09",
-        "title": "深海的条纹梦",
+        "title": "透明橙带",
         "species": "橙带多板体海蛞蝓",
         "category": "海兔",
         "colors": [
@@ -1010,7 +1010,7 @@ const STORIES = [
         "full": "images/full/IMG_1242.webp",
         "thumb": "images/thumbnails/IMG_1242.webp",
         "date": "2025-06-27",
-        "title": "幽蓝梦境",
+        "title": "蓝色的无声剧场",
         "species": "",
         "category": "其他",
         "colors": []
@@ -1020,7 +1020,7 @@ const STORIES = [
         "full": "images/full/IMG_1243.webp",
         "thumb": "images/thumbnails/IMG_1243.webp",
         "date": "2025-06-27",
-        "title": "幽暗中的舞者",
+        "title": "荆棘王冠",
         "species": "装饰蟹",
         "category": "螃蟹",
         "colors": [
@@ -1035,7 +1035,7 @@ const STORIES = [
         "full": "images/full/IMG_1244.webp",
         "thumb": "images/thumbnails/IMG_1244.webp",
         "date": "2025-06-27",
-        "title": "幽影之舞",
+        "title": "蓝黄交织",
         "species": "装饰蟹",
         "category": "螃蟹",
         "colors": [
@@ -1061,7 +1061,7 @@ const STORIES = [
         "full": "images/full/IMG_1248.webp",
         "thumb": "images/thumbnails/IMG_1248.webp",
         "date": "2025-06-27",
-        "title": "珊瑚间的隐者",
+        "title": "珊瑚之瞳",
         "species": "冠海蛙",
         "category": "鱼",
         "colors": [
@@ -1088,7 +1088,7 @@ const STORIES = [
         "full": "images/full/IMG_1250.webp",
         "thumb": "images/thumbnails/IMG_1250.webp",
         "date": "2025-06-28",
-        "title": "幽影之舞",
+        "title": "粉色火焰",
         "species": "翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -1117,7 +1117,7 @@ const STORIES = [
         "full": "images/full/IMG_1252.webp",
         "thumb": "images/thumbnails/IMG_1252.webp",
         "date": "2025-06-28",
-        "title": "幽影之舞",
+        "title": "四色谱",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -1132,7 +1132,7 @@ const STORIES = [
         "full": "images/full/IMG_1253.webp",
         "thumb": "images/thumbnails/IMG_1253.webp",
         "date": "2025-06-28",
-        "title": "幽影之舞",
+        "title": "伊丽莎白的裙摆",
         "species": "伊丽莎白多彩海牛",
         "category": "海兔",
         "colors": [
@@ -1146,7 +1146,7 @@ const STORIES = [
         "full": "images/full/IMG_1254.webp",
         "thumb": "images/thumbnails/IMG_1254.webp",
         "date": "2025-06-28",
-        "title": "幽影之舞",
+        "title": "朝霞之羽",
         "species": "翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -1201,7 +1201,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-02.webp",
         "thumb": "images/thumbnails/图蓝本Jun-02.webp",
         "date": "2025-06-29",
-        "title": "珊瑚上的舞者",
+        "title": "白紫华尔兹",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -1214,7 +1214,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-04.webp",
         "thumb": "images/thumbnails/图蓝本Jun-04.webp",
         "date": "2025-06-29",
-        "title": "幽蓝梦境",
+        "title": "瓷白微光",
         "species": "瓷蟹",
         "category": "螃蟹",
         "colors": [
@@ -1228,7 +1228,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-05.webp",
         "thumb": "images/thumbnails/图蓝本Jun-05.webp",
         "date": "2025-06-29",
-        "title": "海底的珍珠梦",
+        "title": "橙光入梦",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -1252,7 +1252,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-07.webp",
         "thumb": "images/thumbnails/图蓝本Jun-07.webp",
         "date": "2025-06-29",
-        "title": "海底的珍珠梦",
+        "title": "沉没的星辰",
         "species": "",
         "category": "其他",
         "colors": []
@@ -1345,7 +1345,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-14.webp",
         "thumb": "images/thumbnails/图蓝本Jun-14.webp",
         "date": "2025-06-29",
-        "title": "珊瑚间的隐者",
+        "title": "寂静的守望",
         "species": "",
         "category": "其他",
         "colors": []
@@ -1355,7 +1355,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-15.webp",
         "thumb": "images/thumbnails/图蓝本Jun-15.webp",
         "date": "2025-06-29",
-        "title": "珊瑚间的隐者",
+        "title": "陶瓷的伪装",
         "species": "疑似佛罗里达 kullanımı",
         "category": "螃蟹",
         "colors": [
@@ -1421,7 +1421,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-20.webp",
         "thumb": "images/thumbnails/图蓝本Jun-20.webp",
         "date": "2025-06-29",
-        "title": "珊瑚间的隐者",
+        "title": "落叶之影",
         "species": "红龙虾虎",
         "category": "鱼",
         "colors": [
@@ -1434,7 +1434,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-21.webp",
         "thumb": "images/thumbnails/图蓝本Jun-21.webp",
         "date": "2025-06-29",
-        "title": "幽灵之舞",
+        "title": "黄昏的翅膀",
         "species": "疑似翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -1461,7 +1461,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-23.webp",
         "thumb": "images/thumbnails/图蓝本Jun-23.webp",
         "date": "2025-06-29",
-        "title": "幽蓝梦境",
+        "title": "淡黄的呢喃",
         "species": "翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -1621,7 +1621,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-3.webp",
         "thumb": "images/thumbnails/图蓝本Jun-3.webp",
         "date": "2025-07-01",
-        "title": "幽灵之舞",
+        "title": "暮光羽翼",
         "species": "翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -1660,7 +1660,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-1 2.webp",
         "thumb": "images/thumbnails/图蓝本Jun-1 2.webp",
         "date": "2025-07-02",
-        "title": "金色梦境",
+        "title": "沙地上的守望者",
         "species": "闪蓝斑虾虎鱼",
         "category": "鱼",
         "colors": [
@@ -2011,7 +2011,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jul-03.webp",
         "thumb": "images/thumbnails/图蓝本Jul-03.webp",
         "date": "2025-08-02",
-        "title": "幽影之舞",
+        "title": "蓝色信使",
         "species": "蓝海燕",
         "category": "海兔",
         "colors": [
@@ -2141,7 +2141,7 @@ const STORIES = [
         "full": "images/full/图蓝本Aug-03 3.webp",
         "thumb": "images/thumbnails/图蓝本Aug-03 3.webp",
         "date": "2025-08-03",
-        "title": "珊瑚间的隐者",
+        "title": "微缩王国的君主",
         "species": "海马",
         "category": "鱼",
         "colors": [
@@ -2154,7 +2154,7 @@ const STORIES = [
         "full": "images/full/图蓝本Aug-04 3.webp",
         "thumb": "images/thumbnails/图蓝本Aug-04 3.webp",
         "date": "2025-08-03",
-        "title": "珊瑚上的晨曦",
+        "title": "晨光乍泄",
         "species": "",
         "category": "其他",
         "colors": []
@@ -2330,7 +2330,7 @@ const STORIES = [
         "full": "images/full/图蓝本Aug-5 3.webp",
         "thumb": "images/thumbnails/图蓝本Aug-5 3.webp",
         "date": "2025-08-06",
-        "title": "金色梦境",
+        "title": "斑驳岁月",
         "species": "方斑海兔",
         "category": "海兔",
         "colors": [
@@ -2596,7 +2596,7 @@ const STORIES = [
         "full": "images/full/图蓝本Aug-02.webp",
         "thumb": "images/thumbnails/图蓝本Aug-02.webp",
         "date": "2025-08-09",
-        "title": "幽光之舞",
+        "title": "紫韵流光",
         "species": "翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -2697,7 +2697,7 @@ const STORIES = [
         "full": "images/full/图蓝本Aug-2.webp",
         "thumb": "images/thumbnails/图蓝本Aug-2.webp",
         "date": "2025-08-09",
-        "title": "珊瑚上的舞者",
+        "title": "寂静芭蕾",
         "species": "",
         "category": "其他",
         "colors": []
@@ -2767,7 +2767,7 @@ const STORIES = [
         "full": "images/full/图蓝本Aug-05 2.webp",
         "thumb": "images/thumbnails/图蓝本Aug-05 2.webp",
         "date": "2025-08-10",
-        "title": "珊瑚上的舞者",
+        "title": "无名的旋转",
         "species": "",
         "category": "其他",
         "colors": []
@@ -2832,7 +2832,7 @@ const STORIES = [
         "full": "images/full/20260214-P2140025.webp",
         "thumb": "images/thumbnails/20260214-P2140025.webp",
         "date": "2026-02-14",
-        "title": "珊瑚上的晨曦",
+        "title": "橙色晨光",
         "species": "橙色海兔，疑似Flabellina属",
         "category": "海兔",
         "colors": [
@@ -2845,7 +2845,7 @@ const STORIES = [
         "full": "images/full/20260214-P2140028.webp",
         "thumb": "images/thumbnails/20260214-P2140028.webp",
         "date": "2026-02-14",
-        "title": "珊瑚上的晨曦",
+        "title": "粉橘色的凝视",
         "species": "疑似橙色海兔",
         "category": "海兔",
         "colors": [
@@ -2858,7 +2858,7 @@ const STORIES = [
         "full": "images/full/20260214-P2140035.webp",
         "thumb": "images/thumbnails/20260214-P2140035.webp",
         "date": "2026-02-14",
-        "title": "珊瑚上的晨曦",
+        "title": "橙黄的诗笺",
         "species": "橙色海兔，疑似Chromodoris属",
         "category": "海兔",
         "colors": [
@@ -3340,7 +3340,7 @@ const STORIES = [
         "full": "images/full/20260221-P2214396.webp",
         "thumb": "images/thumbnails/20260221-P2214396.webp",
         "date": "2026-02-21",
-        "title": "幽光之舞",
+        "title": "蓝色微光",
         "species": "翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -3446,7 +3446,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-113.webp",
         "thumb": "images/thumbnails/图蓝本-1-113.webp",
         "date": "2025-04-27",
-        "title": "幽暗中的舞者",
+        "title": "紫色丘陵",
         "species": "疣状叶海牛",
         "category": "海兔",
         "colors": [
@@ -3459,7 +3459,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-187 2.webp",
         "thumb": "images/thumbnails/图蓝本-1-187 2.webp",
         "date": "2025-04-29",
-        "title": "橙色梦境中的幽灵",
+        "title": "紫雾中的行者",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -3472,7 +3472,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-187.webp",
         "thumb": "images/thumbnails/图蓝本-1-187.webp",
         "date": "2025-04-29",
-        "title": "橙色梦境中的幽灵",
+        "title": "斑驳记忆",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -3485,7 +3485,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1 2.webp",
         "thumb": "images/thumbnails/图蓝本-1 2.webp",
         "date": "2025-05-02",
-        "title": "金色梦境",
+        "title": "沙漠玫瑰",
         "species": "古巴纳海牛",
         "category": "海兔",
         "colors": [
@@ -3527,7 +3527,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-4.webp",
         "thumb": "images/thumbnails/图蓝本-1-4.webp",
         "date": "2025-05-04",
-        "title": "幽暗中的舞者",
+        "title": "暮色三重奏",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -3541,7 +3541,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-5.webp",
         "thumb": "images/thumbnails/图蓝本-1-5.webp",
         "date": "2025-05-04",
-        "title": "珊瑚间的隐者",
+        "title": "紫气东来",
         "species": "疑似紫海牛",
         "category": "海兔",
         "colors": [
@@ -3554,7 +3554,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-7.webp",
         "thumb": "images/thumbnails/图蓝本-1-7.webp",
         "date": "2025-05-04",
-        "title": "珊瑚间的幽灵",
+        "title": "雪中红樱",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -3594,7 +3594,7 @@ const STORIES = [
         "full": "images/full/99505f64b5f026d4b26235f58d83edb8.webp",
         "thumb": "images/thumbnails/99505f64b5f026d4b26235f58d83edb8.webp",
         "date": "2025-05-08",
-        "title": "深海的条纹梦",
+        "title": "橙色条纹的私语",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -3620,7 +3620,7 @@ const STORIES = [
         "full": "images/full/c7fb19d469194c3aae8e9a2829db57ed.webp",
         "thumb": "images/thumbnails/c7fb19d469194c3aae8e9a2829db57ed.webp",
         "date": "2025-05-09",
-        "title": "深海的条纹梦",
+        "title": "透明橙带",
         "species": "橙带多板体海蛞蝓",
         "category": "海兔",
         "colors": [
@@ -3647,7 +3647,7 @@ const STORIES = [
         "full": "images/full/IMG_1250.webp",
         "thumb": "images/thumbnails/IMG_1250.webp",
         "date": "2025-06-28",
-        "title": "幽影之舞",
+        "title": "粉色火焰",
         "species": "翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -3661,7 +3661,7 @@ const STORIES = [
         "full": "images/full/IMG_1252.webp",
         "thumb": "images/thumbnails/IMG_1252.webp",
         "date": "2025-06-28",
-        "title": "幽影之舞",
+        "title": "四色谱",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -3676,7 +3676,7 @@ const STORIES = [
         "full": "images/full/IMG_1253.webp",
         "thumb": "images/thumbnails/IMG_1253.webp",
         "date": "2025-06-28",
-        "title": "幽影之舞",
+        "title": "伊丽莎白的裙摆",
         "species": "伊丽莎白多彩海牛",
         "category": "海兔",
         "colors": [
@@ -3690,7 +3690,7 @@ const STORIES = [
         "full": "images/full/IMG_1254.webp",
         "thumb": "images/thumbnails/IMG_1254.webp",
         "date": "2025-06-28",
-        "title": "幽影之舞",
+        "title": "朝霞之羽",
         "species": "翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -3731,7 +3731,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-02.webp",
         "thumb": "images/thumbnails/图蓝本Jun-02.webp",
         "date": "2025-06-29",
-        "title": "珊瑚上的舞者",
+        "title": "白紫华尔兹",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -3744,7 +3744,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-05.webp",
         "thumb": "images/thumbnails/图蓝本Jun-05.webp",
         "date": "2025-06-29",
-        "title": "海底的珍珠梦",
+        "title": "橙光入梦",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -3841,7 +3841,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-21.webp",
         "thumb": "images/thumbnails/图蓝本Jun-21.webp",
         "date": "2025-06-29",
-        "title": "幽灵之舞",
+        "title": "黄昏的翅膀",
         "species": "疑似翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -3868,7 +3868,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-23.webp",
         "thumb": "images/thumbnails/图蓝本Jun-23.webp",
         "date": "2025-06-29",
-        "title": "幽蓝梦境",
+        "title": "淡黄的呢喃",
         "species": "翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -3987,7 +3987,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-3.webp",
         "thumb": "images/thumbnails/图蓝本Jun-3.webp",
         "date": "2025-07-01",
-        "title": "幽灵之舞",
+        "title": "暮光羽翼",
         "species": "翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -4084,7 +4084,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jul-03.webp",
         "thumb": "images/thumbnails/图蓝本Jul-03.webp",
         "date": "2025-08-02",
-        "title": "幽影之舞",
+        "title": "蓝色信使",
         "species": "蓝海燕",
         "category": "海兔",
         "colors": [
@@ -4177,7 +4177,7 @@ const STORIES = [
         "full": "images/full/图蓝本Aug-5 3.webp",
         "thumb": "images/thumbnails/图蓝本Aug-5 3.webp",
         "date": "2025-08-06",
-        "title": "金色梦境",
+        "title": "斑驳岁月",
         "species": "方斑海兔",
         "category": "海兔",
         "colors": [
@@ -4364,7 +4364,7 @@ const STORIES = [
         "full": "images/full/图蓝本Aug-02.webp",
         "thumb": "images/thumbnails/图蓝本Aug-02.webp",
         "date": "2025-08-09",
-        "title": "幽光之舞",
+        "title": "紫韵流光",
         "species": "翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -4442,7 +4442,7 @@ const STORIES = [
         "full": "images/full/20260214-P2140025.webp",
         "thumb": "images/thumbnails/20260214-P2140025.webp",
         "date": "2026-02-14",
-        "title": "珊瑚上的晨曦",
+        "title": "橙色晨光",
         "species": "橙色海兔，疑似Flabellina属",
         "category": "海兔",
         "colors": [
@@ -4455,7 +4455,7 @@ const STORIES = [
         "full": "images/full/20260214-P2140028.webp",
         "thumb": "images/thumbnails/20260214-P2140028.webp",
         "date": "2026-02-14",
-        "title": "珊瑚上的晨曦",
+        "title": "粉橘色的凝视",
         "species": "疑似橙色海兔",
         "category": "海兔",
         "colors": [
@@ -4468,7 +4468,7 @@ const STORIES = [
         "full": "images/full/20260214-P2140035.webp",
         "thumb": "images/thumbnails/20260214-P2140035.webp",
         "date": "2026-02-14",
-        "title": "珊瑚上的晨曦",
+        "title": "橙黄的诗笺",
         "species": "橙色海兔，疑似Chromodoris属",
         "category": "海兔",
         "colors": [
@@ -4689,7 +4689,7 @@ const STORIES = [
         "full": "images/full/20260221-P2214396.webp",
         "thumb": "images/thumbnails/20260221-P2214396.webp",
         "date": "2026-02-21",
-        "title": "幽光之舞",
+        "title": "蓝色微光",
         "species": "翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -4783,7 +4783,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-111.webp",
         "thumb": "images/thumbnails/图蓝本-1-111.webp",
         "date": "2025-04-27",
-        "title": "珊瑚间的幽灵",
+        "title": "珊瑚枝上的精灵",
         "species": "巴氏豆丁海马",
         "category": "鱼",
         "colors": [
@@ -4861,7 +4861,7 @@ const STORIES = [
         "full": "images/full/IMG_1248.webp",
         "thumb": "images/thumbnails/IMG_1248.webp",
         "date": "2025-06-27",
-        "title": "珊瑚间的隐者",
+        "title": "珊瑚之瞳",
         "species": "冠海蛙",
         "category": "鱼",
         "colors": [
@@ -4888,7 +4888,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-20.webp",
         "thumb": "images/thumbnails/图蓝本Jun-20.webp",
         "date": "2025-06-29",
-        "title": "珊瑚间的隐者",
+        "title": "落叶之影",
         "species": "红龙虾虎",
         "category": "鱼",
         "colors": [
@@ -4901,7 +4901,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-1 2.webp",
         "thumb": "images/thumbnails/图蓝本Jun-1 2.webp",
         "date": "2025-07-02",
-        "title": "金色梦境",
+        "title": "沙地上的守望者",
         "species": "闪蓝斑虾虎鱼",
         "category": "鱼",
         "colors": [
@@ -5020,7 +5020,7 @@ const STORIES = [
         "full": "images/full/图蓝本Aug-03 3.webp",
         "thumb": "images/thumbnails/图蓝本Aug-03 3.webp",
         "date": "2025-08-03",
-        "title": "珊瑚间的隐者",
+        "title": "微缩王国的君主",
         "species": "海马",
         "category": "鱼",
         "colors": [
@@ -5258,7 +5258,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-108.webp",
         "thumb": "images/thumbnails/图蓝本-1-108.webp",
         "date": "2025-04-26",
-        "title": "珊瑚间的隐者",
+        "title": "暗处的静默",
         "species": "",
         "category": "其他",
         "colors": []
@@ -5288,7 +5288,7 @@ const STORIES = [
         "full": "images/full/IMG_1242.webp",
         "thumb": "images/thumbnails/IMG_1242.webp",
         "date": "2025-06-27",
-        "title": "幽蓝梦境",
+        "title": "蓝色的无声剧场",
         "species": "",
         "category": "其他",
         "colors": []
@@ -5323,7 +5323,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-07.webp",
         "thumb": "images/thumbnails/图蓝本Jun-07.webp",
         "date": "2025-06-29",
-        "title": "海底的珍珠梦",
+        "title": "沉没的星辰",
         "species": "",
         "category": "其他",
         "colors": []
@@ -5333,7 +5333,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-14.webp",
         "thumb": "images/thumbnails/图蓝本Jun-14.webp",
         "date": "2025-06-29",
-        "title": "珊瑚间的隐者",
+        "title": "寂静的守望",
         "species": "",
         "category": "其他",
         "colors": []
@@ -5434,7 +5434,7 @@ const STORIES = [
         "full": "images/full/图蓝本Aug-04 3.webp",
         "thumb": "images/thumbnails/图蓝本Aug-04 3.webp",
         "date": "2025-08-03",
-        "title": "珊瑚上的晨曦",
+        "title": "晨光乍泄",
         "species": "",
         "category": "其他",
         "colors": []
@@ -5497,7 +5497,7 @@ const STORIES = [
         "full": "images/full/图蓝本Aug-2.webp",
         "thumb": "images/thumbnails/图蓝本Aug-2.webp",
         "date": "2025-08-09",
-        "title": "珊瑚上的舞者",
+        "title": "寂静芭蕾",
         "species": "",
         "category": "其他",
         "colors": []
@@ -5540,7 +5540,7 @@ const STORIES = [
         "full": "images/full/图蓝本Aug-05 2.webp",
         "thumb": "images/thumbnails/图蓝本Aug-05 2.webp",
         "date": "2025-08-10",
-        "title": "珊瑚上的舞者",
+        "title": "无名的旋转",
         "species": "",
         "category": "其他",
         "colors": []
@@ -5644,7 +5644,7 @@ const STORIES = [
         "full": "images/full/a38fed734d214060694a35fb59a07ea2.webp",
         "thumb": "images/thumbnails/a38fed734d214060694a35fb59a07ea2.webp",
         "date": "2025-05-08",
-        "title": "珊瑚间的隐者",
+        "title": "琥珀色的隐士",
         "species": "海葵虾",
         "category": "虾",
         "colors": [
@@ -5987,7 +5987,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-6.webp",
         "thumb": "images/thumbnails/图蓝本-1-6.webp",
         "date": "2025-05-04",
-        "title": "幽影之舞",
+        "title": "琥珀猎手",
         "species": "疑似Thalamita sp.",
         "category": "螃蟹",
         "colors": [
@@ -6041,7 +6041,7 @@ const STORIES = [
         "full": "images/full/IMG_1243.webp",
         "thumb": "images/thumbnails/IMG_1243.webp",
         "date": "2025-06-27",
-        "title": "幽暗中的舞者",
+        "title": "荆棘王冠",
         "species": "装饰蟹",
         "category": "螃蟹",
         "colors": [
@@ -6056,7 +6056,7 @@ const STORIES = [
         "full": "images/full/IMG_1244.webp",
         "thumb": "images/thumbnails/IMG_1244.webp",
         "date": "2025-06-27",
-        "title": "幽影之舞",
+        "title": "蓝黄交织",
         "species": "装饰蟹",
         "category": "螃蟹",
         "colors": [
@@ -6069,7 +6069,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-04.webp",
         "thumb": "images/thumbnails/图蓝本Jun-04.webp",
         "date": "2025-06-29",
-        "title": "幽蓝梦境",
+        "title": "瓷白微光",
         "species": "瓷蟹",
         "category": "螃蟹",
         "colors": [
@@ -6096,7 +6096,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-15.webp",
         "thumb": "images/thumbnails/图蓝本Jun-15.webp",
         "date": "2025-06-29",
-        "title": "珊瑚间的隐者",
+        "title": "陶瓷的伪装",
         "species": "疑似佛罗里达 kullanımı",
         "category": "螃蟹",
         "colors": [
@@ -6329,7 +6329,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-4.webp",
         "thumb": "images/thumbnails/图蓝本-1-4.webp",
         "date": "2025-05-04",
-        "title": "幽暗中的舞者",
+        "title": "暮色三重奏",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -6343,7 +6343,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-5.webp",
         "thumb": "images/thumbnails/图蓝本-1-5.webp",
         "date": "2025-05-04",
-        "title": "珊瑚间的隐者",
+        "title": "紫气东来",
         "species": "疑似紫海牛",
         "category": "海兔",
         "colors": [
@@ -6356,7 +6356,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-6.webp",
         "thumb": "images/thumbnails/图蓝本-1-6.webp",
         "date": "2025-05-04",
-        "title": "幽影之舞",
+        "title": "琥珀猎手",
         "species": "疑似Thalamita sp.",
         "category": "螃蟹",
         "colors": [
@@ -6384,7 +6384,7 @@ const STORIES = [
         "full": "images/full/99505f64b5f026d4b26235f58d83edb8.webp",
         "thumb": "images/thumbnails/99505f64b5f026d4b26235f58d83edb8.webp",
         "date": "2025-05-08",
-        "title": "深海的条纹梦",
+        "title": "橙色条纹的私语",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -6410,7 +6410,7 @@ const STORIES = [
         "full": "images/full/c7fb19d469194c3aae8e9a2829db57ed.webp",
         "thumb": "images/thumbnails/c7fb19d469194c3aae8e9a2829db57ed.webp",
         "date": "2025-05-09",
-        "title": "深海的条纹梦",
+        "title": "透明橙带",
         "species": "橙带多板体海蛞蝓",
         "category": "海兔",
         "colors": [
@@ -6423,7 +6423,7 @@ const STORIES = [
         "full": "images/full/IMG_1243.webp",
         "thumb": "images/thumbnails/IMG_1243.webp",
         "date": "2025-06-27",
-        "title": "幽暗中的舞者",
+        "title": "荆棘王冠",
         "species": "装饰蟹",
         "category": "螃蟹",
         "colors": [
@@ -6451,7 +6451,7 @@ const STORIES = [
         "full": "images/full/IMG_1254.webp",
         "thumb": "images/thumbnails/IMG_1254.webp",
         "date": "2025-06-28",
-        "title": "幽影之舞",
+        "title": "朝霞之羽",
         "species": "翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -6494,7 +6494,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-15.webp",
         "thumb": "images/thumbnails/图蓝本Jun-15.webp",
         "date": "2025-06-29",
-        "title": "珊瑚间的隐者",
+        "title": "陶瓷的伪装",
         "species": "疑似佛罗里达 kullanımı",
         "category": "螃蟹",
         "colors": [
@@ -6560,7 +6560,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-1 2.webp",
         "thumb": "images/thumbnails/图蓝本Jun-1 2.webp",
         "date": "2025-07-02",
-        "title": "金色梦境",
+        "title": "沙地上的守望者",
         "species": "闪蓝斑虾虎鱼",
         "category": "鱼",
         "colors": [
@@ -6759,7 +6759,7 @@ const STORIES = [
         "full": "images/full/20260214-P2140025.webp",
         "thumb": "images/thumbnails/20260214-P2140025.webp",
         "date": "2026-02-14",
-        "title": "珊瑚上的晨曦",
+        "title": "橙色晨光",
         "species": "橙色海兔，疑似Flabellina属",
         "category": "海兔",
         "colors": [
@@ -6772,7 +6772,7 @@ const STORIES = [
         "full": "images/full/20260214-P2140028.webp",
         "thumb": "images/thumbnails/20260214-P2140028.webp",
         "date": "2026-02-14",
-        "title": "珊瑚上的晨曦",
+        "title": "粉橘色的凝视",
         "species": "疑似橙色海兔",
         "category": "海兔",
         "colors": [
@@ -6984,7 +6984,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-187 2.webp",
         "thumb": "images/thumbnails/图蓝本-1-187 2.webp",
         "date": "2025-04-29",
-        "title": "橙色梦境中的幽灵",
+        "title": "紫雾中的行者",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -6997,7 +6997,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-187.webp",
         "thumb": "images/thumbnails/图蓝本-1-187.webp",
         "date": "2025-04-29",
-        "title": "橙色梦境中的幽灵",
+        "title": "斑驳记忆",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -7010,7 +7010,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-5.webp",
         "thumb": "images/thumbnails/图蓝本-1-5.webp",
         "date": "2025-05-04",
-        "title": "珊瑚间的隐者",
+        "title": "紫气东来",
         "species": "疑似紫海牛",
         "category": "海兔",
         "colors": [
@@ -7023,7 +7023,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-7.webp",
         "thumb": "images/thumbnails/图蓝本-1-7.webp",
         "date": "2025-05-04",
-        "title": "珊瑚间的幽灵",
+        "title": "雪中红樱",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -7036,7 +7036,7 @@ const STORIES = [
         "full": "images/full/99505f64b5f026d4b26235f58d83edb8.webp",
         "thumb": "images/thumbnails/99505f64b5f026d4b26235f58d83edb8.webp",
         "date": "2025-05-08",
-        "title": "深海的条纹梦",
+        "title": "橙色条纹的私语",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -7063,7 +7063,7 @@ const STORIES = [
         "full": "images/full/IMG_1254.webp",
         "thumb": "images/thumbnails/IMG_1254.webp",
         "date": "2025-06-28",
-        "title": "幽影之舞",
+        "title": "朝霞之羽",
         "species": "翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -7077,7 +7077,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-02.webp",
         "thumb": "images/thumbnails/图蓝本Jun-02.webp",
         "date": "2025-06-29",
-        "title": "珊瑚上的舞者",
+        "title": "白紫华尔兹",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -7133,7 +7133,7 @@ const STORIES = [
         "full": "images/full/图蓝本Jun-15.webp",
         "thumb": "images/thumbnails/图蓝本Jun-15.webp",
         "date": "2025-06-29",
-        "title": "珊瑚间的隐者",
+        "title": "陶瓷的伪装",
         "species": "疑似佛罗里达 kullanımı",
         "category": "螃蟹",
         "colors": [
@@ -7388,7 +7388,7 @@ const STORIES = [
         "full": "images/full/图蓝本Aug-02.webp",
         "thumb": "images/thumbnails/图蓝本Aug-02.webp",
         "date": "2025-08-09",
-        "title": "幽光之舞",
+        "title": "紫韵流光",
         "species": "翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -7667,7 +7667,7 @@ const STORIES = [
         "full": "images/full/IMG_1250.webp",
         "thumb": "images/thumbnails/IMG_1250.webp",
         "date": "2025-06-28",
-        "title": "幽影之舞",
+        "title": "粉色火焰",
         "species": "翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -7681,7 +7681,7 @@ const STORIES = [
         "full": "images/full/IMG_1252.webp",
         "thumb": "images/thumbnails/IMG_1252.webp",
         "date": "2025-06-28",
-        "title": "幽影之舞",
+        "title": "四色谱",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -7696,7 +7696,7 @@ const STORIES = [
         "full": "images/full/IMG_1253.webp",
         "thumb": "images/thumbnails/IMG_1253.webp",
         "date": "2025-06-28",
-        "title": "幽影之舞",
+        "title": "伊丽莎白的裙摆",
         "species": "伊丽莎白多彩海牛",
         "category": "海兔",
         "colors": [
@@ -8030,7 +8030,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-7.webp",
         "thumb": "images/thumbnails/图蓝本-1-7.webp",
         "date": "2025-05-04",
-        "title": "珊瑚间的幽灵",
+        "title": "雪中红樱",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -8057,7 +8057,7 @@ const STORIES = [
         "full": "images/full/IMG_1250.webp",
         "thumb": "images/thumbnails/IMG_1250.webp",
         "date": "2025-06-28",
-        "title": "幽影之舞",
+        "title": "粉色火焰",
         "species": "翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -8071,7 +8071,7 @@ const STORIES = [
         "full": "images/full/IMG_1252.webp",
         "thumb": "images/thumbnails/IMG_1252.webp",
         "date": "2025-06-28",
-        "title": "幽影之舞",
+        "title": "四色谱",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -8125,7 +8125,7 @@ const STORIES = [
         "full": "images/full/图蓝本Aug-03 3.webp",
         "thumb": "images/thumbnails/图蓝本Aug-03 3.webp",
         "date": "2025-08-03",
-        "title": "珊瑚间的隐者",
+        "title": "微缩王国的君主",
         "species": "海马",
         "category": "鱼",
         "colors": [
@@ -8325,7 +8325,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-4.webp",
         "thumb": "images/thumbnails/图蓝本-1-4.webp",
         "date": "2025-05-04",
-        "title": "幽暗中的舞者",
+        "title": "暮色三重奏",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -8339,7 +8339,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1-6.webp",
         "thumb": "images/thumbnails/图蓝本-1-6.webp",
         "date": "2025-05-04",
-        "title": "幽影之舞",
+        "title": "琥珀猎手",
         "species": "疑似Thalamita sp.",
         "category": "螃蟹",
         "colors": [
@@ -8353,7 +8353,7 @@ const STORIES = [
         "full": "images/full/IMG_1243.webp",
         "thumb": "images/thumbnails/IMG_1243.webp",
         "date": "2025-06-27",
-        "title": "幽暗中的舞者",
+        "title": "荆棘王冠",
         "species": "装饰蟹",
         "category": "螃蟹",
         "colors": [
@@ -8564,7 +8564,7 @@ const STORIES = [
         "full": "images/full/图蓝本-1 2.webp",
         "thumb": "images/thumbnails/图蓝本-1 2.webp",
         "date": "2025-05-02",
-        "title": "金色梦境",
+        "title": "沙漠玫瑰",
         "species": "古巴纳海牛",
         "category": "海兔",
         "colors": [
@@ -8592,7 +8592,7 @@ const STORIES = [
         "full": "images/full/IMG_1244.webp",
         "thumb": "images/thumbnails/IMG_1244.webp",
         "date": "2025-06-27",
-        "title": "幽影之舞",
+        "title": "蓝黄交织",
         "species": "装饰蟹",
         "category": "螃蟹",
         "colors": [
@@ -8728,7 +8728,7 @@ const STORIES = [
         "full": "images/full/20260221-P2214396.webp",
         "thumb": "images/thumbnails/20260221-P2214396.webp",
         "date": "2026-02-21",
-        "title": "幽光之舞",
+        "title": "蓝色微光",
         "species": "翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -8936,7 +8936,7 @@ const STORIES = [
         "full": "images/full/图蓝本Aug-02.webp",
         "thumb": "images/thumbnails/图蓝本Aug-02.webp",
         "date": "2025-08-09",
-        "title": "幽光之舞",
+        "title": "紫韵流光",
         "species": "翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -8991,7 +8991,7 @@ const STORIES = [
         "full": "images/full/IMG_1252.webp",
         "thumb": "images/thumbnails/IMG_1252.webp",
         "date": "2025-06-28",
-        "title": "幽影之舞",
+        "title": "四色谱",
         "species": "安娜多彩海牛",
         "category": "海兔",
         "colors": [
@@ -9006,7 +9006,7 @@ const STORIES = [
         "full": "images/full/IMG_1254.webp",
         "thumb": "images/thumbnails/IMG_1254.webp",
         "date": "2025-06-28",
-        "title": "幽影之舞",
+        "title": "朝霞之羽",
         "species": "翅膀海牛",
         "category": "海兔",
         "colors": [
@@ -9039,19 +9039,19 @@ const STORIES = [
             "filename": "20260214-P2140025.jpg",
             "full": "images/full/20260214-P2140025.webp",
             "thumb": "images/thumbnails/20260214-P2140025.webp",
-            "title": "珊瑚上的晨曦"
+            "title": "橙色晨光"
           },
           {
             "filename": "20260214-P2140028.jpg",
             "full": "images/full/20260214-P2140028.webp",
             "thumb": "images/thumbnails/20260214-P2140028.webp",
-            "title": "珊瑚上的晨曦"
+            "title": "粉橘色的凝视"
           },
           {
             "filename": "20260214-P2140035.jpg",
             "full": "images/full/20260214-P2140035.webp",
             "thumb": "images/thumbnails/20260214-P2140035.webp",
-            "title": "珊瑚上的晨曦"
+            "title": "橙黄的诗笺"
           },
           {
             "filename": "20260214-P2140051.jpg",
@@ -9267,7 +9267,7 @@ const STORIES = [
             "filename": "20260221-P2214396.jpg",
             "full": "images/full/20260221-P2214396.webp",
             "thumb": "images/thumbnails/20260221-P2214396.webp",
-            "title": "幽光之舞"
+            "title": "蓝色微光"
           },
           {
             "filename": "20260221-P2214425.jpg",

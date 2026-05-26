@@ -71,7 +71,7 @@
         "composition": "特写",
         "confidence": 0.8,
         "notes": "该生物具有典型的橙色特色点和透明身体，可能属于Flabellina属。",
-        "poetic_title": "珊瑚上的晨曦",
+        "poetic_title": "橙色晨光",
         "poetic_reason": "画面中的生物在珊瑚上显得格外明亮，仿佛被晨曦照亮，充满了生机与希望。"
       },
       "web_paths": {
@@ -126,7 +126,7 @@
         "composition": "特写",
         "confidence": 0.7,
         "notes": "该海兔具有明显的橙色和粉红色斑点，可能是多彩海牛属的未确定种类。",
-        "poetic_title": "珊瑚上的晨曦",
+        "poetic_title": "粉橘色的凝视",
         "poetic_reason": "画面中的生物在珊瑚上显得格外柔和，仿佛被晨曦的光线轻轻唤醒，营造出一种宁静而美好的氛围。"
       },
       "web_paths": {
@@ -181,7 +181,7 @@
         "composition": "特写",
         "confidence": 0.8,
         "notes": "图片中的海兔具有明显的橙黄色斑点和半透明的身体特征。",
-        "poetic_title": "珊瑚上的晨曦",
+        "poetic_title": "橙黄的诗笺",
         "poetic_reason": "画面中的生物在珊瑚上显得格外明亮，仿佛清晨的第一缕阳光，给人一种温暖和希望的感觉。"
       },
       "web_paths": {
@@ -2162,7 +2162,7 @@
         "composition": "侧面",
         "confidence": 0.85,
         "notes": "该海牛具有典型的细长触角和分支状体色。",
-        "poetic_title": "幽光之舞",
+        "poetic_title": "蓝色微光",
         "poetic_reason": "画面中的生物如同在幽暗的水域中翩翩起舞，其形态优雅，仿佛在黑暗中散发出幽幽的光芒。"
       },
       "web_paths": {
@@ -2852,7 +2852,7 @@
         "composition": "特写",
         "confidence": 0.9,
         "notes": "该生物具有明显的条纹状花纹和蠕虫形体态，与Chromodoris annae的特征相符。",
-        "poetic_title": "深海的条纹梦",
+        "poetic_title": "橙色条纹的私语",
         "poetic_reason": "画面中的生物呈现出条纹状的纹理，仿佛在深海中编织着一个梦幻的图案，黑色背景更突显了这种神秘感。"
       },
       "poetic_title": {},
@@ -2951,7 +2951,7 @@
       "ai_tags": {
         "error": "Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"error\":{\"message\":\"JSON parse error: String value length (20054016) exceeds the maximum allowed (20000000, from `StreamReadConstraints.getMaxStringLength()`)\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":null}}', 'provider_name': 'Parasail', 'is_byok': False}}, 'user_id': 'user_3CTGxQZYCZtN9m0tcEitHg84OLN'}",
         "category": "其他",
-        "poetic_title": "幽蓝梦境",
+        "poetic_title": "蓝色的无声剧场",
         "poetic_reason": "画面中的生物在深色背景下显得格外梦幻，其蓝色和白色相间的条纹如同梦境中的幽蓝色彩，给人一种神秘而宁静的感觉。"
       },
       "poetic_title": {},
@@ -3012,7 +3012,7 @@
         "composition": "侧面",
         "confidence": 0.95,
         "notes": "该装饰蟹拥有一副独特的斑点橙色和深色相间的外观，通常生活在珊瑚礁和岩石区域，善于利用其花纹进行伪装。",
-        "poetic_title": "幽暗中的舞者",
+        "poetic_title": "荆棘王冠",
         "poetic_reason": "画面中的生物在黑暗背景下显得格外突出，其姿态仿佛在跳舞，给人一种神秘而优雅的感觉。"
       },
       "poetic_title": {},
@@ -3073,7 +3073,7 @@
         "composition": "侧面",
         "confidence": 0.9,
         "notes": "这种螃蟹以其独特的装饰行为而在珊瑚礁上易于识别，经常会有其伪装的珊瑚或其他碎片在它的附肢上。",
-        "poetic_title": "幽影之舞",
+        "poetic_title": "蓝黄交织",
         "poetic_reason": "画面中的生物在黑暗背景中显得神秘而优雅，仿佛在进行一场幽影中的舞蹈，形态和光影都充满了诗意。"
       },
       "poetic_title": {},
@@ -3194,7 +3194,7 @@
         "composition": "特写",
         "confidence": 0.9,
         "notes": "此生物与珊瑚非常相似，是典型的拟态行为，用于伪装和捕食。",
-        "poetic_title": "珊瑚间的隐者",
+        "poetic_title": "珊瑚之瞳",
         "poetic_reason": "画面中的生物与珊瑚融为一体，仿佛在珊瑚间隐居，营造出一种神秘而宁静的氛围。"
       },
       "poetic_title": {},
@@ -3315,7 +3315,7 @@
         "composition": "特写",
         "confidence": 0.85,
         "notes": "翅膀海牛通常具有鲜艳的颜色和柔软、层叠状的鳃状触角，栖息在珊瑚和藻类丰富的环境中。",
-        "poetic_title": "幽影之舞",
+        "poetic_title": "粉色火焰",
         "poetic_reason": "画面中的生物形态优雅，色彩柔和，仿佛在深海中轻盈起舞，营造出一种神秘而宁静的氛围。"
       },
       "poetic_title": {},
@@ -3437,7 +3437,7 @@
         "composition": "特写",
         "confidence": 0.8,
         "notes": "该生物体表的红色和黄色斑块以及粉色的鳃状结构是安娜多彩海牛的典型特征。",
-        "poetic_title": "幽影之舞",
+        "poetic_title": "四色谱",
         "poetic_reason": "画面中的生物在白色背景上显得神秘而优雅，仿佛在幽暗的海底跳着无声的舞蹈。"
       },
       "poetic_title": {},
@@ -3496,7 +3496,7 @@
         "composition": "特写",
         "confidence": 0.85,
         "notes": "该海牛通常生活在珊瑚礁环境中，显示出典型的羽状触角和身体上的粉红色条带。",
-        "poetic_title": "幽影之舞",
+        "poetic_title": "伊丽莎白的裙摆",
         "poetic_reason": "画面中的生物在白色背景上显得朦胧而神秘，仿佛在幽暗的海底轻盈起舞，给人一种梦幻般的感觉。"
       },
       "poetic_title": {},
@@ -3556,7 +3556,7 @@
         "composition": "特写",
         "confidence": 0.85,
         "notes": "此生物属于Flabellina属，以其羽状触手和独特的花纹著称。",
-        "poetic_title": "幽影之舞",
+        "poetic_title": "朝霞之羽",
         "poetic_reason": "画面中的生物在暗色背景下显得格外神秘，其姿态仿佛在水中轻盈起舞，营造出一种幽静而优雅的氛围。"
       },
       "poetic_title": {},
@@ -3790,7 +3790,7 @@
         "composition": "侧面",
         "confidence": 0.85,
         "notes": "海葵虾常与海葵共生，图片中的海葵虾附着在珊瑚上，背上有棕色斑点用于伪装。",
-        "poetic_title": "珊瑚间的隐者",
+        "poetic_title": "琥珀色的隐士",
         "poetic_reason": "画面中微小的生物在珊瑚间若隐若现，仿佛一位隐者在自然的怀抱中寻求宁静。"
       },
       "poetic_title": {},
@@ -3849,7 +3849,7 @@
         "composition": "特写",
         "confidence": 0.9,
         "notes": "透明的身体和橙色条纹是该物种的显著特征",
-        "poetic_title": "深海的条纹梦",
+        "poetic_title": "透明橙带",
         "poetic_reason": "画面中的生物呈现出独特的条纹纹理，仿佛在深海中编织着一个神秘的梦境。"
       },
       "poetic_title": {},
@@ -3969,7 +3969,7 @@
         "composition": "特写",
         "confidence": 0.85,
         "notes": "该生物具有独特的背部凸起颗粒和色彩斑点，与古巴纳海牛的特征相符。",
-        "poetic_title": "金色梦境",
+        "poetic_title": "沙漠玫瑰",
         "poetic_reason": "画面中的生物呈现出金色的斑点和柔和的形态，仿佛在深海中编织着一个金色的梦境，给人一种神秘而梦幻的感觉。"
       },
       "poetic_title": {},
@@ -4185,7 +4185,7 @@
       "ai_tags": {
         "error": "Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"error\":{\"message\":\"JSON parse error: String value length (20005442) exceeds the maximum allowed (20000000, from `StreamReadConstraints.getMaxStringLength()`)\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":null}}', 'provider_name': 'Parasail', 'is_byok': False}}, 'user_id': 'user_3CTGxQZYCZtN9m0tcEitHg84OLN'}",
         "category": "其他",
-        "poetic_title": "珊瑚间的隐者",
+        "poetic_title": "暗处的静默",
         "poetic_reason": "小丑鱼在珊瑚丛中若隐若现，仿佛一位隐居的智者，与周围环境融为一体，展现出一种宁静与和谐的美感。"
       },
       "poetic_title": {},
@@ -4341,7 +4341,7 @@
         "composition": "特写",
         "confidence": 0.9,
         "notes": "巴氏豆丁海马因其体型微小和特定的珊瑚共生关系而闻名，照片中的个体与红色枝状珊瑚融为一体，显示出极强的伪装能力。",
-        "poetic_title": "珊瑚间的幽灵",
+        "poetic_title": "珊瑚枝上的精灵",
         "poetic_reason": "画面中的生物在红色珊瑚中若隐若现，仿佛幽灵般神秘而美丽。"
       },
       "poetic_title": {},
@@ -4458,7 +4458,7 @@
         "composition": "特写",
         "confidence": 0.85,
         "notes": "照片中的生物体表有明显的瘤突，颜色和形态与疣状叶海牛高度相似。",
-        "poetic_title": "幽暗中的舞者",
+        "poetic_title": "紫色丘陵",
         "poetic_reason": "画面中的生物在深色背景下显得格外突出，仿佛在幽暗的海底世界中翩翩起舞，充满了神秘与优雅。"
       },
       "poetic_title": {},
@@ -4516,7 +4516,7 @@
         "composition": "侧面",
         "confidence": 0.9,
         "notes": "此物种常见于印尼海域，具有独特的白色与深色斑点相间的体表特征。",
-        "poetic_title": "橙色梦境中的幽灵",
+        "poetic_title": "紫雾中的行者",
         "poetic_reason": "画面中的生物在橙色的背景下显得神秘而幽灵般，白色与黑色的对比增强了这种梦幻感。"
       },
       "poetic_title": {},
@@ -4575,7 +4575,7 @@
         "composition": "特写",
         "confidence": 0.85,
         "notes": "体表的斑块和斑点以及黑色触角是识别该物种的重要特征",
-        "poetic_title": "橙色梦境中的幽灵",
+        "poetic_title": "斑驳记忆",
         "poetic_reason": "画面中的生物在橙色的背景下显得神秘而幽灵般，白色与黑色的对比增强了这种梦幻感。"
       },
       "poetic_title": {},
@@ -5032,7 +5032,7 @@
         "composition": "特写",
         "confidence": 0.9,
         "notes": " Anna's Chromodoris (Chromodoris annae) 被发现附着在珊瑚或海绵上，体表花纹与周围环境形成对比，便于识别。",
-        "poetic_title": "幽暗中的舞者",
+        "poetic_title": "暮色三重奏",
         "poetic_reason": "画面中的生物在深色背景下显得格外突出，仿佛在珊瑚上轻盈起舞，充满神秘与优雅。"
       },
       "poetic_title": {},
@@ -5090,7 +5090,7 @@
         "composition": "特写",
         "confidence": 0.85,
         "notes": "该生物特征与Hypselodoris bullocki相似，但具体确认需要更详尽的对比分析",
-        "poetic_title": "珊瑚间的隐者",
+        "poetic_title": "紫气东来",
         "poetic_reason": "画面中的生物隐藏在珊瑚之间，白色的身体与珊瑚的橙色形成对比，给人一种隐居和神秘的感觉。"
       },
       "poetic_title": {},
@@ -5149,7 +5149,7 @@
         "composition": "特写",
         "confidence": 0.9,
         "notes": "根据形态特征和栖息环境，推测可能属于泳蟹科的某个种类，但具体种类难以确定。",
-        "poetic_title": "幽影之舞",
+        "poetic_title": "琥珀猎手",
         "poetic_reason": "画面中的生物在黑暗背景中显得神秘而优雅，仿佛在进行一场幽灵般的舞蹈。"
       },
       "poetic_title": {},
@@ -5267,7 +5267,7 @@
         "composition": "特写",
         "confidence": 0.95,
         "notes": "特征与Chromodoris annae高度吻合，特别是前端的红色尖状结构和白色体表。",
-        "poetic_title": "珊瑚间的幽灵",
+        "poetic_title": "雪中红樱",
         "poetic_reason": "画面中的生物在珊瑚中若隐若现，白色的身体与红色的珊瑚形成鲜明对比，给人一种幽灵般神秘的感觉。"
       },
       "poetic_title": {},
@@ -5626,7 +5626,7 @@
         "composition": "特写",
         "confidence": 0.85,
         "notes": "照片中的个体特征符合 Flabellina 属的裸鳃类，但需要更多特征来确定具体物种",
-        "poetic_title": "幽光之舞",
+        "poetic_title": "紫韵流光",
         "poetic_reason": "画面中的生物在柔和的光影中展现出优雅的姿态，仿佛在进行一场神秘的舞蹈，紫色的点缀增添了梦幻的氛围。"
       },
       "poetic_title": {},
@@ -5725,7 +5725,7 @@
         "composition": "特写",
         "confidence": 0.95,
         "notes": "照片中的海马为微型海马，与软珊瑚相似，具有良好的伪装能力。",
-        "poetic_title": "珊瑚间的隐者",
+        "poetic_title": "微缩王国的君主",
         "poetic_reason": "画面中的生物与珊瑚融为一体，仿佛在珊瑚间隐居，营造出一种神秘而宁静的氛围。"
       },
       "poetic_title": {},
@@ -5881,7 +5881,7 @@
       "ai_tags": {
         "error": "Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"error\":{\"message\":\"JSON parse error: String value length (20054016) exceeds the maximum allowed (20000000, from `StreamReadConstraints.getMaxStringLength()`)\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":null}}', 'provider_name': 'Parasail', 'is_byok': False}}, 'user_id': 'user_3CTGxQZYCZtN9m0tcEitHg84OLN'}",
         "category": "其他",
-        "poetic_title": "珊瑚上的晨曦",
+        "poetic_title": "晨光乍泄",
         "poetic_reason": "鱼儿在珊瑚上栖息，仿佛在迎接晨曦的光辉，画面中的色彩和光影营造出一种宁静而美好的氛围。"
       },
       "poetic_title": {},
@@ -5980,7 +5980,7 @@
       "ai_tags": {
         "error": "Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"error\":{\"message\":\"JSON parse error: String value length (20054016) exceeds the maximum allowed (20000000, from `StreamReadConstraints.getMaxStringLength()`)\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":null}}', 'provider_name': 'Parasail', 'is_byok': False}}, 'user_id': 'user_3CTGxQZYCZtN9m0tcEitHg84OLN'}",
         "category": "其他",
-        "poetic_title": "珊瑚上的舞者",
+        "poetic_title": "无名的旋转",
         "poetic_reason": "画面中的生物在珊瑚上优雅地移动，仿佛在进行一场无声的舞蹈，背景的橙色增添了温暖的氛围。"
       },
       "poetic_title": {},
@@ -7495,7 +7495,7 @@
       "ai_tags": {
         "error": "Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"error\":{\"message\":\"JSON parse error: String value length (20054016) exceeds the maximum allowed (20000000, from `StreamReadConstraints.getMaxStringLength()`)\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":null}}', 'provider_name': 'Parasail', 'is_byok': False}}, 'user_id': 'user_3CTGxQZYCZtN9m0tcEitHg84OLN'}",
         "category": "其他",
-        "poetic_title": "珊瑚上的舞者",
+        "poetic_title": "寂静芭蕾",
         "poetic_reason": "画面中鲜亮的触手和线条给人一种在珊瑚上翩翩起舞的感觉，充满了生命的活力。"
       },
       "poetic_title": {},
@@ -7990,7 +7990,7 @@
         "composition": "特写",
         "confidence": 0.9,
         "notes": "该生物具有明显的方形斑点，常见于软珊瑚上",
-        "poetic_title": "金色梦境",
+        "poetic_title": "斑驳岁月",
         "poetic_reason": "画面中的金色生物在蓝色背景中显得格外梦幻，仿佛置身于一个金色的梦境之中。"
       },
       "poetic_title": {},
@@ -8564,7 +8564,7 @@
         "composition": "特写",
         "confidence": 0.9,
         "notes": "蓝海燕是一种漂游在水面的海兔，具有羽状分叉的触手，体表花纹和较强的形态辨识度。",
-        "poetic_title": "幽影之舞",
+        "poetic_title": "蓝色信使",
         "poetic_reason": "画面中的生物形态优美，如同在黑暗中翩翩起舞，给人一种神秘而优雅的感觉。"
       },
       "poetic_title": {},
@@ -9903,7 +9903,7 @@
         "composition": "特写",
         "confidence": 0.85,
         "notes": "该生物特征与安娜多彩海牛高度相似，但需进一步确认以达到更高准确度。",
-        "poetic_title": "珊瑚上的舞者",
+        "poetic_title": "白紫华尔兹",
         "poetic_reason": "画面中的生物形态优雅，仿佛在珊瑚上翩翩起舞，色彩斑斓，充满动感。"
       },
       "poetic_title": {},
@@ -9963,7 +9963,7 @@
         "composition": "侧面",
         "confidence": 0.9,
         "notes": "根据图片特征，该生物属于Neopetrolisthes属瓷蟹，常见的诱目蟹类，它们通常附着在珊瑚或海藻上生活。",
-        "poetic_title": "幽蓝梦境",
+        "poetic_title": "瓷白微光",
         "poetic_reason": "画面中的蓝色调和梦幻的生物形态激发了深海梦幻般的意境。"
       },
       "poetic_title": {},
@@ -10023,7 +10023,7 @@
         "composition": "特写",
         "confidence": 0.85,
         "notes": "该生物的形态和色彩特征与Anna's Chromodoris 相符，具有高辨识度的斑点和色彩分布。",
-        "poetic_title": "海底的珍珠梦",
+        "poetic_title": "橙光入梦",
         "poetic_reason": "画面中的生物形态和颜色如同一颗珍珠，静静地在海底沉睡，充满了梦幻和神秘感。"
       },
       "poetic_title": {},
@@ -10099,7 +10099,7 @@
       "ai_tags": {
         "error": "Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"error\":{\"message\":\"JSON parse error: String value length (20054016) exceeds the maximum allowed (20000000, from `StreamReadConstraints.getMaxStringLength()`)\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":null}}', 'provider_name': 'Parasail', 'is_byok': False}}, 'user_id': 'user_3CTGxQZYCZtN9m0tcEitHg84OLN'}",
         "category": "其他",
-        "poetic_title": "海底的珍珠梦",
+        "poetic_title": "沉没的星辰",
         "poetic_reason": "画面中生物的颜色和形态如同珍珠般迷人，给人一种梦幻般的感觉。"
       },
       "poetic_title": {},
@@ -10279,7 +10279,7 @@
         "composition": "特写",
         "confidence": 0.9,
         "notes": "该生物具有明显的体表斑点和突出的大眼，符合闪蓝斑虾虎鱼的特征。",
-        "poetic_title": "金色梦境",
+        "poetic_title": "沙地上的守望者",
         "poetic_reason": "画面中的黄色斑点和柔和的色调让人联想到梦境中的金色光芒，营造出一种神秘而梦幻的氛围。"
       },
       "poetic_title": {},
@@ -10855,7 +10855,7 @@
       "ai_tags": {
         "error": "Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"error\":{\"message\":\"JSON parse error: String value length (20054016) exceeds the maximum allowed (20000000, from `StreamReadConstraints.getMaxStringLength()`)\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":null}}', 'provider_name': 'Parasail', 'is_byok': False}}, 'user_id': 'user_3CTGxQZYCZtN9m0tcEitHg84OLN'}",
         "category": "其他",
-        "poetic_title": "珊瑚间的隐者",
+        "poetic_title": "寂静的守望",
         "poetic_reason": "这个标题捕捉了画面中生物与珊瑚自然融入的意境，体现了它隐身于环境中的神秘感。"
       },
       "poetic_title": {},
@@ -10917,7 +10917,7 @@
         "composition": "侧面",
         "confidence": 0.7,
         "notes": "该瓷蟹附着在珊瑚表面，使用其附肢进行支撑和伪装。颜色和斑点可能有助于其隐蔽在环境中。",
-        "poetic_title": "珊瑚间的隐者",
+        "poetic_title": "陶瓷的伪装",
         "poetic_reason": "画面中的生物与珊瑚紧密相依，仿佛在珊瑚间隐居，营造出一种神秘而宁静的氛围。"
       },
       "poetic_title": {},
@@ -11509,7 +11509,7 @@
         "composition": "侧面 / 环境",
         "confidence": 0.9,
         "notes": "虾虎鱼隐藏在海葵之间，利用体色与环境同色进行伪装以躲避捕食者。",
-        "poetic_title": "珊瑚间的隐者",
+        "poetic_title": "落叶之影",
         "poetic_reason": "这个标题寄托了对画面中细腻生物与珊瑚共生关系的美好联想，体现了一种隐匿与和谐的意境。"
       },
       "poetic_title": {},
@@ -11567,7 +11567,7 @@
         "composition": "特写",
         "confidence": 0.85,
         "notes": "由于照片中生物特征与Flabellina属的翅膀海牛相似，但具体物种需进一步形态学鉴定确认。",
-        "poetic_title": "幽灵之舞",
+        "poetic_title": "黄昏的翅膀",
         "poetic_reason": "画面中生物的姿态和背景的颜色营造出一种神秘而优雅的氛围，仿佛在水中起舞的幽灵。"
       },
       "poetic_title": {},
@@ -11685,7 +11685,7 @@
         "composition": "特写",
         "confidence": 0.8,
         "notes": "根据视觉特征，此生物为Flabellina属的 Sea Slug，通常又被称作翅膀海牛。",
-        "poetic_title": "幽蓝梦境",
+        "poetic_title": "淡黄的呢喃",
         "poetic_reason": "画面中的蓝色背景和透明生物营造出一种梦幻般的氛围，仿佛置身于一个幽深的梦境之中。"
       },
       "poetic_title": {},
@@ -11924,7 +11924,7 @@
         "composition": "特写",
         "confidence": 0.8,
         "notes": "特征与Flabellina属的某些翅膀海牛物种高度相似，但由于颜色和斑点的变异性，未能精确到具体种。",
-        "poetic_title": "幽灵之舞",
+        "poetic_title": "暮光羽翼",
         "poetic_reason": "画面中生物的形态如同在水中舞动的幽灵，轻盈而神秘，背景的颜色为舞动的形态增添了梦幻感。"
       },
       "poetic_title": {},
