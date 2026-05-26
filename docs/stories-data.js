@@ -7,15 +7,15 @@ const STORIES = [
     "title_en": "Nudibranch Chronicles",
     "title_zh": "海兔编年史",
     "title_ja": "ウミウシ年代記",
-    "subtitle_en": "12 gems from the ocean's most flamboyant dwellers",
-    "subtitle_zh": "海洋最华丽住客的12颗宝石",
-    "subtitle_ja": "海の一番派手な住人からの12の宝石",
-    "narrative_en": "They drift like autumn leaves in a current I cannot see. Each nudibranch I meet in Tulamben is a tiny, breathing jewel — some no larger than a grain of rice, others trailing ribbons of gills like delicate lace.\n\nOver multiple trips and dozens of dives, I've come to know these creatures not as faceless invertebrates but as individuals. The Flabellina that appeared on a blade of seagrass at dawn and vanished by midday. The Chromodoris whose orange mantle glowed like a lantern in the blue. The Phyllodesmium whose cerata swayed in the surge with the elegance of a dress in wind.\n\nThis is my love letter to the nudibranchs of Bali. Twelve frames, nine species, infinite wonder.",
-    "narrative_zh": "它们像秋叶一样漂行在我看不见的水流中。在图蓝本遇见的每一只海兔，都是一枚微小的、会呼吸的宝石——有的比米粒还小，有的拖着像精致蕾丝一样的鳃羽。\n\n多次行程、几十次潜水之后，我开始把这些生物当作个体来认识，而不是面目模糊的无脊椎动物。那只在黎明时分出现在草叶上、正午就消失了的Flabellina。那只橙色外套在蓝色海水里像灯笼一样发光的Chromodoris。那只触角在涌浪中如裙摆般优雅摇曳的Phyllodesmium。\n\n这是我给巴厘岛海兔的一封情书。十二个画面，九个品种，无限惊叹。",
-    "narrative_ja": "彼らは私の見えない海流の中を、秋の落ち葉のように漂っている。トゥランベンで出会うウミウシのひとつひとつが、小さな、息をする宝石だった——米粒ほどのものから、繊細なレースのようなえらを靡かせるものまで。\n\n何度もの旅と何十回ものダイブを通じて、彼らを「無脊椎動物」ではなく個体として知るようになった。夜明けの草の葉に現れ、昼には消え去ったフラベリナ。青い海の中でランタンのように輝くオレンジの外套膜をもつイロウミウシ。うねりの中でドレスのように触角を揺らすフィロデスミウム。\n\nこれはバリのウミウシへのラブレター。12のフレーム、9つの種、無限の驚き。",
-    "cover": "images/full/20260214-P2140141.webp",
-    "cover_thumb": "images/thumbnails/20260214-P2140141.webp",
-    "photo_count": 12,
+    "subtitle_en": "10 gems from the ocean's most flamboyant dwellers",
+    "subtitle_zh": "海洋最华丽住客的10颗宝石",
+    "subtitle_ja": "海の一番派手な住人からの10の宝石",
+    "narrative_en": "They drift like autumn leaves in a current I cannot see. Each nudibranch I meet in Tulamben is a tiny, breathing jewel — some no larger than a grain of rice, others trailing ribbons of gills like delicate lace.\n\nOver multiple trips and dozens of dives, I've come to know these creatures not as faceless invertebrates but as individuals. The Flabellina that appeared on a blade of seagrass at dawn and vanished by midday. The Chromodoris whose orange mantle glowed like a lantern in the blue. The Phyllodesmium whose cerata swayed in the surge with the elegance of a dress in wind.\n\nThis is my love letter to the nudibranchs of Bali. Ten frames, seven species, infinite wonder.",
+    "narrative_zh": "它们像秋叶一样漂行在我看不见的水流中。在图蓝本遇见的每一只海兔，都是一枚微小的、会呼吸的宝石——有的比米粒还小，有的拖着像精致蕾丝一样的鳃羽。\n\n多次行程、几十次潜水之后，我开始把这些生物当作个体来认识，而不是面目模糊的无脊椎动物。那只在黎明时分出现在草叶上、正午就消失了的Flabellina。那只橙色外套在蓝色海水里像灯笼一样发光的Chromodoris。那只触角在涌浪中如裙摆般优雅摇曳的Phyllodesmium。\n\n这是我给巴厘岛海兔的一封情书。十个画面，七个品种，无限惊叹。",
+    "narrative_ja": "彼らは私の見えない海流の中を、秋の落ち葉のように漂っている。トゥランベンで出会うウミウシのひとつひとつが、小さな、息をする宝石だった——米粒ほどのものから、繊細なレースのようなえらを靡かせるものまで。\n\n何度もの旅と何十回ものダイブを通じて、彼らを「無脊椎動物」ではなく個体として知るようになった。夜明けの草の葉に現れ、昼には消え去ったフラベリナ。青い海の中でランタンのように輝くオレンジの外套膜をもつイロウミウシ。うねりの中でドレスのように触角を揺らすフィロデスミウム。\n\nこれはバリのウミウシへのラブレター。10のフレーム、7つの種、無限の驚き。",
+    "cover": "images/full/20260214-P2140101.webp",
+    "cover_thumb": "images/thumbnails/20260214-P2140101.webp",
+    "photo_count": 10,
     "photos": [
       {
         "filename": "20260214-P2140101.jpg",
@@ -28,19 +28,6 @@ const STORIES = [
         "colors": [
           "蓝紫",
           "白色"
-        ]
-      },
-      {
-        "filename": "20260214-P2140141.jpg",
-        "full": "images/full/20260214-P2140141.webp",
-        "thumb": "images/thumbnails/20260214-P2140141.webp",
-        "date": "2026-02-14",
-        "title": "夜影之光",
-        "species": "古巴纳海牛",
-        "category": "海兔",
-        "colors": [
-          "墨黑",
-          "荧光橙"
         ]
       },
       {
@@ -134,16 +121,6 @@ const STORIES = [
           "黄色",
           "黑色"
         ]
-      },
-      {
-        "filename": "图蓝本Aug-04 3.JPG",
-        "full": "images/full/图蓝本Aug-04 3.webp",
-        "thumb": "images/thumbnails/图蓝本Aug-04 3.webp",
-        "date": "2025-08-03",
-        "title": "晨光乍泄",
-        "species": "",
-        "category": "其他",
-        "colors": []
       },
       {
         "filename": "图蓝本Jun-08.JPG",

@@ -28,7 +28,7 @@ const CHAT_I18N = {
     status_typing: 'Iris is typing…',
     placeholder: 'Ask about the photos, marine life, diving…',
     suggested: ['Tell me about this nudibranch', 'What camera do you use?', 'Best dive site in Bali?', 'How do you light macro shots?'],
-    welcome: "Hi! I'm Iris. I shot all the photos in this gallery during my February 2026 trip to Tulamben, Bali. Feel free to ask me anything about the critters, the dive sites, or underwater photography — I'd love to share!",
+    welcome: "Hi! I'm Iris. I shot all the photos in this gallery during my trips to Tulamben, Bali. Feel free to ask me anything about the critters, the dive sites, or underwater photography — I'd love to share!\n\n📧 iris_bleu@qq.com\n📕 xiaohongshu.com/user/942663499",
   },
   zh: {
     header: '问问 Iris',
@@ -36,7 +36,7 @@ const CHAT_I18N = {
     status_typing: 'Iris 正在输入…',
     placeholder: '问关于照片、海洋生物、潜水的问题…',
     suggested: ['给我讲讲这只海兔', '你用什么相机？', '巴厘岛最好的潜点？', '水下微距怎么打光？'],
-    welcome: '嗨！我是 Iris。这个画廊里所有的照片，都是我 2026 年 2 月在巴厘岛图蓝本潜水时拍的。随便问我关于这些小生物、潜点、或者水下摄影的问题吧 — 我很乐意分享！',
+    welcome: '嗨！我是 Iris。这个画廊里所有的照片，都是我在巴厘岛图蓝本潜水时拍的。随便问我关于这些小生物、潜点、或者水下摄影的问题吧 — 我很乐意分享！\n\n📧 iris_bleu@qq.com\n📕 xiaohongshu.com/user/942663499',
   },
   ja: {
     header: 'Iris に聞く',
@@ -44,7 +44,7 @@ const CHAT_I18N = {
     status_typing: 'Iris が入力中…',
     placeholder: '写真、海の生き物、ダイビングについて聞いて…',
     suggested: ['このウミウシについて教えて', 'どんなカメラを使ってる？', 'バリで一番のダイブサイトは？', 'マクロ撮影のライティングは？'],
-    welcome: 'こんにちは！Irisです。このギャラリーのすべての写真は、2026年2月にバリ島トゥランベンで撮影したものです。生き物やダイブサイト、水中マクロ撮影について、何でも聞いてください — お答えします！',
+    welcome: 'こんにちは！Irisです。このギャラリーのすべての写真は、バリ島トゥランベンで撮影したものです。生き物やダイブサイト、水中マクロ撮影について、何でも聞いてください — お答えします！\n\n📧 iris_bleu@qq.com\n📕 xiaohongshu.com/user/942663499',
   },
 };
 
