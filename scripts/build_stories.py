@@ -71,6 +71,59 @@ def build_stories(photos):
                 end = d
         date_ranges.append((start, end))
 
+    # Helper: date range to month description
+    def month_desc(start, end):
+        """Convert date range to poetic month description like '4月', '4~5月'"""
+        sm, sy = int(start[5:7]), start[:4]
+        em, ey = int(end[5:7]), end[:4]
+        if sy != ey:
+            en_months = [datetime(2000, sm, 1).strftime('%B')]
+            en_months.append(f"{datetime(2000, em, 1).strftime('%B')} {ey}")
+            cn_months = f"{sy}年{sm}月~{ey}年{em}月"
+        elif sm == em:
+            en_months = [datetime(2000, sm, 1).strftime('%B')]
+            cn_months = f"{sm}月"
+        else:
+            en_months = [f"{datetime(2000, sm, 1).strftime('%B')}-{datetime(2000, em, 1).strftime('%B')}"]
+            cn_months = f"{sm}~{em}月"
+        en_month = ' '.join(en_months)
+        # Japanese month names
+        ja_names = {1:'1月',2:'2月',3:'3月',4:'4月',5:'5月',6:'6月',
+                    7:'7月',8:'8月',9:'9月',10:'10月',11:'11月',12:'12月'}
+        ja_month = ja_names[sm] if sm == em else f"{ja_names[sm]}〜{ja_names[em]}"
+        return en_month, cn_months, ja_month
+
+    # Track same-month journeys to differentiate (only add seq if dupes exist)
+    month_order = {}  # key -> list of (start, end) in order
+    for start, end in date_ranges:
+        sm = int(start[5:7])
+        em = int(end[5:7])
+        key = (sm, em)
+        if key not in month_order:
+            month_order[key] = []
+        month_order[key].append((start, end))
+    
+    # Build journey titles with proper sequencing
+    journey_titles = []
+    month_seq = {}  # key -> current occurrence counter
+    for start, end in date_ranges:
+        sm = int(start[5:7])
+        em = int(end[5:7])
+        key = (sm, em)
+        duplicates = len(month_order[key])
+        month_seq[key] = month_seq.get(key, 0) + 1
+        seq_num = month_seq[key]
+        
+        en_m, cn_m, ja_m = month_desc(start, end)
+        
+        if duplicates > 1 and seq_num > 1:
+            seq_en = [" II"," III"," IV"," V"][seq_num-2] if seq_num <= 5 else f" #{seq_num}"
+            seq_zh = ["其二","其三","其四","其五"][seq_num-2] if seq_num <= 5 else f"·{seq_num}"
+            seq_ja = ["其の二","其の三","其の四","其の五"][seq_num-2] if seq_num <= 5 else f" #{seq_num}"
+        else:
+            seq_en = seq_zh = seq_ja = ""
+        journey_titles.append((en_m, cn_m, ja_m, seq_en, seq_zh, seq_ja))
+
     # 为每个连续日期段创建一个故事
     for idx, (start, end) in enumerate(date_ranges):
         story_photos = []
@@ -83,13 +136,14 @@ def build_stories(photos):
         if len(story_photos) >= 3:  # 至少3张才叫故事
             cover = story_photos[0]
             day_count = len(set(p.get("date", "") for p in story_photos))
+            en_m, cn_m, ja_m, seq_en, seq_zh, seq_ja = journey_titles[idx]
             stories.append({
                 "id": f"journey-{idx+1}",
                 "type": "journey",
-                "title_en": f"{site_en}: {start} to {end}" if start != end else f"{site_en}: {start}",
-                "title_zh": f"{site_cn}潜水日记：{start} 至 {end}" if start != end else f"{site_cn}一日：{start}",
-                "title_ja": f"{site_ja}：{start}〜{end}" if start != end else f"{site_ja}：{start}",
-                "subtitle_en": f"{len(story_photos)} moments across {day_count} days",
+                "title_en": f"{site_en}: {en_m} Journey{seq_en}",
+                "title_zh": f"{site_cn}·{cn_m}之旅{seq_zh}",
+                "title_ja": f"{site_ja}·{ja_m}の旅{seq_ja}",
+                "subtitle_en": f"{day_count} days, {len(story_photos)} moments",
                 "subtitle_zh": f"{day_count}天，{len(story_photos)}个瞬间",
                 "subtitle_ja": f"{day_count}日間、{len(story_photos)}の瞬間",
                 "cover": find_full(cover),

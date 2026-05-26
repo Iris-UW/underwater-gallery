@@ -3,10 +3,10 @@ const STORIES = [
   {
     "id": "journey-1",
     "type": "journey",
-    "title_en": "Tulamben: 2025-04-26 to 2025-04-27",
-    "title_zh": "图蓝本潜水日记：2025-04-26 至 2025-04-27",
-    "title_ja": "トゥランベン：2025-04-26〜2025-04-27",
-    "subtitle_en": "7 moments across 2 days",
+    "title_en": "Tulamben: April Journey",
+    "title_zh": "图蓝本·4月之旅",
+    "title_ja": "トゥランベン·4月の旅",
+    "subtitle_en": "2 days, 7 moments",
     "subtitle_zh": "2天，7个瞬间",
     "subtitle_ja": "2日間、7の瞬間",
     "cover": "images/full/图蓝本-1-105.webp",
@@ -103,10 +103,10 @@ const STORIES = [
   {
     "id": "journey-2",
     "type": "journey",
-    "title_en": "Tulamben: 2025-04-29 to 2025-05-05",
-    "title_zh": "图蓝本潜水日记：2025-04-29 至 2025-05-05",
-    "title_ja": "トゥランベン：2025-04-29〜2025-05-05",
-    "subtitle_en": "29 moments across 7 days",
+    "title_en": "Tulamben: April-May Journey",
+    "title_zh": "图蓝本·4~5月之旅",
+    "title_ja": "トゥランベン·4月〜5月の旅",
+    "subtitle_en": "7 days, 29 moments",
     "subtitle_zh": "7天，29个瞬间",
     "subtitle_ja": "7日間、29の瞬間",
     "cover": "images/full/图蓝本-1-187 2.webp",
@@ -498,10 +498,10 @@ const STORIES = [
   {
     "id": "journey-3",
     "type": "journey",
-    "title_en": "Tulamben: 2025-05-08 to 2025-05-09",
-    "title_zh": "图蓝本潜水日记：2025-05-08 至 2025-05-09",
-    "title_ja": "トゥランベン：2025-05-08〜2025-05-09",
-    "subtitle_en": "10 moments across 2 days",
+    "title_en": "Tulamben: May Journey",
+    "title_zh": "图蓝本·5月之旅",
+    "title_ja": "トゥランベン·5月の旅",
+    "subtitle_en": "2 days, 10 moments",
     "subtitle_zh": "2天，10个瞬间",
     "subtitle_ja": "2日間、10の瞬間",
     "cover": "images/full/67e48247370fb92227fb7f2e01ff6fae.webp",
@@ -644,10 +644,10 @@ const STORIES = [
   {
     "id": "journey-4",
     "type": "journey",
-    "title_en": "Tulamben: 2025-06-27 to 2025-07-03",
-    "title_zh": "图蓝本潜水日记：2025-06-27 至 2025-07-03",
-    "title_ja": "トゥランベン：2025-06-27〜2025-07-03",
-    "subtitle_en": "54 moments across 7 days",
+    "title_en": "Tulamben: June-July Journey",
+    "title_zh": "图蓝本·6~7月之旅",
+    "title_ja": "トゥランベン·6月〜7月の旅",
+    "subtitle_en": "7 days, 54 moments",
     "subtitle_zh": "7天，54个瞬间",
     "subtitle_ja": "7日間、54の瞬間",
     "cover": "images/full/IMG_1242.webp",
@@ -1375,10 +1375,10 @@ const STORIES = [
   {
     "id": "journey-5",
     "type": "journey",
-    "title_en": "Tulamben: 2025-07-30",
-    "title_zh": "图蓝本一日：2025-07-30",
-    "title_ja": "トゥランベン：2025-07-30",
-    "subtitle_en": "7 moments across 1 days",
+    "title_en": "Tulamben: July Journey",
+    "title_zh": "图蓝本·7月之旅",
+    "title_ja": "トゥランベン·7月の旅",
+    "subtitle_en": "1 days, 7 moments",
     "subtitle_zh": "1天，7个瞬间",
     "subtitle_ja": "1日間、7の瞬間",
     "cover": "images/full/图蓝本Jul-1 2.webp",
@@ -1480,10 +1480,10 @@ const STORIES = [
   {
     "id": "journey-6",
     "type": "journey",
-    "title_en": "Tulamben: 2025-08-01 to 2025-08-04",
-    "title_zh": "图蓝本潜水日记：2025-08-01 至 2025-08-04",
-    "title_ja": "トゥランベン：2025-08-01〜2025-08-04",
-    "subtitle_en": "33 moments across 4 days",
+    "title_en": "Tulamben: August Journey",
+    "title_zh": "图蓝本·8月之旅",
+    "title_ja": "トゥランベン·8月の旅",
+    "subtitle_en": "4 days, 33 moments",
     "subtitle_zh": "4天，33个瞬间",
     "subtitle_ja": "4日間、33の瞬間",
     "cover": "images/full/图蓝本-1-645.webp",
@@ -1911,10 +1911,10 @@ const STORIES = [
   {
     "id": "journey-7",
     "type": "journey",
-    "title_en": "Tulamben: 2025-08-06 to 2025-08-10",
-    "title_zh": "图蓝本潜水日记：2025-08-06 至 2025-08-10",
-    "title_ja": "トゥランベン：2025-08-06〜2025-08-10",
-    "subtitle_en": "42 moments across 5 days",
+    "title_en": "Tulamben: August Journey II",
+    "title_zh": "图蓝本·8月之旅其二",
+    "title_ja": "トゥランベン·8月の旅其の二",
+    "subtitle_en": "5 days, 42 moments",
     "subtitle_zh": "5天，42个瞬间",
     "subtitle_ja": "5日間、42の瞬間",
     "cover": "images/full/图蓝本Aug-1 5.webp",
@@ -2464,17 +2464,17 @@ const STORIES = [
     ]
   },
   {
-    "id": "journey-9",
+    "id": "journey-8",
     "type": "journey",
-    "title_en": "Tulamben: 2026-02-14 to 2026-02-22",
-    "title_zh": "图蓝本潜水日记：2026-02-14 至 2026-02-22",
-    "title_ja": "トゥランベン：2026-02-14〜2026-02-22",
-    "subtitle_en": "44 moments across 9 days",
-    "subtitle_zh": "9天，44个瞬间",
-    "subtitle_ja": "9日間、44の瞬間",
+    "title_en": "Tulamben: February Journey",
+    "title_zh": "图蓝本·2月之旅",
+    "title_ja": "トゥランベン·2月の旅",
+    "subtitle_en": "9 days, 45 moments",
+    "subtitle_zh": "9天，45个瞬间",
+    "subtitle_ja": "9日間、45の瞬間",
     "cover": "images/full/20260214-P2140025.webp",
     "cover_thumb": "images/thumbnails/20260214-P2140025.webp",
-    "photo_count": 44,
+    "photo_count": 45,
     "photos": [
       {
         "filename": "20260214-P2140025.jpg",
@@ -2617,6 +2617,19 @@ const STORIES = [
         "colors": [
           "墨黑",
           "橙色"
+        ]
+      },
+      {
+        "filename": "IMG_8071.JPG",
+        "full": "images/full/IMG_8071.webp",
+        "thumb": "images/thumbnails/IMG_8071.webp",
+        "date": "2026-02-14",
+        "title": "暗影中的窥视",
+        "species": "疑似虾虎鱼",
+        "category": "鱼",
+        "colors": [
+          "红色",
+          "黄色"
         ]
       },
       {
@@ -4774,7 +4787,7 @@ const STORIES = [
         "filename": "IMG_8071.JPG",
         "full": "images/full/IMG_8071.webp",
         "thumb": "images/thumbnails/IMG_8071.webp",
-        "date": "2026-02",
+        "date": "2026-02-14",
         "title": "暗影中的窥视",
         "species": "疑似虾虎鱼",
         "category": "鱼",
@@ -7834,7 +7847,7 @@ const STORIES = [
         "filename": "IMG_8071.JPG",
         "full": "images/full/IMG_8071.webp",
         "thumb": "images/thumbnails/IMG_8071.webp",
-        "date": "2026-02",
+        "date": "2026-02-14",
         "title": "暗影中的窥视",
         "species": "疑似虾虎鱼",
         "category": "鱼",
@@ -8061,19 +8074,6 @@ const STORIES = [
         ]
       },
       {
-        "filename": "IMG_8071.JPG",
-        "full": "images/full/IMG_8071.webp",
-        "thumb": "images/thumbnails/IMG_8071.webp",
-        "date": "2026-02",
-        "title": "暗影中的窥视",
-        "species": "疑似虾虎鱼",
-        "category": "鱼",
-        "colors": [
-          "红色",
-          "黄色"
-        ]
-      },
-      {
         "filename": "20260214-P2140052.jpg",
         "full": "images/full/20260214-P2140052.webp",
         "thumb": "images/thumbnails/20260214-P2140052.webp",
@@ -8110,6 +8110,19 @@ const STORIES = [
         "colors": [
           "半透明白",
           "红色"
+        ]
+      },
+      {
+        "filename": "IMG_8071.JPG",
+        "full": "images/full/IMG_8071.webp",
+        "thumb": "images/thumbnails/IMG_8071.webp",
+        "date": "2026-02-14",
+        "title": "暗影中的窥视",
+        "species": "疑似虾虎鱼",
+        "category": "鱼",
+        "colors": [
+          "红色",
+          "黄色"
         ]
       },
       {

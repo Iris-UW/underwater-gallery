@@ -205,16 +205,17 @@ body {
 
 /* ===== Masonry Gallery ===== */
 .gallery-section {
-  padding: 0 6vw 80px;
+  padding: 0 4vw 80px;
 }
 .masonry {
-  columns: 4;
-  column-gap: 12px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 160px;
+  grid-gap: 12px;
+  grid-auto-flow: dense;
 }
 .masonry .card {
-  break-inside: avoid;
-  margin-bottom: 12px;
-  border-radius: 6px;
+  border-radius: 8px;
   overflow: hidden;
   position: relative;
   cursor: pointer;
@@ -228,12 +229,14 @@ body {
 }
 .masonry .card img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   display: block;
   transition: transform 0.6s cubic-bezier(0.23,1,0.32,1), filter 0.4s;
   filter: brightness(0.85) saturate(1.1);
 }
 .masonry .card:hover img {
-  transform: scale(1.06);
+  transform: scale(1.05);
   filter: brightness(1) saturate(1.2);
 }
 .masonry .card .card-overlay {
@@ -258,6 +261,36 @@ body {
   color: var(--dim);
   letter-spacing: 1px;
 }
+/* Varied sizes */
+.masonry .card.tall  { grid-row: span 2; }
+.masonry .card.wide  { grid-column: span 2; grid-row: span 2; }
+.masonry .card.small { grid-row: span 1; }
+
+/* Search bar */
+.search-bar {
+  display: flex; align-items: center; gap: 8px;
+}
+.search-bar input {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 14px;
+  color: var(--text);
+  font-size: 13px;
+  width: 180px;
+  outline: none;
+  transition: border-color 0.3s, width 0.3s;
+}
+.search-bar input:focus {
+  border-color: var(--accent);
+  width: 240px;
+}
+.search-bar input::placeholder { color: var(--dim); }
+.search-bar .search-clear {
+  background: none; border: none; color: var(--dim); cursor: pointer;
+  font-size: 14px; padding: 0; display: none;
+}
+.search-bar .search-clear.visible { display: inline; }
 
 /* ===== Parallax Divider ===== */
 .parallax-divider {
@@ -456,8 +489,9 @@ img {
 
 /* Tablet (768-1199px) */
 @media (max-width: 1199px) {
-  .masonry { columns: 3; column-gap: 10px; }
-  .masonry .card { margin-bottom: 10px; }
+  .masonry { grid-template-columns: repeat(3, 1fr); grid-auto-rows: 140px; grid-gap: 10px; }
+  .masonry .card.wide { grid-column: span 2; grid-row: span 2; }
+  .masonry .card.tall { grid-row: span 2; }
   .hero { height: 85vh; min-height: 500px; }
   .hero-slide .caption { bottom: 100px; left: 6vw; }
   .hero-slide .caption h2 { font-size: clamp(28px, 6vw, 52px); }
@@ -469,8 +503,9 @@ img {
 
 /* Mobile landscape / small tablet (480-767px) */
 @media (max-width: 767px) {
-  .masonry { columns: 2; column-gap: 8px; }
-  .masonry .card { margin-bottom: 8px; }
+  .masonry { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 130px; grid-gap: 8px; }
+  .masonry .card.wide { grid-column: span 2; grid-row: span 2; }
+  .masonry .card.tall { grid-row: span 2; }
   .hero { height: 75vh; min-height: 420px; }
   .hero-slide .caption { bottom: 70px; left: 5vw; right: 5vw; }
   .hero-slide .caption h2 { font-size: clamp(22px, 7vw, 36px); }
@@ -511,8 +546,9 @@ img {
 
 /* Mobile portrait (< 480px) */
 @media (max-width: 479px) {
-  .masonry { columns: 1; column-gap: 0; }
-  .masonry .card { margin-bottom: 8px; border-radius: 4px; }
+  .masonry { grid-template-columns: 1fr; grid-auto-rows: 180px; grid-gap: 8px; }
+  .masonry .card { border-radius: 4px; }
+  .masonry .card.wide, .masonry .card.tall { grid-column: span 1; grid-row: span 2; }
   .hero { height: 70vh; min-height: 360px; }
   .hero-slide .caption { bottom: 60px; left: 4vw; right: 4vw; }
   .hero-slide .caption h2 { font-size: clamp(20px, 8vw, 32px); }
@@ -544,7 +580,7 @@ img {
 @media (max-width: 359px) {
   .hero { height: 65vh; min-height: 300px; }
   .hero-slide .caption h2 { font-size: 18px; }
-  .masonry { columns: 1; }
+  .masonry { grid-template-columns: 1fr; }
   .top-nav { gap: 4px; }
   .nav-link { font-size: 10px; letter-spacing: 0; }
 }
@@ -556,6 +592,10 @@ img {
 
 <!-- Nav -->
 <nav class="top-nav">
+  <div class="search-bar" id="searchBar">
+    <input type="text" id="searchInput" placeholder="Search species, color, title..." data-i18n-placeholder="search_placeholder">
+    <button class="search-clear" id="searchClear" title="Clear">✕</button>
+  </div>
   <div class="nav-right">
     <a href="index.html" class="nav-link active" data-i18n-nav="gallery">Gallery</a>
     <a href="stories.html" class="nav-link" data-i18n-nav="stories">Stories</a>
@@ -741,11 +781,25 @@ if (typeof PHOTOS === 'undefined') {
   /* ===== Build Masonry ===== */
   function buildMasonry(containerId, photoList) {
     const container = document.getElementById(containerId);
+    // Size pattern: small, small, tall, small, wide, small, small, tall...
+    const sizePattern = ['small','small','tall','small','wide','small','small','tall','small','small','wide','small','tall','small','small','wide'];
+    
     photoList.forEach((p, i) => {
       const thumb = 'images/thumbnails/' + p.filename.replace(/\.jpg$/i, '.webp');
       const card = document.createElement('div');
-      card.className = 'card';
+      const size = sizePattern[i % sizePattern.length];
+      card.className = 'card ' + size;
       card.dataset.index = i;
+      card.dataset.searchText = [
+        p.ai_tags?.species_cn || '',
+        p.ai_tags?.species_latin || '',
+        p.ai_tags?.species_en || '',
+        p.ai_tags?.category || '',
+        (p.ai_tags?.primary_colors || []).join(' '),
+        p.ai_tags?.poetic_title || '',
+        p.filename
+      ].join(' ').toLowerCase();
+      
       const poeticCn = p.ai_tags?.poetic_title || '';
       const title = poeticCn.trim() ? ptitle18n(poeticCn) : ti18n(p.ai_tags?.species_cn || '');
       card.innerHTML = `
@@ -756,6 +810,37 @@ if (typeof PHOTOS === 'undefined') {
         </div>`;
       card.addEventListener('click', () => openLightbox(photoList, i));
       container.appendChild(card);
+    });
+  }
+
+  /* ===== Search ===== */
+  function setupSearch() {
+    const input = document.getElementById('searchInput');
+    const clearBtn = document.getElementById('searchClear');
+    
+    input.addEventListener('input', () => {
+      const q = input.value.toLowerCase().trim();
+      clearBtn.classList.toggle('visible', q.length > 0);
+      
+      document.querySelectorAll('.masonry .card').forEach(card => {
+        if (!q) {
+          card.style.display = '';
+          card.classList.add('visible');
+        } else {
+          const matches = card.dataset.searchText.includes(q);
+          card.style.display = matches ? '' : 'none';
+          if (matches) card.classList.add('visible');
+        }
+      });
+    });
+    
+    clearBtn.addEventListener('click', () => {
+      input.value = '';
+      clearBtn.classList.remove('visible');
+      document.querySelectorAll('.masonry .card').forEach(card => {
+        card.style.display = '';
+        card.classList.add('visible');
+      });
     });
   }
 
@@ -868,6 +953,7 @@ if (typeof PHOTOS === 'undefined') {
     buildMasonry('masonry', photos.slice(0, mid));
     buildMasonry('masonry-2', photos.slice(mid));
 
+    setupSearch();
     setupScrollReveal();
     setupParallax();
     setupLightboxEvents();
