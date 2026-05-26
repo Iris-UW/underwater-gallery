@@ -601,7 +601,7 @@ img {
 <!-- Nav -->
 <nav class="top-nav">
   <div class="search-bar" id="searchBar">
-    <input type="text" id="searchInput" placeholder="Search species, color, title..." data-i18n-placeholder="search_placeholder">
+    <input type="text" id="searchInput" placeholder="Search by color, keyword..." data-i18n-placeholder="search_placeholder">
     <button class="search-clear" id="searchClear" title="Clear">✕</button>
   </div>
   <div class="nav-right">
@@ -736,15 +736,10 @@ if (typeof PHOTOS === 'undefined') {
       slide.className = 'hero-slide' + (i === 0 ? ' active' : '');
       slide.dataset.photoIdx = i;
       slide.style.cursor = 'zoom-in';
-      const speciesDisplay = ti18n(p.ai_tags?.species_cn || '');
-      const catDisplay = ci18n(p.ai_tags?.category || '');
       slide.innerHTML = `
         <div class="bg" style="background-image:url('${imgPath}')"></div>
         <div class="overlay"></div>
         <div class="caption">
-          <h2>${speciesDisplay}</h2>
-          <div class="category">${catDisplay}</div>
-          <div class="line"></div>
           <div class="date">${p.date || ''} · ${p.camera_info?.camera?.includes('OLYMPUS') ? 'Olympus' : 'Sony'} · f/${p.f_number || '?'}</div>
         </div>`;
       // Click hero slide → open lightbox
@@ -805,11 +800,9 @@ if (typeof PHOTOS === 'undefined') {
         p.filename
       ].join(' ').toLowerCase();
       
-      const title = ti18n(p.ai_tags?.species_cn || '');
       card.innerHTML = `
         <img src="${thumb}" alt="${p.filename}" loading="lazy">
         <div class="card-overlay">
-          <div class="c-title">${title}</div>
           <div class="c-info">${p.date || ''} · ${p.camera_info?.camera?.includes('OLYMPUS') ? 'Oly' : 'Sony'} · f/${p.f_number || '?'}</div>
         </div>`;
       card.addEventListener('click', () => openLightbox(photoList, i));
@@ -900,21 +893,18 @@ if (typeof PHOTOS === 'undefined') {
     const full = 'images/full/' + p.filename.replace(/\.jpg$/i, '.webp');
     const tags = p.ai_tags || {};
 
-    const speciesName = ti18n(tags.species_cn || '');
-    const latinName = tags.species_latin || '';
+    const tags = p.ai_tags || {};
+
     // Use background-image + protective overlay (anti-download)
     document.getElementById('lb-image-wrap').innerHTML = `
       <div style="background-image:url('${full}');background-size:contain;background-position:center;background-repeat:no-repeat;width:100%;height:100%;" class="no-save"></div>
       <div class="lb-protect"></div>`;
     document.getElementById('lb-info').innerHTML = `
       <div class="lb-meta">
-        <div class="lb-title">${speciesName}</div>
-        ${latinName ? `<div class="lb-subtitle">${latinName}</div>` : ''}
         <div class="lb-detail">${p.date || ''} · f/${p.f_number || '?'} · ${p.exposure_time || '?'}s · ISO${p.iso || '?'} · ${p.camera_info?.camera?.includes('OLYMPUS') ? 'Olympus E-M1 II' : 'Sony A7R IV'}</div>
       </div>
       <div class="lb-tags">
         ${(tags.primary_colors || []).map(c => `<span class="lb-tag">${colori18n(c)}</span>`).join('')}
-        ${tags.category ? `<span class="lb-tag">${ci18n(tags.category)}</span>` : ''}
         ${tags.behavior ? `<span class="lb-tag">${bi18n(tags.behavior)}</span>` : ''}
         ${tags.composition ? `<span class="lb-tag">${compi18n(tags.composition)}</span>` : ''}
         ${tags.confidence ? `<span class="lb-tag confidence">🔍 ${Math.round(tags.confidence * 100)}%</span>` : ''}

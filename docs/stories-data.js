@@ -761,7 +761,7 @@ const STORIES = [
         "date": "2025-05-04",
         "title": "琥珀猎手",
         "species": "疑似Thalamita sp.",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "透明",
           "橙色",
@@ -843,7 +843,7 @@ const STORIES = [
         "date": "2025-05-08",
         "title": "珊瑚上的隐者",
         "species": "装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "淡黄色",
           "橙红"
@@ -856,7 +856,7 @@ const STORIES = [
         "date": "2025-05-08",
         "title": "绿影中的隐者",
         "species": "短鳍海龙",
-        "category": "头足类",
+        "category": "鱼",
         "colors": [
           "墨绿",
           "金黄"
@@ -882,7 +882,7 @@ const STORIES = [
         "date": "2025-05-08",
         "title": "粉红梦境",
         "species": "施氏海马蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "红色",
           "橙色",
@@ -909,7 +909,7 @@ const STORIES = [
         "date": "2025-05-08",
         "title": "珊瑚花园的守护者",
         "species": "装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "橙色",
           "粉色"
@@ -999,7 +999,7 @@ const STORIES = [
         "date": "2025-06-27",
         "title": "荆棘王冠",
         "species": "装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "半透明",
           "橙色",
@@ -1014,7 +1014,7 @@ const STORIES = [
         "date": "2025-06-27",
         "title": "蓝黄交织",
         "species": "装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "浅黄",
           "蓝色"
@@ -1193,7 +1193,7 @@ const STORIES = [
         "date": "2025-06-29",
         "title": "瓷白微光",
         "species": "瓷蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "半透明白色",
           "蓝紫",
@@ -1298,7 +1298,7 @@ const STORIES = [
         "date": "2025-06-29",
         "title": "隐秘的守护者",
         "species": "多瘤冠之蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "输入",
           "深绿"
@@ -1334,7 +1334,7 @@ const STORIES = [
         "date": "2025-06-29",
         "title": "陶瓷的伪装",
         "species": "疑似佛罗里达 kullanımı",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "白色",
           "橙色",
@@ -1613,7 +1613,7 @@ const STORIES = [
         "date": "2025-07-01",
         "title": "深海之羽",
         "species": "拟态章鱼",
-        "category": "头足类",
+        "category": "其他",
         "colors": [
           "半透明白",
           "橙色"
@@ -1783,7 +1783,7 @@ const STORIES = [
         "date": "2025-07-30",
         "title": "星辰舞者",
         "species": "装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "乳白色",
           "蓝色"
@@ -2003,7 +2003,7 @@ const STORIES = [
         "date": "2025-08-02",
         "title": "幽影 Drift",
         "species": "背上卷章鱼",
-        "category": "头足类",
+        "category": "其他",
         "colors": [
           "半透明白",
           "黄色"
@@ -2016,7 +2016,7 @@ const STORIES = [
         "date": "2025-08-02",
         "title": "流光之触",
         "species": "装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "墨绿",
           "半透明白"
@@ -2348,7 +2348,7 @@ const STORIES = [
         "date": "2025-08-07",
         "title": "蓝色梦境中的斑点旅人",
         "species": "斑点壶海鞘瓷蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "半透明蓝紫色",
           "墨黑",
@@ -2520,7 +2520,7 @@ const STORIES = [
         "date": "2025-08-08",
         "title": "绿意中的幽灵",
         "species": "疑似瓷蟹属物种",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "透明",
           "黄色",
@@ -2640,7 +2640,7 @@ const STORIES = [
         "date": "2025-08-09",
         "title": "黄影静游",
         "species": "鬼龙",
-        "category": "头足类",
+        "category": "鱼",
         "colors": [
           "黄绿色",
           "白色"
@@ -2719,7 +2719,7 @@ const STORIES = [
         "date": "2025-08-09",
         "title": "斑点静谧",
         "species": "斑点传感器甲壳类",
-        "category": "其他",
+        "category": "虾",
         "colors": [
           "半透明白",
           "橙红色"
@@ -2732,7 +2732,7 @@ const STORIES = [
         "date": "2025-08-10",
         "title": "霓虹深处的守护者",
         "species": "华丽装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "黄色",
           "白色",
@@ -2756,7 +2756,7 @@ const STORIES = [
         "date": "2025-08-10",
         "title": "幽冥触须",
         "species": "未知棕带蜘蛛蛸",
-        "category": "头足类",
+        "category": "其他",
         "colors": [
           "透明带棕褐色",
           "白色"
@@ -2783,7 +2783,7 @@ const STORIES = [
         "date": "2025-08-10",
         "title": "幽影之羽",
         "species": "玻璃海驼蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "透明",
           "绿色"
@@ -2863,7 +2863,7 @@ const STORIES = [
         "date": "2026-02-14",
         "title": "幽暗中的红宝石",
         "species": "软珊瑚蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "半透明白",
           "红色"
@@ -3254,7 +3254,7 @@ const STORIES = [
         "date": "2026-02-19",
         "title": "金色穹顶下的隐者",
         "species": "疑似瓷蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "半透明白",
           "粉红"
@@ -4740,7 +4740,7 @@ const STORIES = [
     "subtitle_ja": "クマノミからカエルアンコウまで、サンゴ礁の住人たち",
     "cover": "images/full/图蓝本Aug-02 3.webp",
     "cover_thumb": "images/thumbnails/图蓝本Aug-02 3.webp",
-    "photo_count": 36,
+    "photo_count": 38,
     "photos": [
       {
         "filename": "图蓝本-1-110.JPG",
@@ -4818,6 +4818,19 @@ const STORIES = [
         "colors": [
           "金黄",
           "透明"
+        ]
+      },
+      {
+        "filename": "73140b1368f0fec375e84bdd50858478.JPG",
+        "full": "images/full/73140b1368f0fec375e84bdd50858478.webp",
+        "thumb": "images/thumbnails/73140b1368f0fec375e84bdd50858478.webp",
+        "date": "2025-05-08",
+        "title": "绿影中的隐者",
+        "species": "短鳍海龙",
+        "category": "鱼",
+        "colors": [
+          "墨绿",
+          "金黄"
         ]
       },
       {
@@ -5071,6 +5084,19 @@ const STORIES = [
         ]
       },
       {
+        "filename": "图蓝本Aug-1 2.JPG",
+        "full": "images/full/图蓝本Aug-1 2.webp",
+        "thumb": "images/thumbnails/图蓝本Aug-1 2.webp",
+        "date": "2025-08-09",
+        "title": "黄影静游",
+        "species": "鬼龙",
+        "category": "鱼",
+        "colors": [
+          "黄绿色",
+          "白色"
+        ]
+      },
+      {
         "filename": "图蓝本Aug-09.JPG",
         "full": "images/full/图蓝本Aug-09.webp",
         "thumb": "images/thumbnails/图蓝本Aug-09.webp",
@@ -5226,9 +5252,9 @@ const STORIES = [
     "subtitle_en": "Unidentified wonders beneath the surface",
     "subtitle_zh": "水面之下的未解奇观",
     "subtitle_ja": "水面下の未確認の驚異",
-    "cover": "images/full/图蓝本Jul-10.webp",
-    "cover_thumb": "images/thumbnails/图蓝本Jul-10.webp",
-    "photo_count": 30,
+    "cover": "images/full/图蓝本Jul-04.webp",
+    "cover_thumb": "images/thumbnails/图蓝本Jul-04.webp",
+    "photo_count": 32,
     "photos": [
       {
         "filename": "图蓝本-1-108.JPG",
@@ -5343,6 +5369,19 @@ const STORIES = [
         ]
       },
       {
+        "filename": "图蓝本Jun-5.JPG",
+        "full": "images/full/图蓝本Jun-5.webp",
+        "thumb": "images/thumbnails/图蓝本Jun-5.webp",
+        "date": "2025-07-01",
+        "title": "深海之羽",
+        "species": "拟态章鱼",
+        "category": "其他",
+        "colors": [
+          "半透明白",
+          "橙色"
+        ]
+      },
+      {
         "filename": "图蓝本Jul-01 2.JPG",
         "full": "images/full/图蓝本Jul-01 2.webp",
         "thumb": "images/thumbnails/图蓝本Jul-01 2.webp",
@@ -5395,6 +5434,19 @@ const STORIES = [
         "species": "",
         "category": "其他",
         "colors": []
+      },
+      {
+        "filename": "图蓝本Jul-04.JPG",
+        "full": "images/full/图蓝本Jul-04.webp",
+        "thumb": "images/thumbnails/图蓝本Jul-04.webp",
+        "date": "2025-08-02",
+        "title": "幽影 Drift",
+        "species": "背上卷章鱼",
+        "category": "其他",
+        "colors": [
+          "半透明白",
+          "黄色"
+        ]
       },
       {
         "filename": "图蓝本Jul-10.JPG",
@@ -5500,19 +5552,6 @@ const STORIES = [
         "colors": []
       },
       {
-        "filename": "图蓝本Aug-5.JPG",
-        "full": "images/full/图蓝本Aug-5.webp",
-        "thumb": "images/thumbnails/图蓝本Aug-5.webp",
-        "date": "2025-08-09",
-        "title": "斑点静谧",
-        "species": "斑点传感器甲壳类",
-        "category": "其他",
-        "colors": [
-          "半透明白",
-          "橙红色"
-        ]
-      },
-      {
         "filename": "图蓝本Aug-05 2.JPG",
         "full": "images/full/图蓝本Aug-05 2.webp",
         "thumb": "images/thumbnails/图蓝本Aug-05 2.webp",
@@ -5521,6 +5560,19 @@ const STORIES = [
         "species": "",
         "category": "其他",
         "colors": []
+      },
+      {
+        "filename": "图蓝本Aug-07.JPG",
+        "full": "images/full/图蓝本Aug-07.webp",
+        "thumb": "images/thumbnails/图蓝本Aug-07.webp",
+        "date": "2025-08-10",
+        "title": "幽冥触须",
+        "species": "未知棕带蜘蛛蛸",
+        "category": "其他",
+        "colors": [
+          "透明带棕褐色",
+          "白色"
+        ]
       },
       {
         "filename": "20260214-P2140051.jpg",
@@ -5575,7 +5627,7 @@ const STORIES = [
     "subtitle_ja": "深海の小さな皇帝と踊り子たち",
     "cover": "images/full/图蓝本Jul-2.webp",
     "cover_thumb": "images/thumbnails/图蓝本Jul-2.webp",
-    "photo_count": 28,
+    "photo_count": 29,
     "photos": [
       {
         "filename": "图蓝本-1-190.JPG",
@@ -5866,6 +5918,19 @@ const STORIES = [
         ]
       },
       {
+        "filename": "图蓝本Aug-5.JPG",
+        "full": "images/full/图蓝本Aug-5.webp",
+        "thumb": "images/thumbnails/图蓝本Aug-5.webp",
+        "date": "2025-08-09",
+        "title": "斑点静谧",
+        "species": "斑点传感器甲壳类",
+        "category": "虾",
+        "colors": [
+          "半透明白",
+          "橙红色"
+        ]
+      },
+      {
         "filename": "20260215-P2152283.jpg",
         "full": "images/full/20260215-P2152283.webp",
         "thumb": "images/thumbnails/20260215-P2152283.webp",
@@ -5946,15 +6011,15 @@ const STORIES = [
     ]
   },
   {
-    "id": "category-螃蟹",
+    "id": "category-蟹",
     "type": "category",
-    "icon": "🦀",
-    "title_en": "Crab Chronicles",
-    "title_zh": "蟹行记",
-    "title_ja": "カニの記録",
-    "subtitle_en": "Armored wanderers of coral castles",
-    "subtitle_zh": "珊瑚城堡中的盔甲漫游者",
-    "subtitle_ja": "サンゴの城を歩く鎧の旅人",
+    "icon": "🔍",
+    "title_en": "Mysteries of the Deep",
+    "title_zh": "深海之谜",
+    "title_ja": "深海の謎",
+    "subtitle_en": "Unidentified wonders beneath the surface",
+    "subtitle_zh": "水面之下的未解奇观",
+    "subtitle_ja": "水面下の未確認の驚異",
     "cover": "images/full/图蓝本Jun-15.webp",
     "cover_thumb": "images/thumbnails/图蓝本Jun-15.webp",
     "photo_count": 17,
@@ -5966,7 +6031,7 @@ const STORIES = [
         "date": "2025-05-04",
         "title": "琥珀猎手",
         "species": "疑似Thalamita sp.",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "透明",
           "橙色",
@@ -5980,7 +6045,7 @@ const STORIES = [
         "date": "2025-05-08",
         "title": "珊瑚上的隐者",
         "species": "装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "淡黄色",
           "橙红"
@@ -5993,7 +6058,7 @@ const STORIES = [
         "date": "2025-05-08",
         "title": "粉红梦境",
         "species": "施氏海马蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "红色",
           "橙色",
@@ -6007,7 +6072,7 @@ const STORIES = [
         "date": "2025-05-08",
         "title": "珊瑚花园的守护者",
         "species": "装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "橙色",
           "粉色"
@@ -6020,7 +6085,7 @@ const STORIES = [
         "date": "2025-06-27",
         "title": "荆棘王冠",
         "species": "装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "半透明",
           "橙色",
@@ -6035,7 +6100,7 @@ const STORIES = [
         "date": "2025-06-27",
         "title": "蓝黄交织",
         "species": "装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "浅黄",
           "蓝色"
@@ -6048,7 +6113,7 @@ const STORIES = [
         "date": "2025-06-29",
         "title": "瓷白微光",
         "species": "瓷蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "半透明白色",
           "蓝紫",
@@ -6062,7 +6127,7 @@ const STORIES = [
         "date": "2025-06-29",
         "title": "隐秘的守护者",
         "species": "多瘤冠之蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "输入",
           "深绿"
@@ -6075,7 +6140,7 @@ const STORIES = [
         "date": "2025-06-29",
         "title": "陶瓷的伪装",
         "species": "疑似佛罗里达 kullanımı",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "白色",
           "橙色",
@@ -6089,7 +6154,7 @@ const STORIES = [
         "date": "2025-07-30",
         "title": "星辰舞者",
         "species": "装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "乳白色",
           "蓝色"
@@ -6102,7 +6167,7 @@ const STORIES = [
         "date": "2025-08-02",
         "title": "流光之触",
         "species": "装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "墨绿",
           "半透明白"
@@ -6115,7 +6180,7 @@ const STORIES = [
         "date": "2025-08-07",
         "title": "蓝色梦境中的斑点旅人",
         "species": "斑点壶海鞘瓷蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "半透明蓝紫色",
           "墨黑",
@@ -6129,7 +6194,7 @@ const STORIES = [
         "date": "2025-08-08",
         "title": "绿意中的幽灵",
         "species": "疑似瓷蟹属物种",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "透明",
           "黄色",
@@ -6145,7 +6210,7 @@ const STORIES = [
         "date": "2025-08-10",
         "title": "霓虹深处的守护者",
         "species": "华丽装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "黄色",
           "白色",
@@ -6159,7 +6224,7 @@ const STORIES = [
         "date": "2025-08-10",
         "title": "幽影之羽",
         "species": "玻璃海驼蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "透明",
           "绿色"
@@ -6172,7 +6237,7 @@ const STORIES = [
         "date": "2026-02-14",
         "title": "幽暗中的红宝石",
         "species": "软珊瑚蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "半透明白",
           "红色"
@@ -6185,91 +6250,10 @@ const STORIES = [
         "date": "2026-02-19",
         "title": "金色穹顶下的隐者",
         "species": "疑似瓷蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "半透明白",
           "粉红"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "category-头足类",
-    "type": "category",
-    "icon": "🐙",
-    "title_en": "Cephalopod Whispers",
-    "title_zh": "头足密语",
-    "title_ja": "頭足類のささやき",
-    "subtitle_en": "Masters of disguise in the blue",
-    "subtitle_zh": "蔚蓝中的伪装大师",
-    "subtitle_ja": "青の中の変装の達人",
-    "cover": "images/full/图蓝本Jul-04.webp",
-    "cover_thumb": "images/thumbnails/图蓝本Jul-04.webp",
-    "photo_count": 5,
-    "photos": [
-      {
-        "filename": "73140b1368f0fec375e84bdd50858478.JPG",
-        "full": "images/full/73140b1368f0fec375e84bdd50858478.webp",
-        "thumb": "images/thumbnails/73140b1368f0fec375e84bdd50858478.webp",
-        "date": "2025-05-08",
-        "title": "绿影中的隐者",
-        "species": "短鳍海龙",
-        "category": "头足类",
-        "colors": [
-          "墨绿",
-          "金黄"
-        ]
-      },
-      {
-        "filename": "图蓝本Jun-5.JPG",
-        "full": "images/full/图蓝本Jun-5.webp",
-        "thumb": "images/thumbnails/图蓝本Jun-5.webp",
-        "date": "2025-07-01",
-        "title": "深海之羽",
-        "species": "拟态章鱼",
-        "category": "头足类",
-        "colors": [
-          "半透明白",
-          "橙色"
-        ]
-      },
-      {
-        "filename": "图蓝本Jul-04.JPG",
-        "full": "images/full/图蓝本Jul-04.webp",
-        "thumb": "images/thumbnails/图蓝本Jul-04.webp",
-        "date": "2025-08-02",
-        "title": "幽影 Drift",
-        "species": "背上卷章鱼",
-        "category": "头足类",
-        "colors": [
-          "半透明白",
-          "黄色"
-        ]
-      },
-      {
-        "filename": "图蓝本Aug-1 2.JPG",
-        "full": "images/full/图蓝本Aug-1 2.webp",
-        "thumb": "images/thumbnails/图蓝本Aug-1 2.webp",
-        "date": "2025-08-09",
-        "title": "黄影静游",
-        "species": "鬼龙",
-        "category": "头足类",
-        "colors": [
-          "黄绿色",
-          "白色"
-        ]
-      },
-      {
-        "filename": "图蓝本Aug-07.JPG",
-        "full": "images/full/图蓝本Aug-07.webp",
-        "thumb": "images/thumbnails/图蓝本Aug-07.webp",
-        "date": "2025-08-10",
-        "title": "幽冥触须",
-        "species": "未知棕带蜘蛛蛸",
-        "category": "头足类",
-        "colors": [
-          "透明带棕褐色",
-          "白色"
         ]
       }
     ]
@@ -6335,7 +6319,7 @@ const STORIES = [
         "date": "2025-05-04",
         "title": "琥珀猎手",
         "species": "疑似Thalamita sp.",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "透明",
           "橙色",
@@ -6349,7 +6333,7 @@ const STORIES = [
         "date": "2025-05-08",
         "title": "粉红梦境",
         "species": "施氏海马蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "红色",
           "橙色",
@@ -6376,7 +6360,7 @@ const STORIES = [
         "date": "2025-05-08",
         "title": "珊瑚花园的守护者",
         "species": "装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "橙色",
           "粉色"
@@ -6402,7 +6386,7 @@ const STORIES = [
         "date": "2025-06-27",
         "title": "荆棘王冠",
         "species": "装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "半透明",
           "橙色",
@@ -6473,7 +6457,7 @@ const STORIES = [
         "date": "2025-06-29",
         "title": "陶瓷的伪装",
         "species": "疑似佛罗里达 kullanımı",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "白色",
           "橙色",
@@ -6526,7 +6510,7 @@ const STORIES = [
         "date": "2025-07-01",
         "title": "深海之羽",
         "species": "拟态章鱼",
-        "category": "头足类",
+        "category": "其他",
         "colors": [
           "半透明白",
           "橙色"
@@ -6724,7 +6708,7 @@ const STORIES = [
         "date": "2025-08-10",
         "title": "霓虹深处的守护者",
         "species": "华丽装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "黄色",
           "白色",
@@ -7112,7 +7096,7 @@ const STORIES = [
         "date": "2025-06-29",
         "title": "陶瓷的伪装",
         "species": "疑似佛罗里达 kullanımı",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "白色",
           "橙色",
@@ -7351,7 +7335,7 @@ const STORIES = [
         "date": "2025-08-08",
         "title": "绿意中的幽灵",
         "species": "疑似瓷蟹属物种",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "透明",
           "黄色",
@@ -7406,7 +7390,7 @@ const STORIES = [
         "date": "2025-08-09",
         "title": "黄影静游",
         "species": "鬼龙",
-        "category": "头足类",
+        "category": "鱼",
         "colors": [
           "黄绿色",
           "白色"
@@ -7419,7 +7403,7 @@ const STORIES = [
         "date": "2025-08-10",
         "title": "霓虹深处的守护者",
         "species": "华丽装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "黄色",
           "白色",
@@ -7433,7 +7417,7 @@ const STORIES = [
         "date": "2025-08-10",
         "title": "幽冥触须",
         "species": "未知棕带蜘蛛蛸",
-        "category": "头足类",
+        "category": "其他",
         "colors": [
           "透明带棕褐色",
           "白色"
@@ -7827,7 +7811,7 @@ const STORIES = [
         "date": "2025-08-02",
         "title": "幽影 Drift",
         "species": "背上卷章鱼",
-        "category": "头足类",
+        "category": "其他",
         "colors": [
           "半透明白",
           "黄色"
@@ -7910,7 +7894,7 @@ const STORIES = [
         "date": "2025-08-08",
         "title": "绿意中的幽灵",
         "species": "疑似瓷蟹属物种",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "透明",
           "黄色",
@@ -7926,7 +7910,7 @@ const STORIES = [
         "date": "2025-08-10",
         "title": "霓虹深处的守护者",
         "species": "华丽装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "黄色",
           "白色",
@@ -8022,7 +8006,7 @@ const STORIES = [
         "date": "2025-05-08",
         "title": "粉红梦境",
         "species": "施氏海马蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "红色",
           "橙色",
@@ -8157,7 +8141,7 @@ const STORIES = [
         "date": "2026-02-14",
         "title": "幽暗中的红宝石",
         "species": "软珊瑚蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "半透明白",
           "红色"
@@ -8318,7 +8302,7 @@ const STORIES = [
         "date": "2025-05-04",
         "title": "琥珀猎手",
         "species": "疑似Thalamita sp.",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "透明",
           "橙色",
@@ -8332,7 +8316,7 @@ const STORIES = [
         "date": "2025-06-27",
         "title": "荆棘王冠",
         "species": "装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "半透明",
           "橙色",
@@ -8460,7 +8444,7 @@ const STORIES = [
         "date": "2025-08-08",
         "title": "绿意中的幽灵",
         "species": "疑似瓷蟹属物种",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "透明",
           "黄色",
@@ -8557,7 +8541,7 @@ const STORIES = [
         "date": "2025-05-08",
         "title": "粉红梦境",
         "species": "施氏海马蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "红色",
           "橙色",
@@ -8571,7 +8555,7 @@ const STORIES = [
         "date": "2025-06-27",
         "title": "蓝黄交织",
         "species": "装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "浅黄",
           "蓝色"
@@ -8640,7 +8624,7 @@ const STORIES = [
         "date": "2025-07-30",
         "title": "星辰舞者",
         "species": "装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "乳白色",
           "蓝色"
@@ -8804,7 +8788,7 @@ const STORIES = [
         "date": "2025-08-10",
         "title": "幽影之羽",
         "species": "玻璃海驼蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "透明",
           "绿色"
@@ -8957,7 +8941,7 @@ const STORIES = [
         "date": "2025-05-08",
         "title": "珊瑚花园的守护者",
         "species": "装饰蟹",
-        "category": "螃蟹",
+        "category": "蟹",
         "colors": [
           "橙色",
           "粉色"

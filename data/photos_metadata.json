@@ -282,7 +282,7 @@
       "ai_tags": {
         "species_cn": "软珊瑚蟹",
         "species_latin": "Hoplophrys oatesi",
-        "category": "螃蟹",
+        "category": "蟹",
         "primary_colors": [
           "半透明白",
           "红色"
@@ -1878,7 +1878,7 @@
       "ai_tags": {
         "species_cn": "疑似瓷蟹",
         "species_latin": "疑似Neopetrolisthes属",
-        "category": "螃蟹",
+        "category": "蟹",
         "primary_colors": [
           "半透明白",
           "粉红"
@@ -2543,7 +2543,7 @@
         "species_cn": "装饰蟹",
         "species_latin": "Camposcia retusa",
         "species_en": "",
-        "category": "螃蟹",
+        "category": "蟹",
         "primary_colors": [
           "淡黄色",
           "橙红"
@@ -2663,7 +2663,7 @@
         "species_cn": "短鳍海龙",
         "species_latin": "Phyllopteryx taeniolatus",
         "species_en": "Short-snouted Seahorse",
-        "category": "头足类",
+        "category": "鱼",
         "primary_colors": [
           "墨绿",
           "金黄"
@@ -2781,7 +2781,7 @@
         "species_cn": "施氏海马蟹",
         "species_latin": "Charybdiscaris japonica",
         "species_en": "Hairy Frogfish",
-        "category": "螃蟹",
+        "category": "蟹",
         "primary_colors": [
           "红色",
           "橙色",
@@ -2904,7 +2904,7 @@
         "species_cn": "装饰蟹",
         "species_latin": "Camposcia retusa",
         "species_en": "Decorator Crab",
-        "category": "螃蟹",
+        "category": "蟹",
         "primary_colors": [
           "橙色",
           "粉色"
@@ -3001,7 +3001,7 @@
         "species_cn": "装饰蟹",
         "species_latin": "Camposcia retusa",
         "species_en": "Ornate Crab",
-        "category": "螃蟹",
+        "category": "蟹",
         "primary_colors": [
           "半透明",
           "橙色",
@@ -3064,7 +3064,7 @@
         "species_cn": "装饰蟹",
         "species_latin": "Camposcia retusa",
         "species_en": "Decorator Crab",
-        "category": "螃蟹",
+        "category": "蟹",
         "primary_colors": [
           "浅黄",
           "蓝色"
@@ -3899,7 +3899,7 @@
         "species_cn": "华丽装饰蟹",
         "species_latin": "Camposcia retusa",
         "species_en": "Decorator Crab",
-        "category": "螃蟹",
+        "category": "蟹",
         "primary_colors": [
           "黄色",
           "白色",
@@ -5139,7 +5139,7 @@
         "species_cn": "疑似Thalamita sp.",
         "species_latin": "Thalamita sp.",
         "species_en": "",
-        "category": "螃蟹",
+        "category": "蟹",
         "primary_colors": [
           "透明",
           "橙色",
@@ -5496,7 +5496,7 @@
         "species_cn": "斑点壶海鞘瓷蟹",
         "species_latin": "Histiophryne sp.",
         "species_en": "Panda Frogfish",
-        "category": "螃蟹",
+        "category": "蟹",
         "primary_colors": [
           "半透明蓝紫色",
           "墨黑",
@@ -6486,7 +6486,7 @@
         "species_cn": "未知棕带蜘蛛蛸",
         "species_latin": "Sepiolidae ? sp.",
         "species_en": "Unknown Spider Squid",
-        "category": "头足类",
+        "category": "其他",
         "primary_colors": [
           "透明带棕褐色",
           "白色"
@@ -6821,7 +6821,7 @@
         "species_cn": "鬼龙",
         "species_latin": "Solenostomus paradoxus",
         "species_en": "Ghost Pipefish",
-        "category": "头足类",
+        "category": "鱼",
         "primary_colors": [
           "黄绿色",
           "白色"
@@ -7331,7 +7331,7 @@
         "species_cn": "玻璃海驼蟹",
         "species_latin": "Cristiceps aaria",
         "species_en": "Glass Crab",
-        "category": "螃蟹",
+        "category": "蟹",
         "primary_colors": [
           "透明",
           "绿色"
@@ -7920,7 +7920,7 @@
         "species_cn": "疑似瓷蟹属物种",
         "species_latin": "suspected Neopetrolisthes sp.",
         "species_en": "",
-        "category": "螃蟹",
+        "category": "蟹",
         "primary_colors": [
           "透明",
           "黄色",
@@ -8040,7 +8040,7 @@
         "species_cn": "斑点传感器甲壳类",
         "species_latin": "Pandarus sp.",
         "species_en": "",
-        "category": "其他",
+        "category": "虾",
         "primary_colors": [
           "半透明白",
           "橙红色"
@@ -8674,7 +8674,7 @@
         "species_cn": "背上卷章鱼",
         "species_latin": "Wunderpus photogenicus",
         "species_en": "Coconut Octopus",
-        "category": "头足类",
+        "category": "其他",
         "primary_colors": [
           "半透明白",
           "黄色"
@@ -8770,7 +8770,7 @@
         "species_cn": "装饰蟹",
         "species_latin": "Camposcia retusa",
         "species_en": "Ornate Crab",
-        "category": "螃蟹",
+        "category": "蟹",
         "primary_colors": [
           "墨绿",
           "半透明白"
@@ -9712,7 +9712,7 @@
         "species_cn": "装饰蟹",
         "species_latin": "Camposcia retusa",
         "species_en": "Decorator Crab",
-        "category": "螃蟹",
+        "category": "蟹",
         "primary_colors": [
           "乳白色",
           "蓝色"
@@ -9953,7 +9953,7 @@
         "species_cn": "瓷蟹",
         "species_latin": "Neopetrolisthes japonicus",
         "species_en": "Porcelain Crab",
-        "category": "螃蟹",
+        "category": "蟹",
         "primary_colors": [
           "半透明白色",
           "蓝紫",
@@ -10749,7 +10749,7 @@
         "species_cn": "多瘤冠之蟹",
         "species_latin": "hop I u Repo is hi Ejery",
         "species_en": "Courtati Laup",
-        "category": "螃蟹",
+        "category": "蟹",
         "primary_colors": [
           "输入",
           "深绿"
@@ -10907,7 +10907,7 @@
         "species_cn": "疑似佛罗里达 kullanımı",
         "species_latin": "Urolophus floridanus",
         "species_en": "Florida Floor Crab",
-        "category": "螃蟹",
+        "category": "蟹",
         "primary_colors": [
           "白色",
           "橙色",
@@ -12092,7 +12092,7 @@
         "species_cn": "拟态章鱼",
         "species_latin": "Thaumoctopus mimicus",
         "species_en": "Mimic Octopus",
-        "category": "头足类",
+        "category": "其他",
         "primary_colors": [
           "半透明白",
           "橙色"
