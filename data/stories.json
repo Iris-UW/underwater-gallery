@@ -1,74 +1,22 @@
 {
   "stories": [
     {
-      "id": "nudibranch-deep-dive",
+      "id": "nudibranch-chronicles",
       "type": "curated",
       "priority": 1,
       "title_en": "Nudibranch Chronicles",
       "title_zh": "海兔编年史",
       "title_ja": "ウミウシ年代記",
-      "subtitle_en": "99 moments with the ocean's most flamboyant dwellers",
-      "subtitle_zh": "与海洋最华丽住客的99个瞬间",
-      "subtitle_ja": "海の一番派手な住人との99の瞬間",
-      "narrative_en": "They drift like autumn leaves in a current I cannot see. Each nudibranch I meet in Tulamben is a tiny, breathing jewel — some no larger than a grain of rice, others trailing ribbons of gills like delicate lace. Over 8 days and 24 identified species, I learned that the most extraordinary lives often hide in the most ordinary-looking rubble. This is my love letter to the nudibranchs of Bali.",
-      "narrative_zh": "它们像秋叶一样漂行在我看不见的水流中。在图蓝本的8天里，我遇见的每一只海兔都是一枚微小的、会呼吸的宝石——有的比米粒还小，有的拖着像精致蕾丝一样的鳃羽。24个辨认出的品种，教会我最非凡的生命往往藏在最不起眼的碎石间。这是我给巴厘岛海兔的一封情书。",
-      "narrative_ja": "彼らは私の見えない海流の中を、秋の落ち葉のように漂っている。トゥランベンで8日間に出会ったウミウシのひとつひとつが、小さな、息をする宝石だった——米粒ほどの小さな個体から、繊細なレースのようなえらを靡かせるものまで。24種の識別を通じて、最も非凡な命はふつうに見える礫石の間に隠れていることを学んだ。これはバリのウミウシへのラブレター。",
-      "cover": "images/full/20260214-P2140025.webp",
-      "cover_thumb": "images/thumbnails/20260214-P2140025.webp",
-      "photo_count": 8,
+      "subtitle_en": "12 gems from the ocean's most flamboyant dwellers",
+      "subtitle_zh": "海洋最华丽住客的12颗宝石",
+      "subtitle_ja": "海の一番派手な住人からの12の宝石",
+      "narrative_en": "They drift like autumn leaves in a current I cannot see. Each nudibranch I meet in Tulamben is a tiny, breathing jewel — some no larger than a grain of rice, others trailing ribbons of gills like delicate lace.\n\nOver multiple trips and dozens of dives, I've come to know these creatures not as faceless invertebrates but as individuals. The Flabellina that appeared on a blade of seagrass at dawn and vanished by midday. The Chromodoris whose orange mantle glowed like a lantern in the blue. The Phyllodesmium whose cerata swayed in the surge with the elegance of a dress in wind.\n\nThis is my love letter to the nudibranchs of Bali. Twelve frames, nine species, infinite wonder.",
+      "narrative_zh": "它们像秋叶一样漂行在我看不见的水流中。在图蓝本遇见的每一只海兔，都是一枚微小的、会呼吸的宝石——有的比米粒还小，有的拖着像精致蕾丝一样的鳃羽。\n\n多次行程、几十次潜水之后，我开始把这些生物当作个体来认识，而不是面目模糊的无脊椎动物。那只在黎明时分出现在草叶上、正午就消失了的Flabellina。那只橙色外套在蓝色海水里像灯笼一样发光的Chromodoris。那只触角在涌浪中如裙摆般优雅摇曳的Phyllodesmium。\n\n这是我给巴厘岛海兔的一封情书。十二个画面，九个品种，无限惊叹。",
+      "narrative_ja": "彼らは私の見えない海流の中を、秋の落ち葉のように漂っている。トゥランベンで出会うウミウシのひとつひとつが、小さな、息をする宝石だった——米粒ほどのものから、繊細なレースのようなえらを靡かせるものまで。\n\n何度もの旅と何十回ものダイブを通じて、彼らを「無脊椎動物」ではなく個体として知るようになった。夜明けの草の葉に現れ、昼には消え去ったフラベリナ。青い海の中でランタンのように輝くオレンジの外套膜をもつイロウミウシ。うねりの中でドレスのように触角を揺らすフィロデスミウム。\n\nこれはバリのウミウシへのラブレター。12のフレーム、9つの種、無限の驚き。",
+      "cover": "images/full/20260214-P2140141.webp",
+      "cover_thumb": "images/thumbnails/20260214-P2140141.webp",
+      "photo_count": 12,
       "photos": [
-        {
-          "filename": "20260214-P2140025.jpg",
-          "full": "images/full/20260214-P2140025.webp",
-          "thumb": "images/thumbnails/20260214-P2140025.webp",
-          "date": "2026-02-14",
-          "title": "珊瑚上的晨曦",
-          "species": "橙色海兔，疑似Flabellina属",
-          "category": "海兔",
-          "colors": [
-            "半透明白",
-            "橙色"
-          ]
-        },
-        {
-          "filename": "20260214-P2140028.jpg",
-          "full": "images/full/20260214-P2140028.webp",
-          "thumb": "images/thumbnails/20260214-P2140028.webp",
-          "date": "2026-02-14",
-          "title": "珊瑚上的晨曦",
-          "species": "疑似橙色海兔",
-          "category": "海兔",
-          "colors": [
-            "橙色",
-            "粉红"
-          ]
-        },
-        {
-          "filename": "20260214-P2140035.jpg",
-          "full": "images/full/20260214-P2140035.webp",
-          "thumb": "images/thumbnails/20260214-P2140035.webp",
-          "date": "2026-02-14",
-          "title": "珊瑚上的晨曦",
-          "species": "橙色海兔，疑似Chromodoris属",
-          "category": "海兔",
-          "colors": [
-            "半透明白",
-            "橙黄"
-          ]
-        },
-        {
-          "filename": "20260214-P2140070.jpg",
-          "full": "images/full/20260214-P2140070.webp",
-          "thumb": "images/thumbnails/20260214-P2140070.webp",
-          "date": "2026-02-14",
-          "title": "星点绽放",
-          "species": "黑斑鸠海牛",
-          "category": "海兔",
-          "colors": [
-            "白色",
-            "橙色"
-          ]
-        },
         {
           "filename": "20260214-P2140101.jpg",
           "full": "images/full/20260214-P2140101.webp",
@@ -80,6 +28,19 @@
           "colors": [
             "蓝紫",
             "白色"
+          ]
+        },
+        {
+          "filename": "20260214-P2140141.jpg",
+          "full": "images/full/20260214-P2140141.webp",
+          "thumb": "images/thumbnails/20260214-P2140141.webp",
+          "date": "2026-02-14",
+          "title": "夜影之光",
+          "species": "古巴纳海牛",
+          "category": "海兔",
+          "colors": [
+            "墨黑",
+            "荧光橙"
           ]
         },
         {
@@ -96,90 +57,455 @@
           ]
         },
         {
-          "filename": "20260216-P2162620.jpg",
-          "full": "images/full/20260216-P2162620.webp",
-          "thumb": "images/thumbnails/20260216-P2162620.webp",
+          "filename": "20260216-P2162704.jpg",
+          "full": "images/full/20260216-P2162704.webp",
+          "thumb": "images/thumbnails/20260216-P2162704.webp",
           "date": "2026-02-16",
-          "title": "月夜轻咏",
-          "species": "未知海兔，疑似Flabellina属",
+          "title": "焕彩 whispers",
+          "species": "安娜多彩海牛",
           "category": "海兔",
           "colors": [
-            "半透明白",
-            "荧光橙"
+            "蓝紫",
+            "荧光黄"
           ]
         },
         {
-          "filename": "20260216-P2162677.jpg",
-          "full": "images/full/20260216-P2162677.webp",
-          "thumb": "images/thumbnails/20260216-P2162677.webp",
+          "filename": "20260216-P2162723.jpg",
+          "full": "images/full/20260216-P2162723.webp",
+          "thumb": "images/thumbnails/20260216-P2162723.webp",
           "date": "2026-02-16",
-          "title": "夜色中的金色梦",
-          "species": "疑似古巴纳海牛",
+          "title": "幽光藏影",
+          "species": "黑斑鸠海牛",
           "category": "海兔",
           "colors": [
-            "荧光黄",
-            "蓝紫"
+            "半透明白",
+            "墨黑"
+          ]
+        },
+        {
+          "filename": "20260219-P2193795.jpg",
+          "full": "images/full/20260219-P2193795.webp",
+          "thumb": "images/thumbnails/20260219-P2193795.webp",
+          "date": "2026-02-19",
+          "title": "晨光中的柔羽",
+          "species": "紫海牛",
+          "category": "海兔",
+          "colors": [
+            "紫色",
+            "橙色"
+          ]
+        },
+        {
+          "filename": "20260222-DSC06475.jpg",
+          "full": "images/full/20260222-DSC06475.webp",
+          "thumb": "images/thumbnails/20260222-DSC06475.webp",
+          "date": "2026-02-22",
+          "title": "蓝夜的秘密",
+          "species": "安娜多彩海牛",
+          "category": "海兔",
+          "colors": [
+            "蓝色",
+            "黑色"
+          ]
+        },
+        {
+          "filename": "IMG_1249.JPG",
+          "full": "images/full/IMG_1249.webp",
+          "thumb": "images/thumbnails/IMG_1249.webp",
+          "date": "2025-06-28",
+          "title": "幽暗中的霓虹舞者",
+          "species": "安娜多彩海牛",
+          "category": "海兔",
+          "colors": [
+            "白色",
+            "粉红色",
+            "黄色"
+          ]
+        },
+        {
+          "filename": "IMG_1256.JPG",
+          "full": "images/full/IMG_1256.webp",
+          "thumb": "images/thumbnails/IMG_1256.webp",
+          "date": "2025-06-28",
+          "title": "橙黑梦境",
+          "species": "豹纹海兔",
+          "category": "海兔",
+          "colors": [
+            "黄色",
+            "黑色"
+          ]
+        },
+        {
+          "filename": "图蓝本Aug-04 3.JPG",
+          "full": "images/full/图蓝本Aug-04 3.webp",
+          "thumb": "images/thumbnails/图蓝本Aug-04 3.webp",
+          "date": "2025-08-03",
+          "title": "珊瑚上的晨曦",
+          "species": "",
+          "category": "其他",
+          "colors": []
+        },
+        {
+          "filename": "图蓝本Jun-08.JPG",
+          "full": "images/full/图蓝本Jun-08.webp",
+          "thumb": "images/thumbnails/图蓝本Jun-08.webp",
+          "date": "2025-06-29",
+          "title": "海底的星辰",
+          "species": "古拉牛",
+          "category": "海兔",
+          "colors": [
+            "橙色",
+            "蓝色",
+            "白色",
+            "黑色"
+          ]
+        },
+        {
+          "filename": "图蓝本Jun-11.JPG",
+          "full": "images/full/图蓝本Jun-11.webp",
+          "thumb": "images/thumbnails/图蓝本Jun-11.webp",
+          "date": "2025-06-29",
+          "title": "紫梦之舞",
+          "species": "丘疹叶海牛",
+          "category": "海兔",
+          "colors": [
+            "淡紫色",
+            "白色",
+            "黄色"
           ]
         }
       ]
     },
     {
-      "id": "dive-log-day1",
+      "id": "trip-1-first-encounters",
       "type": "dive-log",
       "priority": 2,
-      "title_en": "Day 1 · The First Breath",
-      "title_zh": "第一天 · 第一口呼吸",
-      "title_ja": "1日目・最初の息",
+      "title_en": "Trip 1 · First Encounters",
+      "title_zh": "第一程 · 初见",
+      "title_ja": "旅1 · 初めての出会い",
       "subtitle_en": "",
       "subtitle_zh": "",
       "subtitle_ja": "",
-      "narrative_en": "First dive of the trip. The water was warmer than I expected, and immediately I spotted the first nudibranch clinging to a blade of seagrass. My Olympus felt like an extension of my hand — familiar, steady. I didn't know it then, but this was the beginning of an obsession.",
-      "narrative_zh": "行程的第一潜。水温比预期暖，入水不久就在草叶上发现了第一只海兔。奥林巴斯握在手里像手的延伸——熟悉、稳当。那时还不知道，这会是一场执念的开始。",
-      "narrative_ja": "この旅の最初のダイブ。水温は予想より暖かく、草の葉の上に最初のウミウシを発見した。オリンパスは手の延長のように感じられた——馴染みがあり、しっかりとして。あの時はまだ知らなかった、これが憑りつきの始まりだとは。",
-      "cover": "images/full/20260214-P2140025.webp",
-      "cover_thumb": "images/thumbnails/20260214-P2140025.webp",
-      "photo_count": 3,
+      "narrative_en": "My first serious underwater photography trip. I arrived in Tulamben with an Olympus in my hand and a head full of field guide images, not knowing that the next two weeks would rewrite how I see the ocean.\n\nThe black sand slopes looked barren at first — just volcanic rubble under murky shallows. But once your eyes adjust, the reef reveals itself. A ghost pipefish masquerading as a blade of seagrass. A pygmy seahorse no bigger than a fingernail, clinging to a gorgonian. And nudibranchs. Nudibranchs everywhere.\n\nI learned the most important lesson of macro photography here: the smaller the creature, the bigger the world it opens.",
+      "narrative_zh": "第一次正经的水下摄影之旅。我带着奥林巴斯和满脑子图鉴里的画面来到图蓝本，不知道接下来的两周会彻底改写我看海洋的方式。\n\n黑沙坡起初看起来贫瘠——只是浑浊浅滩下的火山碎石。但一旦眼睛适应了，礁石便显露出来。一根拟态鬼龙伪装成草叶。一只指甲盖大小的豆丁海马攀附在海扇上。还有海兔。到处都是海兔。\n\n我在这里学到了一生受用的微距摄影课：生物越渺小，它打开的世界越大。",
+      "narrative_ja": "初めての本格的な水中写真の旅。オリンパスを手に、図鑑のイメージで頭がいっぱいのままトゥランベンに到着した。この2週間が海の見方を書き換えることになるとは知らずに。\n\n黒い砂の斜面は最初、不毛に見えた——ただの火山礫が濁った浅瀬に広がるだけ。しかし目が慣れると、サンゴ礁は姿を現す。海草の葉に擬態するニセカミソリウオ。爪ほどの大きさのピグミーシーホースがゴルゴニアンにしがみついている。そしてウミウシ。ウミウシだらけだ。\n\nマクロ写真の最も大切な教訓をここで学んだ：生き物が小さければ小さいほど、それが開く世界は大きい。",
+      "cover": "images/full/图蓝本-1-105.webp",
+      "cover_thumb": "images/thumbnails/图蓝本-1-105.webp",
+      "photo_count": 4,
       "photos": [
         {
-          "filename": "20260214-P2140025.jpg",
-          "full": "images/full/20260214-P2140025.webp",
-          "thumb": "images/thumbnails/20260214-P2140025.webp",
-          "date": "2026-02-14",
-          "title": "珊瑚上的晨曦",
-          "species": "橙色海兔，疑似Flabellina属",
-          "category": "海兔",
-          "colors": [
-            "半透明白",
-            "橙色"
-          ]
-        },
-        {
-          "filename": "20260214-P2140028.jpg",
-          "full": "images/full/20260214-P2140028.webp",
-          "thumb": "images/thumbnails/20260214-P2140028.webp",
-          "date": "2026-02-14",
-          "title": "珊瑚上的晨曦",
-          "species": "疑似橙色海兔",
-          "category": "海兔",
-          "colors": [
-            "橙色",
-            "粉红"
-          ]
-        },
-        {
-          "filename": "20260214-P2140035.jpg",
-          "full": "images/full/20260214-P2140035.webp",
-          "thumb": "images/thumbnails/20260214-P2140035.webp",
-          "date": "2026-02-14",
-          "title": "珊瑚上的晨曦",
-          "species": "橙色海兔，疑似Chromodoris属",
+          "filename": "图蓝本-1-105.JPG",
+          "full": "images/full/图蓝本-1-105.webp",
+          "thumb": "images/thumbnails/图蓝本-1-105.webp",
+          "date": "2025-04-26",
+          "title": "暗夜中的舞者",
+          "species": "安娜多彩海牛",
           "category": "海兔",
           "colors": [
             "半透明白",
             "橙黄"
           ]
+        },
+        {
+          "filename": "图蓝本-1-110.JPG",
+          "full": "images/full/图蓝本-1-110.webp",
+          "thumb": "images/thumbnails/图蓝本-1-110.webp",
+          "date": "2025-04-27",
+          "title": "珊瑚深处的幽灵",
+          "species": "拟态鬼龙",
+          "category": "鱼",
+          "colors": [
+            "灰棕",
+            "橙红"
+          ]
+        },
+        {
+          "filename": "图蓝本-1-111.JPG",
+          "full": "images/full/图蓝本-1-111.webp",
+          "thumb": "images/thumbnails/图蓝本-1-111.webp",
+          "date": "2025-04-27",
+          "title": "珊瑚间的幽灵",
+          "species": "巴氏豆丁海马",
+          "category": "鱼",
+          "colors": [
+            "灰白",
+            "橙红"
+          ]
+        },
+        {
+          "filename": "图蓝本-1-187.JPG",
+          "full": "images/full/图蓝本-1-187.webp",
+          "thumb": "images/thumbnails/图蓝本-1-187.webp",
+          "date": "2025-04-29",
+          "title": "橙色梦境中的幽灵",
+          "species": "安娜多彩海牛",
+          "category": "海兔",
+          "colors": [
+            "白色",
+            "棕色"
+          ]
         }
-      ]
+      ],
+      "date_range": "2025-04-26 – 2025-05-09",
+      "dive_count": "7 dives",
+      "site_en": "Tulamben — House Reef & Coral Slope",
+      "conditions_en": "Visibility 10-18m · Mild to no current · 27-29°C",
+      "site_zh": "图蓝本 — 屋礁 & 珊瑚坡",
+      "conditions_zh": "能见度10-18米 · 微至无流 · 水温27-29°C",
+      "site_ja": "トゥランベン — ハウスリーフ & コーラルスロープ",
+      "conditions_ja": "視界10-18m · 弱～無流 · 水温27-29°C"
+    },
+    {
+      "id": "trip-2-nudibranch-season",
+      "type": "dive-log",
+      "priority": 3,
+      "title_en": "Trip 2 · Nudibranch Season",
+      "title_zh": "第二程 · 海兔之夏",
+      "title_ja": "旅2 · ウミウシの季節",
+      "subtitle_en": "",
+      "subtitle_zh": "",
+      "subtitle_ja": "",
+      "narrative_en": "June in Tulamben is nudibranch high season, and the reef delivered. June 29 alone gave me 24 keepers — thirteen of them nudibranchs. I remember surfacing from that dive and just laughing underwater, regulator still in my mouth. It was the kind of dive where every rock seemed to hold a treasure.\n\nThe water was warmer, the visibility clearer. I was moving differently now — slower, more patient. Instead of swimming to find things, I was learning to hover and wait for things to find me. A Flabellina would drift into frame. A Chromodoris would emerge from behind a sponge. The reef was starting to trust me.",
+      "narrative_zh": "六月是图蓝本的海兔旺季，礁石不负所望。光是6月29日一天就给了我24张成片——其中13张是海兔。我记得那次升水时咬着二级头在水下就笑了。那种潜水：每一块石头里都像藏着宝藏。\n\n水温更暖，能见度更清。我的移动方式变了——更慢、更耐心。不再游着去找东西，而是学着悬停等待东西来找我。一只Flabellina漂进画面。一只Chromodoris从海绵背后现身。礁石似乎开始信任我了。",
+      "narrative_ja": "6月のトゥランベンはウミウシのハイシーズン。サンゴ礁は期待に応えてくれた。6月29日だけで24枚のキーパー——うち13枚がウミウシ。あのダイブから浮上する時、レギュレーターをくわえたまま水中で笑っていたのを覚えている。どの石にも宝物が隠れているような、そんなダイブだった。\n\n水温は暖かく、視界はよりクリアに。自分の動きが変わった——より遅く、より忍耐強く。探しに泳ぐのではなく、ホバリングして待つことを覚えた。フラベリナがフレームに漂い込む。イロウミウシがカイメンの裏から現れる。サンゴ礁が私を信頼し始めているように感じた。",
+      "cover": "images/full/图蓝本Jun-02.webp",
+      "cover_thumb": "images/thumbnails/图蓝本Jun-02.webp",
+      "photo_count": 4,
+      "photos": [
+        {
+          "filename": "图蓝本Jun-02.JPG",
+          "full": "images/full/图蓝本Jun-02.webp",
+          "thumb": "images/thumbnails/图蓝本Jun-02.webp",
+          "date": "2025-06-29",
+          "title": "珊瑚上的舞者",
+          "species": "安娜多彩海牛",
+          "category": "海兔",
+          "colors": [
+            "浅紫色",
+            "白色"
+          ]
+        },
+        {
+          "filename": "图蓝本Jun-08.JPG",
+          "full": "images/full/图蓝本Jun-08.webp",
+          "thumb": "images/thumbnails/图蓝本Jun-08.webp",
+          "date": "2025-06-29",
+          "title": "海底的星辰",
+          "species": "古拉牛",
+          "category": "海兔",
+          "colors": [
+            "橙色",
+            "蓝色",
+            "白色",
+            "黑色"
+          ]
+        },
+        {
+          "filename": "图蓝本Jun-11.JPG",
+          "full": "images/full/图蓝本Jun-11.webp",
+          "thumb": "images/thumbnails/图蓝本Jun-11.webp",
+          "date": "2025-06-29",
+          "title": "紫梦之舞",
+          "species": "丘疹叶海牛",
+          "category": "海兔",
+          "colors": [
+            "淡紫色",
+            "白色",
+            "黄色"
+          ]
+        },
+        {
+          "filename": "图蓝本Jul-04 2.JPG",
+          "full": "images/full/图蓝本Jul-04 2.webp",
+          "thumb": "images/thumbnails/图蓝本Jul-04 2.webp",
+          "date": "2025-08-01",
+          "title": "赤海幽影",
+          "species": "翅膀海牛",
+          "category": "海兔",
+          "colors": [
+            "半透明白",
+            "金色",
+            "黑色",
+            "暗橙褐色"
+          ]
+        }
+      ],
+      "date_range": "2025-06-27 – 2025-07-03",
+      "dive_count": "7 dives",
+      "site_en": "Tulamben — Full Site Range",
+      "conditions_en": "Visibility 12-20m · Variable current · 27-28°C",
+      "site_zh": "图蓝本 — 全潜点范围",
+      "conditions_zh": "能见度12-20米 · 多变水流 · 水温27-28°C",
+      "site_ja": "トゥランベン — 全サイト",
+      "conditions_ja": "視界12-20m · 変わりやすい流れ · 水温27-28°C"
+    },
+    {
+      "id": "trip-3-summer-expedition",
+      "type": "dive-log",
+      "priority": 4,
+      "title_en": "Trip 3 · Summer Expedition",
+      "title_zh": "第三程 · 盛夏远征",
+      "title_ja": "旅3 · 真夏の探検",
+      "subtitle_en": "",
+      "subtitle_zh": "",
+      "subtitle_ja": "",
+      "narrative_en": "The longest trip. Twelve dives over eleven days — enough to settle into a rhythm. Wake, dive, eat, dive, edit, sleep, repeat. The kind of routine that makes you forget which day of the week it is, and that's exactly the point.\n\nAugust brought different visitors. More crustaceans — cleaning shrimp in their station anemones, porcelain crabs the size of buttons. Cephalopods made appearances too: a bobtail squid on a night dive, its bioluminescent spots like a constellation. And of course, the nudibranchs never stopped. A vermilion Phyllidia, a translucent Pteraeolidia, a ghost-white Flabellina.\n\nBy now the camera was no longer a tool — it was an extension of my eye.",
+      "narrative_zh": "最长的一次行程。十一天十二潜——足够进入一种节奏。起床、潜水、吃饭、潜水、修图、睡觉、重复。那种让你忘记今天是周几的日常，而这恰恰是目的所在。\n\n八月带来了不同的访客。更多的甲壳类——寄生海葵里的清洁虾，纽扣大小的瓷蟹。头足类也露面了：夜潜时的一只耳乌贼，它的生物荧光点像星座一样闪烁。当然，海兔从未停歇。一只绯红的Phyllidia，一只半透明的Pteraeolidia，一只幽灵般洁白的Flabellina。\n\n到这个时候，相机不再是工具——它成了我眼睛的延伸。",
+      "narrative_ja": "最長の旅。11日間で12ダイブ——リズムに身を任せられる十分な長さ。起きて、潜って、食べて、潜って、編集して、寝て、繰り返す。今日が何曜日か忘れてしまうような日常、それこそが目的だった。\n\n8月は異なる訪問者たちを連れてきた。より多くの甲殻類——ステーションアネモネの中のクリーニングシュリンプ、ボタンほどの大きさのカニダマシ。頭足類も姿を見せた：ナイトダイブで出会ったボブテイルスクイッド、その発光斑は星座のように輝いていた。もちろん、ウミウシは止まらない。真紅のフィリディア、半透明のプテラエオリディア、幽霊のように白いフラベリナ。\n\nこの頃には、カメラはもはや道具ではなかった——目の延長になっていた。",
+      "cover": "images/full/图蓝本Aug-04 3.webp",
+      "cover_thumb": "images/thumbnails/图蓝本Aug-04 3.webp",
+      "photo_count": 5,
+      "photos": [
+        {
+          "filename": "图蓝本Aug-04 3.JPG",
+          "full": "images/full/图蓝本Aug-04 3.webp",
+          "thumb": "images/thumbnails/图蓝本Aug-04 3.webp",
+          "date": "2025-08-03",
+          "title": "珊瑚上的晨曦",
+          "species": "",
+          "category": "其他",
+          "colors": []
+        },
+        {
+          "filename": "图蓝本Aug-09 2.JPG",
+          "full": "images/full/图蓝本Aug-09 2.webp",
+          "thumb": "images/thumbnails/图蓝本Aug-09 2.webp",
+          "date": "2025-08-07",
+          "title": "午夜的舞者",
+          "species": "海天使",
+          "category": "海兔",
+          "colors": [
+            "橙色",
+            "白色"
+          ]
+        },
+        {
+          "filename": "图蓝本Aug-07 2.JPG",
+          "full": "images/full/图蓝本Aug-07 2.webp",
+          "thumb": "images/thumbnails/图蓝本Aug-07 2.webp",
+          "date": "2025-08-09",
+          "title": "橙光深处的低语",
+          "species": "安娜多彩海牛",
+          "category": "海兔",
+          "colors": [
+            "半透明白色",
+            "橙色"
+          ]
+        },
+        {
+          "filename": "图蓝本Aug-03.JPG",
+          "full": "images/full/图蓝本Aug-03.webp",
+          "thumb": "images/thumbnails/图蓝本Aug-03.webp",
+          "date": "2025-08-09",
+          "title": "金色梦境的触须",
+          "species": "弧带叶海牛",
+          "category": "海兔",
+          "colors": [
+            "棕黄色",
+            "白色"
+          ]
+        },
+        {
+          "filename": "图蓝本Aug-05.JPG",
+          "full": "images/full/图蓝本Aug-05.webp",
+          "thumb": "images/thumbnails/图蓝本Aug-05.webp",
+          "date": "2025-08-09",
+          "title": "幽暗中的星芒",
+          "species": "翅膀海牛",
+          "category": "海兔",
+          "colors": [
+            "棕色",
+            "透明"
+          ]
+        }
+      ],
+      "date_range": "2025-07-30 – 2025-08-10",
+      "dive_count": "12 dives",
+      "site_en": "Tulamben — Liberty Wreck & Beyond",
+      "conditions_en": "Visibility 8-18m · Mild surge · 26-28°C",
+      "site_zh": "图蓝本 — 自由号沉船及周边",
+      "conditions_zh": "能见度8-18米 · 轻微涌浪 · 水温26-28°C",
+      "site_ja": "トゥランベン — リバティ号 & 周辺",
+      "conditions_ja": "視界8-18m · 弱いうねり · 水温26-28°C"
+    },
+    {
+      "id": "trip-4-return",
+      "type": "dive-log",
+      "priority": 5,
+      "title_en": "Trip 4 · The Return",
+      "title_zh": "第四程 · 归来",
+      "title_ja": "旅4 · 帰還",
+      "subtitle_en": "",
+      "subtitle_zh": "",
+      "subtitle_ja": "",
+      "narrative_en": "I returned on Valentine's Day. It felt fitting — love brought me back to Tulamben. Love for a black sand slope that most divers pass on their way to more famous sites. Love for the creatures that live in the margins.\n\nThis time I brought both cameras: the trusted Olympus and a new Sony. Shooting the same subjects with different tools taught me something unexpected — the best camera is the one that disappears in your hand. When you stop thinking about settings and start feeling the light, the photos change.\n\nThe blackfoot anemonefish stared at me from its host. The Cuban nudibranch flashed orange against obsidian black. The blue Chromodoris glowed like a shard of sky fallen into the sea. By the last day, I knew I'd be back. Tulamben doesn't let go.",
+      "narrative_zh": "我在情人节那天归来。这感觉很合适——是爱把我带回图蓝本。对一片大多数潜水员路过直奔更著名潜点的黑沙坡的爱。对生活在边缘地带的生物的爱。\n\n这次我带了两台相机：信赖的奥林巴斯和一台新的索尼。用不同工具拍同一个对象，教了我意想不到的一课——最好的相机是能在手中消失的那台。当你不再想参数、开始感受光线的时候，照片就变了。\n\n黑脚海葵鱼从宿主里凝视着我。古巴海牛在黑曜石般的底色上闪出橙色。蓝色Chromodoris像一块落入海中的天空碎片般发着光。到最后一天，我知道我还会回来。图蓝本不放手。",
+      "narrative_ja": "バレンタインデーに戻ってきた。ふさわしい気がした——愛が私をトゥランベンに連れ戻したのだ。より有名なサイトへ向かう多くのダイバーが通り過ぎる黒い砂の斜面への愛。辺縁に生きる生き物たちへの愛。\n\n今回は2台のカメラを持参した：信頼のオリンパスと新しいソニー。異なる道具で同じ被写体を撮ることで、予想外のことを学んだ——最高のカメラは、手の中で消えるカメラだ。設定のことを考えなくなり、光を感じ始めた瞬間、写真は変わる。\n\nブラックフットアネモネフィッシュが宿主から私を見つめる。キューバウミウシが黒曜石のような黒地にオレンジを閃かせる。青いイロウミウシが海に落ちた空のかけらのように輝く。最終日には、戻ってくると分かっていた。トゥランベンは離してくれない。",
+      "cover": "images/full/20260214-P2140141.webp",
+      "cover_thumb": "images/thumbnails/20260214-P2140141.webp",
+      "photo_count": 4,
+      "photos": [
+        {
+          "filename": "20260214-P2140141.jpg",
+          "full": "images/full/20260214-P2140141.webp",
+          "thumb": "images/thumbnails/20260214-P2140141.webp",
+          "date": "2026-02-14",
+          "title": "夜影之光",
+          "species": "古巴纳海牛",
+          "category": "海兔",
+          "colors": [
+            "墨黑",
+            "荧光橙"
+          ]
+        },
+        {
+          "filename": "20260214-P2140101.jpg",
+          "full": "images/full/20260214-P2140101.webp",
+          "thumb": "images/thumbnails/20260214-P2140101.webp",
+          "date": "2026-02-14",
+          "title": "紫翼幻影",
+          "species": "安娜多彩海牛",
+          "category": "海兔",
+          "colors": [
+            "蓝紫",
+            "白色"
+          ]
+        },
+        {
+          "filename": "20260214-P2140070.jpg",
+          "full": "images/full/20260214-P2140070.webp",
+          "thumb": "images/thumbnails/20260214-P2140070.webp",
+          "date": "2026-02-14",
+          "title": "星点绽放",
+          "species": "黑斑鸠海牛",
+          "category": "海兔",
+          "colors": [
+            "白色",
+            "橙色"
+          ]
+        },
+        {
+          "filename": "20260222-DSC06475.jpg",
+          "full": "images/full/20260222-DSC06475.webp",
+          "thumb": "images/thumbnails/20260222-DSC06475.webp",
+          "date": "2026-02-22",
+          "title": "蓝夜的秘密",
+          "species": "安娜多彩海牛",
+          "category": "海兔",
+          "colors": [
+            "蓝色",
+            "黑色"
+          ]
+        }
+      ],
+      "date_range": "2026-02-14 – 2026-02-22",
+      "dive_count": "9 dives",
+      "site_en": "Tulamben — Home Waters",
+      "conditions_en": "Visibility 12-20m · Gentle current · 27-28°C",
+      "site_zh": "图蓝本 — 故乡水域",
+      "conditions_zh": "能见度12-20米 · 缓流 · 水温27-28°C",
+      "site_ja": "トゥランベン — ホームウォーター",
+      "conditions_ja": "視界12-20m · 穏やかな流れ · 水温27-28°C"
     },
     {
       "id": "journey-1",
@@ -8985,5 +9311,5 @@
       ]
     }
   ],
-  "generated_at": "2026-05-26T22:01:41.837170"
+  "generated_at": "2026-05-26T22:25:02.952503"
 }

@@ -72,13 +72,18 @@ def build_stories(photos):
         if not cover:
             cover = story_photos[0]
 
-        stories.append({
+        story_type = cs.get("type", "curated")
+        # Support both title_* and trip_name_* (for dive-log type)
+        title_en = cs.get("title_en") or cs.get("trip_name_en", "")
+        title_zh = cs.get("title_zh") or cs.get("trip_name_zh", "")
+        title_ja = cs.get("title_ja") or cs.get("trip_name_ja", "")
+        story = {
             "id": cid,
-            "type": cs.get("type", "curated"),
+            "type": story_type,
             "priority": cs.get("priority", 99),
-            "title_en": cs.get("title_en", ""),
-            "title_zh": cs.get("title_zh", ""),
-            "title_ja": cs.get("title_ja", ""),
+            "title_en": title_en,
+            "title_zh": title_zh,
+            "title_ja": title_ja,
             "subtitle_en": cs.get("subtitle_en", ""),
             "subtitle_zh": cs.get("subtitle_zh", ""),
             "subtitle_ja": cs.get("subtitle_ja", ""),
@@ -98,7 +103,17 @@ def build_stories(photos):
                 "category": (p.get("ai_tags") or {}).get("category", ""),
                 "colors": (p.get("ai_tags") or {}).get("primary_colors", []),
             } for p in story_photos]
-        })
+        }
+        # Extra fields for dive-log type
+        if story_type == "dive-log":
+            story["date_range"] = cs.get("date_range", "")
+            story["dive_count"] = cs.get("dive_count", "")
+            for lang in ["en", "zh", "ja"]:
+                for key in ["site", "conditions"]:
+                    val = cs.get(f"{key}_{lang}", "")
+                    if val:
+                        story[f"{key}_{lang}"] = val
+        stories.append(story)
         print(f"  ✅ Curated: {cid} ({len(story_photos)} photos)")
 
     # 从第一张照片提取地点信息

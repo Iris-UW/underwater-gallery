@@ -389,10 +389,14 @@ function openStory(idx) {
 
   let html = `<div class="story-detail-header"><h2>${title}</h2>`;
   
-  // Dive-log: show conditions
-  if (s.type === 'dive-log' && s.conditions) {
-    const cond = s[`conditions_${currentLang}`] || s.conditions || '';
-    html += `<div class="dive-meta">${s[`site_${currentLang}`] || s.site_en || ''} · ${cond}</div>`;
+  // Dive-log: show conditions & date range
+  if (s.type === 'dive-log') {
+    const site = s[`site_${currentLang}`] || s.site_en || '';
+    const cond = s[`conditions_${currentLang}`] || s.conditions_en || '';
+    const range = s.date_range || '';
+    const dives = s.dive_count || '';
+    html += `<div class="dive-meta">${range}${dives ? ' · ' + dives : ''}</div>`;
+    html += `<div class="dive-meta" style="font-size:12px;margin-top:4px;">${site} · ${cond}</div>`;
   }
   
   html += `<div class="subtitle">${subtitle}</div></div>`;
