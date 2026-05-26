@@ -98,12 +98,33 @@ nav .nav-links a:hover, nav .nav-links a.active { color: var(--text); }
 .story-detail .close-btn:hover { background: rgba(255,255,255,0.1); }
 
 .story-detail-header {
-  padding: 100px 40px 40px;
+  padding: 100px 40px 24px;
   text-align: center;
   position: relative;
+  max-width: 800px;
+  margin: 0 auto;
 }
-.story-detail-header h2 { font-size: 36px; font-weight: 300; letter-spacing: 2px; }
-.story-detail-header .subtitle { color: var(--dim); font-size: 15px; margin-top: 8px; }
+.story-detail-header h2 { font-size: 36px; font-weight: 300; letter-spacing: 2px; margin-bottom: 8px; }
+.story-detail-header .subtitle { color: var(--dim); font-size: 15px; margin-top: 8px; max-width: 600px; margin-left: auto; margin-right: auto; }
+.story-detail-header .dive-meta { margin-top: 16px; font-size: 13px; color: var(--accent); letter-spacing: 1px; text-transform: uppercase; }
+
+/* ─── Narrative Text ─── */
+.story-narrative {
+  max-width: 680px;
+  margin: 0 auto 40px;
+  padding: 0 40px;
+  font-size: 15px;
+  line-height: 1.9;
+  color: var(--text);
+  opacity: 0.88;
+}
+.story-narrative p { margin-bottom: 16px; }
+
+@media (max-width: 768px) {
+  .story-detail-header { padding: 80px 20px 16px; }
+  .story-detail-header h2 { font-size: 26px; }
+  .story-narrative { padding: 0 20px; font-size: 14px; }
+}
 
 /* ─── Horizontal Scroll Strip ─── */
 .hscroll {
@@ -266,6 +287,7 @@ img {
 <header class="stories-header">
   <h1 data-i18n="stories_title">Underwater Stories</h1>
   <p data-i18n="stories_subtitle">Every dive has a story. Every creature, a voice.</p>
+  <p style="font-size:12px;color:var(--dim);margin-top:8px;letter-spacing:1px;">Click a card to open the story</p>
 </header>
 
 <!-- Story Cards -->
@@ -363,12 +385,23 @@ function openStory(idx) {
   const content = document.getElementById('storyContent');
   const title = s[`title_${currentLang}`] || s.title_en;
   const subtitle = s[`subtitle_${currentLang}`] || s.subtitle_en;
+  const narrative = s[`narrative_${currentLang}`] || s.narrative_en || '';
 
-  let html = `
-    <div class="story-detail-header">
-      <h2>${title}</h2>
-      <div class="subtitle">${subtitle}</div>
-    </div>`;
+  let html = `<div class="story-detail-header"><h2>${title}</h2>`;
+  
+  // Dive-log: show conditions
+  if (s.type === 'dive-log' && s.conditions) {
+    const cond = s[`conditions_${currentLang}`] || s.conditions || '';
+    html += `<div class="dive-meta">${s[`site_${currentLang}`] || s.site_en || ''} · ${cond}</div>`;
+  }
+  
+  html += `<div class="subtitle">${subtitle}</div></div>`;
+
+  // Narrative text
+  if (narrative) {
+    const paras = narrative.split('\n').filter(x => x.trim());
+    html += '<div class="story-narrative">' + paras.map(p => `<p>${p}</p>`).join('') + '</div>';
+  }
 
   if (s.type === 'camera' && s.sections) {
     html += '<div class="twocol">';

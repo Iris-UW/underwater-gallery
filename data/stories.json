@@ -1,6 +1,187 @@
 {
   "stories": [
     {
+      "id": "nudibranch-deep-dive",
+      "type": "curated",
+      "priority": 1,
+      "title_en": "Nudibranch Chronicles",
+      "title_zh": "海兔编年史",
+      "title_ja": "ウミウシ年代記",
+      "subtitle_en": "99 moments with the ocean's most flamboyant dwellers",
+      "subtitle_zh": "与海洋最华丽住客的99个瞬间",
+      "subtitle_ja": "海の一番派手な住人との99の瞬間",
+      "narrative_en": "They drift like autumn leaves in a current I cannot see. Each nudibranch I meet in Tulamben is a tiny, breathing jewel — some no larger than a grain of rice, others trailing ribbons of gills like delicate lace. Over 8 days and 24 identified species, I learned that the most extraordinary lives often hide in the most ordinary-looking rubble. This is my love letter to the nudibranchs of Bali.",
+      "narrative_zh": "它们像秋叶一样漂行在我看不见的水流中。在图蓝本的8天里，我遇见的每一只海兔都是一枚微小的、会呼吸的宝石——有的比米粒还小，有的拖着像精致蕾丝一样的鳃羽。24个辨认出的品种，教会我最非凡的生命往往藏在最不起眼的碎石间。这是我给巴厘岛海兔的一封情书。",
+      "narrative_ja": "彼らは私の見えない海流の中を、秋の落ち葉のように漂っている。トゥランベンで8日間に出会ったウミウシのひとつひとつが、小さな、息をする宝石だった——米粒ほどの小さな個体から、繊細なレースのようなえらを靡かせるものまで。24種の識別を通じて、最も非凡な命はふつうに見える礫石の間に隠れていることを学んだ。これはバリのウミウシへのラブレター。",
+      "cover": "images/full/20260214-P2140025.webp",
+      "cover_thumb": "images/thumbnails/20260214-P2140025.webp",
+      "photo_count": 8,
+      "photos": [
+        {
+          "filename": "20260214-P2140025.jpg",
+          "full": "images/full/20260214-P2140025.webp",
+          "thumb": "images/thumbnails/20260214-P2140025.webp",
+          "date": "2026-02-14",
+          "title": "珊瑚上的晨曦",
+          "species": "橙色海兔，疑似Flabellina属",
+          "category": "海兔",
+          "colors": [
+            "半透明白",
+            "橙色"
+          ]
+        },
+        {
+          "filename": "20260214-P2140028.jpg",
+          "full": "images/full/20260214-P2140028.webp",
+          "thumb": "images/thumbnails/20260214-P2140028.webp",
+          "date": "2026-02-14",
+          "title": "珊瑚上的晨曦",
+          "species": "疑似橙色海兔",
+          "category": "海兔",
+          "colors": [
+            "橙色",
+            "粉红"
+          ]
+        },
+        {
+          "filename": "20260214-P2140035.jpg",
+          "full": "images/full/20260214-P2140035.webp",
+          "thumb": "images/thumbnails/20260214-P2140035.webp",
+          "date": "2026-02-14",
+          "title": "珊瑚上的晨曦",
+          "species": "橙色海兔，疑似Chromodoris属",
+          "category": "海兔",
+          "colors": [
+            "半透明白",
+            "橙黄"
+          ]
+        },
+        {
+          "filename": "20260214-P2140070.jpg",
+          "full": "images/full/20260214-P2140070.webp",
+          "thumb": "images/thumbnails/20260214-P2140070.webp",
+          "date": "2026-02-14",
+          "title": "星点绽放",
+          "species": "黑斑鸠海牛",
+          "category": "海兔",
+          "colors": [
+            "白色",
+            "橙色"
+          ]
+        },
+        {
+          "filename": "20260214-P2140101.jpg",
+          "full": "images/full/20260214-P2140101.webp",
+          "thumb": "images/thumbnails/20260214-P2140101.webp",
+          "date": "2026-02-14",
+          "title": "紫翼幻影",
+          "species": "安娜多彩海牛",
+          "category": "海兔",
+          "colors": [
+            "蓝紫",
+            "白色"
+          ]
+        },
+        {
+          "filename": "20260215-P2152320.jpg",
+          "full": "images/full/20260215-P2152320.webp",
+          "thumb": "images/thumbnails/20260215-P2152320.webp",
+          "date": "2026-02-15",
+          "title": "暗夜之花",
+          "species": "翅膀海牛",
+          "category": "海兔",
+          "colors": [
+            "紫红",
+            "半透明白"
+          ]
+        },
+        {
+          "filename": "20260216-P2162620.jpg",
+          "full": "images/full/20260216-P2162620.webp",
+          "thumb": "images/thumbnails/20260216-P2162620.webp",
+          "date": "2026-02-16",
+          "title": "月夜轻咏",
+          "species": "未知海兔，疑似Flabellina属",
+          "category": "海兔",
+          "colors": [
+            "半透明白",
+            "荧光橙"
+          ]
+        },
+        {
+          "filename": "20260216-P2162677.jpg",
+          "full": "images/full/20260216-P2162677.webp",
+          "thumb": "images/thumbnails/20260216-P2162677.webp",
+          "date": "2026-02-16",
+          "title": "夜色中的金色梦",
+          "species": "疑似古巴纳海牛",
+          "category": "海兔",
+          "colors": [
+            "荧光黄",
+            "蓝紫"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dive-log-day1",
+      "type": "dive-log",
+      "priority": 2,
+      "title_en": "Day 1 · The First Breath",
+      "title_zh": "第一天 · 第一口呼吸",
+      "title_ja": "1日目・最初の息",
+      "subtitle_en": "",
+      "subtitle_zh": "",
+      "subtitle_ja": "",
+      "narrative_en": "First dive of the trip. The water was warmer than I expected, and immediately I spotted the first nudibranch clinging to a blade of seagrass. My Olympus felt like an extension of my hand — familiar, steady. I didn't know it then, but this was the beginning of an obsession.",
+      "narrative_zh": "行程的第一潜。水温比预期暖，入水不久就在草叶上发现了第一只海兔。奥林巴斯握在手里像手的延伸——熟悉、稳当。那时还不知道，这会是一场执念的开始。",
+      "narrative_ja": "この旅の最初のダイブ。水温は予想より暖かく、草の葉の上に最初のウミウシを発見した。オリンパスは手の延長のように感じられた——馴染みがあり、しっかりとして。あの時はまだ知らなかった、これが憑りつきの始まりだとは。",
+      "cover": "images/full/20260214-P2140025.webp",
+      "cover_thumb": "images/thumbnails/20260214-P2140025.webp",
+      "photo_count": 3,
+      "photos": [
+        {
+          "filename": "20260214-P2140025.jpg",
+          "full": "images/full/20260214-P2140025.webp",
+          "thumb": "images/thumbnails/20260214-P2140025.webp",
+          "date": "2026-02-14",
+          "title": "珊瑚上的晨曦",
+          "species": "橙色海兔，疑似Flabellina属",
+          "category": "海兔",
+          "colors": [
+            "半透明白",
+            "橙色"
+          ]
+        },
+        {
+          "filename": "20260214-P2140028.jpg",
+          "full": "images/full/20260214-P2140028.webp",
+          "thumb": "images/thumbnails/20260214-P2140028.webp",
+          "date": "2026-02-14",
+          "title": "珊瑚上的晨曦",
+          "species": "疑似橙色海兔",
+          "category": "海兔",
+          "colors": [
+            "橙色",
+            "粉红"
+          ]
+        },
+        {
+          "filename": "20260214-P2140035.jpg",
+          "full": "images/full/20260214-P2140035.webp",
+          "thumb": "images/thumbnails/20260214-P2140035.webp",
+          "date": "2026-02-14",
+          "title": "珊瑚上的晨曦",
+          "species": "橙色海兔，疑似Chromodoris属",
+          "category": "海兔",
+          "colors": [
+            "半透明白",
+            "橙黄"
+          ]
+        }
+      ]
+    },
+    {
       "id": "journey-1",
       "type": "journey",
       "title_en": "Tulamben: April Journey",
@@ -8804,5 +8985,5 @@
       ]
     }
   ],
-  "generated_at": "2026-05-26T20:55:38.551688"
+  "generated_at": "2026-05-26T22:01:41.837170"
 }

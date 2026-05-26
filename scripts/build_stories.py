@@ -14,11 +14,29 @@ from collections import defaultdict
 
 METADATA_JSON = os.path.join(os.path.dirname(__file__), "..", "data", "photos_metadata.json")
 STORIES_JSON = os.path.join(os.path.dirname(__file__), "..", "data", "stories.json")
+CURATION_JSON = os.path.join(os.path.dirname(__file__), "..", "data", "curation.json")
 
 
 def load_photos():
     with open(METADATA_JSON) as f:
         return json.load(f)["photos"]
+
+
+def load_curation():
+    """Load manual curation config. Returns list of curated story dicts."""
+    if not os.path.exists(CURATION_JSON):
+        return []
+    with open(CURATION_JSON) as f:
+        data = json.load(f)
+    return data.get("curated_stories", [])
+
+
+def photo_by_filename(photos, filename):
+    """Find a photo dict by filename."""
+    for p in photos:
+        if p["filename"] == filename:
+            return p
+    return None
 
 
 def find_thumbnail(p):
@@ -33,6 +51,55 @@ def find_full(p):
 
 def build_stories(photos):
     stories = []
+
+    # ===== 0. 手动策展故事（优先，排在前面）=====
+    curated = load_curation()
+    curated_ids = set()
+    for cs in curated:
+        cid = cs.get("id", "")
+        curated_ids.add(cid)
+        # Resolve photo objects from filenames
+        photo_fnames = cs.get("photo_filenames", [])
+        story_photos = [photo_by_filename(photos, fn) for fn in photo_fnames]
+        story_photos = [p for p in story_photos if p is not None]
+
+        if len(story_photos) < 2:
+            print(f"  ⚠️  Curated story '{cid}' has <2 valid photos, skipping")
+            continue
+
+        cover_fn = cs.get("cover_filename", "")
+        cover = photo_by_filename(photos, cover_fn) if cover_fn else story_photos[0]
+        if not cover:
+            cover = story_photos[0]
+
+        stories.append({
+            "id": cid,
+            "type": cs.get("type", "curated"),
+            "priority": cs.get("priority", 99),
+            "title_en": cs.get("title_en", ""),
+            "title_zh": cs.get("title_zh", ""),
+            "title_ja": cs.get("title_ja", ""),
+            "subtitle_en": cs.get("subtitle_en", ""),
+            "subtitle_zh": cs.get("subtitle_zh", ""),
+            "subtitle_ja": cs.get("subtitle_ja", ""),
+            "narrative_en": cs.get("narrative_en", ""),
+            "narrative_zh": cs.get("narrative_zh", ""),
+            "narrative_ja": cs.get("narrative_ja", ""),
+            "cover": find_full(cover),
+            "cover_thumb": find_thumbnail(cover),
+            "photo_count": len(story_photos),
+            "photos": [{
+                "filename": p["filename"],
+                "full": find_full(p),
+                "thumb": find_thumbnail(p),
+                "date": p.get("date", ""),
+                "title": (p.get("ai_tags") or {}).get("poetic_title", ""),
+                "species": (p.get("ai_tags") or {}).get("species_cn", ""),
+                "category": (p.get("ai_tags") or {}).get("category", ""),
+                "colors": (p.get("ai_tags") or {}).get("primary_colors", []),
+            } for p in story_photos]
+        })
+        print(f"  ✅ Curated: {cid} ({len(story_photos)} photos)")
 
     # 从第一张照片提取地点信息
     first_photo = photos[0] if photos else {}
@@ -333,6 +400,9 @@ def build_stories(photos):
             ]
         })
 
+    # ===== 5. 按 priority 排序 =====
+    stories.sort(key=lambda s: s.get("priority", 99))
+
     return stories
 
 
@@ -343,7 +413,7 @@ def main():
     with open(STORIES_JSON, "w") as f:
         json.dump({"stories": stories, "generated_at": datetime.now().isoformat()}, f, ensure_ascii=False, indent=2)
 
-    print(f"📖 生成了 {len(stories)} 个故事线：")
+    print(f"📖 生成了 {len(stories)} 个故事线（含手动策展）：")
     for s in stories:
         print(f"  [{s['type']}] {s.get('title_zh', s.get('title_en',''))} ({s['photo_count']}张)")
 
