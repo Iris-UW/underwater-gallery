@@ -21,6 +21,10 @@ def build(dry_run=False):
 
     photos = data["photos"]
 
+    # 移除冗余 web_paths — 文件名规则已知，前端自行推导
+    for p in photos:
+        p.pop("web_paths", None)
+
     # 生成紧凑的单行 JSON（与原来 index.html 内联格式一致）
     photos_json = json.dumps(photos, ensure_ascii=False)
 

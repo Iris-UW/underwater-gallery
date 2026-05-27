@@ -487,10 +487,8 @@ document.addEventListener('keydown', e => {
 
 // Initial render
 renderStoryCards();
-</script>
 
-<!-- Anti-Download Protection -->
-<script>
+// ── Anti-Download ──
 (function(){
   document.addEventListener('contextmenu', function(e) {
     if (e.target.tagName === 'IMG' || e.target.closest('.story-card') || e.target.closest('.cover-img')) {
@@ -506,20 +504,14 @@ renderStoryCards();
     }
   });
 })();
-</script>
-
-<!-- AI Chat (Iris persona) -->
-<script src="photo_kb.js"></script>
-<script src="chat.js"></script>
-
-<!-- Visitor Tracking -->
-<script>
+// ── Visitor Tracking ──
 (function(){
   const STORAGE_KEY = 'iris_gallery_visitors';
   try {
     const visitors = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+    const now = new Date();
     visitors.push({
-      time: new Date().toISOString(),
+      time: now.toISOString(),
       page: 'stories',
       lang: localStorage.getItem('iris-lang') || 'en',
       ua: navigator.userAgent.slice(0, 80),
@@ -529,6 +521,9 @@ renderStoryCards();
   } catch(e) {}
 })();
 </script>
+
+<script src="photo_kb.js" defer></script>
+<script src="chat.js" defer></script>
 
 </body>
 </html>
