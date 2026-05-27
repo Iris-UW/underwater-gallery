@@ -893,8 +893,6 @@ if (typeof PHOTOS === 'undefined') {
     const full = 'images/full/' + p.filename.replace(/\.jpg$/i, '.webp');
     const tags = p.ai_tags || {};
 
-    const tags = p.ai_tags || {};
-
     // Use background-image + protective overlay (anti-download)
     document.getElementById('lb-image-wrap').innerHTML = `
       <div style="background-image:url('${full}');background-size:contain;background-position:center;background-repeat:no-repeat;width:100%;height:100%;" class="no-save"></div>
