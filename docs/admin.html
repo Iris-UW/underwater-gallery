@@ -321,6 +321,58 @@ h2:first-of-type { margin-top: 0; }
   color: #fff; font-size: 9px; padding: 16px 6px 4px;
 }
 
+/* Browser select mode */
+.browser-item .browser-check {
+  position: absolute; top: 4px; left: 4px;
+  width: 20px; height: 20px; border-radius: 4px;
+  border: 2px solid rgba(255,255,255,0.6);
+  background: rgba(0,0,0,0.3);
+  display: none; align-items: center; justify-content: center;
+  font-size: 12px; color: #fff;
+}
+.browser-select-mode .browser-item .browser-check { display: flex; }
+.browser-item.selected-for-delete .browser-check {
+  border-color: var(--accent); background: var(--accent);
+}
+.browser-item.selected-for-delete { outline: 2px solid var(--accent); outline-offset: -2px; }
+
+.browser-actions {
+  display: flex; gap: 8px; align-items: center; flex-wrap: wrap;
+}
+.browser-actions button {
+  padding: 6px 14px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text);
+  cursor: pointer; border-radius: 6px; font-size: 12px;
+  font-family: inherit; transition: all 0.2s;
+}
+.browser-actions button:hover { opacity: 0.85; }
+.browser-actions button.danger { color: #e74c3c; border-color: #e74c3c; }
+.browser-actions button.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+.browser-actions button.outline { background: none; border-style: dashed; }
+.browser-actions .selected-count { font-size: 12px; color: var(--dim); margin-left: 4px; }
+
+/* Add photo modal */
+.add-photo-modal-overlay {
+  position: fixed; inset: 0; z-index: 250;
+  background: rgba(0,0,0,0.5);
+  display: flex; align-items: center; justify-content: center;
+}
+.add-photo-modal {
+  background: var(--bg); border: 1px solid var(--border);
+  border-radius: 12px; padding: 24px; width: 90%; max-width: 520px;
+  max-height: 85vh; overflow-y: auto;
+}
+.add-photo-modal h4 { font-size: 15px; font-weight: 500; margin-bottom: 16px; }
+.add-photo-modal .form-row { display: flex; gap: 8px; }
+.add-photo-modal .form-row .field-group { flex: 1; }
+.add-photo-modal .btn-row { display: flex; gap: 8px; justify-content: flex-end; margin-top: 20px; }
+.add-photo-modal button {
+  padding: 8px 20px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text); cursor: pointer;
+  border-radius: 6px; font-size: 12px; font-family: inherit;
+}
+.add-photo-modal button.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+
 /* Browser lightbox (simplified) */
 .browser-lightbox {
   position: fixed; inset: 0; z-index: 300;
@@ -343,10 +395,33 @@ h2:first-of-type { margin-top: 0; }
 }
 .browser-lightbox .bl-close:hover { opacity: 1; }
 
+/* ═══════════════════════════════════════════
+   Cover Picker (thumbnail grid)
+   ═══════════════════════════════════════════ */
+.cover-picker-grid {
+  display: flex; gap: 6px; flex-wrap: wrap;
+}
+.cover-picker-item {
+  width: 56px; height: 56px; overflow: hidden;
+  border-radius: 6px; cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.2s, opacity 0.2s;
+  flex-shrink: 0;
+}
+.cover-picker-item:hover { opacity: 0.85; }
+.cover-picker-item.selected { border-color: var(--accent); }
+.cover-picker-item img {
+  width: 100%; height: 100%; object-fit: cover;
+}
+.cover-picker-empty {
+  font-size: 12px; color: var(--dim); padding: 8px 0;
+}
+
 /* Action bar */
 .editor-actions {
   display: flex; gap: 8px; padding-top: 8px;
   border-top: 1px solid var(--border);
+  flex-wrap: wrap;
 }
 .editor-actions button {
   padding: 8px 18px; border: 1px solid var(--border);
@@ -355,8 +430,61 @@ h2:first-of-type { margin-top: 0; }
   font-family: inherit; transition: all 0.2s;
 }
 .editor-actions button.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+.editor-actions button.publish-btn { background: #2ecc71; color: #fff; border-color: #2ecc71; }
+.editor-actions button.draft-btn { background: #f39c12; color: #fff; border-color: #f39c12; }
+.editor-actions button.preview-btn { background: #3498db; color: #fff; border-color: #3498db; }
 .editor-actions button.danger { color: #e74c3c; border-color: #e74c3c; }
 .editor-actions button:hover { opacity: 0.85; }
+.editor-actions .status-badge {
+  font-size: 10px; padding: 4px 10px; border-radius: 10px;
+  margin-left: auto; align-self: center;
+}
+.status-badge.draft { background: #f39c12; color: #fff; }
+.status-badge.published { background: #2ecc71; color: #fff; }
+
+/* Draft badge in story list */
+.story-card .sc-draft-badge {
+  font-size: 9px; padding: 1px 6px; border-radius: 8px;
+  background: #f39c12; color: #fff; margin-left: 6px;
+}
+
+/* Preview modal */
+.preview-modal-overlay {
+  position: fixed; inset: 0; z-index: 300;
+  background: rgba(0,0,0,0.7);
+  display: flex; align-items: center; justify-content: center;
+}
+.preview-modal {
+  background: var(--bg); border: 1px solid var(--border);
+  border-radius: 16px; padding: 0; width: 90%; max-width: 500px;
+  max-height: 85vh; overflow-y: auto;
+}
+.preview-cover {
+  width: 100%; height: 260px; overflow: hidden;
+  border-radius: 16px 16px 0 0; position: relative;
+}
+.preview-cover img {
+  width: 100%; height: 100%; object-fit: cover;
+}
+.preview-cover .preview-type-badge {
+  position: absolute; top: 12px; left: 12px;
+  padding: 4px 12px; border-radius: 12px; font-size: 10px;
+  letter-spacing: 1px; background: rgba(0,0,0,0.5); color: #fff;
+}
+.preview-body { padding: 24px; }
+.preview-body h3 { font-size: 20px; font-weight: 500; margin-bottom: 4px; }
+.preview-body .preview-subtitle { font-size: 13px; color: var(--dim); margin-bottom: 16px; }
+.preview-body .preview-narrative { font-size: 13px; color: var(--text); line-height: 1.7; margin-bottom: 16px; white-space: pre-wrap; }
+.preview-body .preview-meta { font-size: 11px; color: var(--dim); }
+.preview-actions {
+  display: flex; gap: 8px; padding: 16px 24px;
+  border-top: 1px solid var(--border); justify-content: flex-end;
+}
+.preview-actions button {
+  padding: 8px 20px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text); cursor: pointer;
+  border-radius: 6px; font-size: 12px; font-family: inherit;
+}
 
 /* Responsive: stack on small screens */
 @media (max-width: 768px) {
@@ -431,11 +559,22 @@ h2:first-of-type { margin-top: 0; }
         <input type="text" id="filterSearch" placeholder="Search filename or species...">
         <span class="filter-count" id="filterCount"></span>
       </div>
+      <div class="browser-actions" id="browserActions">
+        <button id="btnSelectMode" class="outline" onclick="window._adminToggleSelectMode()">☐ 选择模式</button>
+        <button id="btnSelectAll" onclick="window._adminSelectAll()" style="display:none;">全选</button>
+        <button id="btnDeselectAll" onclick="window._adminDeselectAll()" style="display:none;">取消全选</button>
+        <button id="btnDeleteSelected" class="danger" onclick="window._adminDeleteSelected()" style="display:none;">🗑️ 删除选中</button>
+        <button id="btnAddPhoto" class="primary" onclick="window._adminAddPhoto()">+ 添加照片</button>
+        <button id="btnExportMetadata" onclick="window._adminExportMetadata()">📥 导出 Metadata</button>
+        <span class="selected-count" id="selectedCount" style="display:none;"></span>
+      </div>
       <div class="browser-grid" id="browserGrid"></div>
     </div>
   </div>
 
 </main>
+
+</div><!-- #adminContent -->
 
 <script src="gallery-i18n.js"></script>
 <script src="gallery-data.js"></script>
@@ -629,6 +768,7 @@ h2:first-of-type { margin-top: 0; }
           const cs = {
             id: s.id,
             type: s.type,
+            status: 'published',
             priority: s.priority || 99,
             photo_filenames: fnames,
             cover_filename: coverFn,
@@ -664,6 +804,9 @@ h2:first-of-type { margin-top: 0; }
       autoStories = storiesData.filter(s => !curatedIds.has(s.id));
     }
 
+    // Merge in drafts from localStorage
+    mergeDraftsIntoCurated();
+
     console.log(`Loaded: ${allPhotos.length} photos, ${curatedStories.length} curated, ${autoStories.length} auto stories`);
   }
 
@@ -696,6 +839,9 @@ h2:first-of-type { margin-top: 0; }
 
     let html = '';
 
+    // New story button at top
+    html += '<button class="btn-new-story" onclick="window._adminCreateStory()">+ 新建故事集</button>';
+
     // Curated stories section
     if (curatedStories.length) {
       html += '<div class="story-section-label">🎨 策展故事</div>';
@@ -714,7 +860,6 @@ h2:first-of-type { margin-top: 0; }
       });
     }
 
-    html += '<button class="btn-new-story" onclick="window._adminCreateStory()">+ 新建故事集</button>';
     container.innerHTML = html;
 
     // Highlight current
@@ -724,10 +869,11 @@ h2:first-of-type { margin-top: 0; }
   function storyCardHTML(s, count) {
     const title = s.title_zh || s.trip_name_zh || s.id;
     const typeLabel = s.type === 'dive-log' ? '潜水日志' : '策展';
+    const draftBadge = s.status === 'draft' ? '<span class="sc-draft-badge">草稿</span>' : '';
     return `
       <div class="story-card" data-sid="${s.id}" onclick="window._adminEditStory('${s.id}')">
         <div>
-          <div class="sc-title">${esc(title)}</div>
+          <div class="sc-title">${esc(title)}${draftBadge}</div>
           <div class="sc-meta">${typeLabel} · ${count} photos</div>
         </div>
         <div class="sc-actions">
@@ -804,7 +950,7 @@ h2:first-of-type { margin-top: 0; }
 
     // Cover photo
     html += `<div class="field-group"><label>封面照片 Cover</label>
-      <select id="ef-cover">${selectedFnames.map(fn => `<option value="${esc(fn)}"${story.cover_filename===fn?' selected':''}>${esc(fn)}</option>`).join('')}</select></div>`;
+      <div class="cover-picker-grid" id="coverPickerGrid"></div></div>`;
 
     // Narrative
     html += trilingualTextarea('叙事 Narrative', 'narrative', story);
@@ -814,10 +960,14 @@ h2:first-of-type { margin-top: 0; }
       <div class="photo-picker-grid" id="photoPickerGrid"></div></div>`;
 
     // Actions
+    const status = story.status || 'published';
+    const statusLabel = status === 'draft' ? '草稿' : '已发布';
+    const statusClass = status === 'draft' ? 'draft' : 'published';
     html += `<div class="editor-actions">
-      <button class="primary" onclick="window._adminSaveStory()">💾 Save Edits (in memory)</button>
-      <button onclick="window._adminExportJSON()">📥 Export curation.json</button>
-      <button class="danger" onclick="window._adminDeleteStory('${story.id}')">🗑️ Delete Story</button>
+      <button class="preview-btn" onclick="window._adminPreviewStory()">👁️ 预览</button>
+      <button class="publish-btn" onclick="window._adminPublishStory()">🚀 发布</button>
+      <button class="draft-btn" onclick="window._adminSaveDraft()">💾 存草稿</button>
+      <span class="status-badge ${statusClass}">${statusLabel}</span>
     </div>`;
 
     html += '</div>';
@@ -913,16 +1063,39 @@ h2:first-of-type { margin-top: 0; }
     const selected = document.querySelectorAll('.photo-picker-item.selected');
     const label = document.querySelector('.photo-picker-grid').previousElementSibling;
     if (label) label.textContent = `照片选择 (${selected.length} selected)`;
-    // Update cover select
-    const coverSelect = $('ef-cover');
-    if (coverSelect) {
-      const fnames = Array.from(selected).map(el => el.dataset.filename);
-      coverSelect.innerHTML = fnames.map((fn, i) => 
-        `<option value="${esc(fn)}"${i===0?' selected':''}>${esc(fn)}</option>`
-      ).join('');
-      if (!fnames.length) coverSelect.innerHTML = '<option value="">-- no photos selected --</option>';
-    }
+    // Update cover picker
+    const fnames = Array.from(selected).map(el => el.dataset.filename);
+    const story = findCurrentStory();
+    const currentCover = story ? story.cover_filename : '';
+    renderCoverPicker(fnames, currentCover);
   }
+
+  function renderCoverPicker(fnames, selectedCover) {
+    const grid = $('coverPickerGrid');
+    if (!grid) return;
+    if (!fnames.length) {
+      grid.innerHTML = '<div class="cover-picker-empty">-- 请先选择照片 --</div>';
+      return;
+    }
+    grid.innerHTML = fnames.map(fn => {
+      const thumb = thumbPath(fn);
+      return `<div class="cover-picker-item${fn===selectedCover?' selected':''}" 
+                   data-filename="${esc(fn)}" 
+                   onclick="window._adminSelectCover('${esc(fn)}')"
+                   title="${esc(fn)}">
+                <img src="${thumb}" alt="" loading="lazy">
+              </div>`;
+    }).join('');
+  }
+
+  window._adminSelectCover = function(filename) {
+    const story = findCurrentStory();
+    if (!story) return;
+    story.cover_filename = filename;
+    document.querySelectorAll('.cover-picker-item').forEach(el => {
+      el.classList.toggle('selected', el.dataset.filename === filename);
+    });
+  };
 
   // ─── Caption Editor Modal ─────────────────────────
   window._adminEditCaption = function(filename) {
@@ -1062,7 +1235,7 @@ h2:first-of-type { margin-top: 0; }
   window._adminCreateStory = function() {
     const id = 'story-' + Date.now();
     const story = {
-      id, type: 'curated', priority: 99,
+      id, type: 'curated', priority: 99, status: 'draft',
       title_en: 'New Story', title_zh: '新故事', title_ja: '新しいストーリー',
       subtitle_en: '', subtitle_zh: '', subtitle_ja: '',
       narrative_en: '', narrative_zh: '', narrative_ja: '',
@@ -1123,71 +1296,186 @@ h2:first-of-type { margin-top: 0; }
     renderPhotoPicker(fnames, story.photo_captions || {});
   };
 
-  window._adminSaveStory = function() {
+  // ─── Draft System ─────────────────────────────────
+  const DRAFT_KEY = 'iris_admin_drafts';
+
+  function loadDrafts() {
+    try {
+      const raw = localStorage.getItem(DRAFT_KEY);
+      if (!raw) return [];
+      return JSON.parse(raw);
+    } catch(e) { return []; }
+  }
+
+  function saveDraftsToStorage(drafts) {
+    localStorage.setItem(DRAFT_KEY, JSON.stringify(drafts));
+  }
+
+  function mergeDraftsIntoCurated() {
+    const drafts = loadDrafts();
+    const draftMap = {};
+    drafts.forEach(d => { draftMap[d.id] = d; });
+
+    // Mark existing curated stories that match drafts
+    curatedStories.forEach(s => {
+      if (draftMap[s.id]) {
+        // Merge draft overrides
+        const draft = draftMap[s.id];
+        if (draft.status === 'draft') s.status = 'draft';
+        delete draftMap[s.id];
+      }
+    });
+
+    // Add drafts that don't exist in curatedStories
+    Object.values(draftMap).forEach(d => {
+      curatedStories.push(d);
+    });
+  }
+
+  // ─── Save / Publish / Preview ─────────────────────
+  function collectStoryForm() {
     const story = findCurrentStory();
-    if (!story) return;
+    if (!story) return null;
+    const copy = JSON.parse(JSON.stringify(story));
 
-    // Collect form values
-    story.id = $('ef-id')?.value || story.id;
-    story.priority = parseInt($('ef-priority')?.value) || 99;
-    const isDiveLog = story.type === 'dive-log';
+    copy.id = $('ef-id')?.value || copy.id;
+    copy.priority = parseInt($('ef-priority')?.value) || 99;
+    const isDiveLog = copy.type === 'dive-log';
 
-    // Titles
     const titleKey = isDiveLog ? 'trip_name' : 'title';
     ['zh','en','ja'].forEach(lang => {
-      story[titleKey+'_'+lang] = $('ef-'+titleKey+'-'+lang)?.value || '';
+      copy[titleKey+'_'+lang] = $('ef-'+titleKey+'-'+lang)?.value || '';
     });
-
-    // Subtitles (curated only)
     if (!isDiveLog) {
       ['zh','en','ja'].forEach(lang => {
-        story['subtitle_'+lang] = $('ef-subtitle-'+lang)?.value || '';
+        copy['subtitle_'+lang] = $('ef-subtitle-'+lang)?.value || '';
       });
     }
-
-    // Narrative
     ['zh','en','ja'].forEach(lang => {
-      story['narrative_'+lang] = $('ef-narrative-'+lang)?.value || '';
+      copy['narrative_'+lang] = $('ef-narrative-'+lang)?.value || '';
     });
-
-    // Dive-log extras
     if (isDiveLog) {
-      story.date_range = $('ef-date_range')?.value || '';
-      story.dive_count = $('ef-dive_count')?.value || '';
+      copy.date_range = $('ef-date_range')?.value || '';
+      copy.dive_count = $('ef-dive_count')?.value || '';
       ['zh','en','ja'].forEach(lang => {
-        story['site_'+lang] = $('ef-site-'+lang)?.value || '';
-        story['conditions_'+lang] = $('ef-conditions-'+lang)?.value || '';
+        copy['site_'+lang] = $('ef-site-'+lang)?.value || '';
+        copy['conditions_'+lang] = $('ef-conditions-'+lang)?.value || '';
       });
     }
+    // Cover is already set via click
+    return copy;
+  }
 
-    // Cover
-    story.cover_filename = $('ef-cover')?.value || '';
-
-    // Update in curatedStories array
-    const idx = curatedStories.findIndex(s => s.id === currentStoryId);
+  function updateStoryInMemory(story) {
+    const idx = curatedStories.findIndex(s => s.id === story.id);
     if (idx >= 0) {
       curatedStories[idx] = story;
+    } else {
+      curatedStories.push(story);
     }
+  }
 
+  window._adminSaveDraft = function() {
+    const story = collectStoryForm();
+    if (!story) return;
+    story.status = 'draft';
+
+    // Save to localStorage drafts
+    const drafts = loadDrafts();
+    const idx = drafts.findIndex(d => d.id === story.id);
+    if (idx >= 0) drafts[idx] = story;
+    else drafts.push(story);
+    saveDraftsToStorage(drafts);
+
+    // Update in-memory
+    updateStoryInMemory(story);
+    currentStoryId = story.id;
     renderStoryList();
     openStoryEditor(JSON.parse(JSON.stringify(story)));
-    showToast('Saved! (in memory — export to download curation.json)');
+    showToast('草稿已保存 ✓');
   };
 
-  // ─── Export ───────────────────────────────────────
-  window._adminExportJSON = function() {
-    window._adminSaveStory(); // save first
-    const output = {
-      _comment: "Curation config for underwater gallery stories",
-      _usage: "Edit this file, then run: python scripts/rebuild.py --step 6 --step 5 --step 7",
-      curated_stories: curatedStories
-    };
+  window._adminPublishStory = function() {
+    const story = collectStoryForm();
+    if (!story) return;
+    story.status = 'published';
+
+    // Remove from drafts
+    const drafts = loadDrafts().filter(d => d.id !== story.id);
+    saveDraftsToStorage(drafts);
+
+    // Update in-memory
+    updateStoryInMemory(story);
+    currentStoryId = story.id;
+    renderStoryList();
+    openStoryEditor(JSON.parse(JSON.stringify(story)));
+
+    // Auto-export curation.json
+    const output = buildCurationExport();
     const blob = new Blob([JSON.stringify(output, null, 2)], {type: 'application/json'});
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url; a.download = 'curation.json';
     a.click();
     URL.revokeObjectURL(url);
+    showToast('已发布并导出 curation.json ✓');
+  };
+
+  function buildCurationExport() {
+    const published = curatedStories.filter(s => s.status !== 'draft');
+    return {
+      _comment: "Curation config for underwater gallery stories",
+      _usage: "Edit this file, then run: python scripts/rebuild.py --step 6 --step 5 --step 7",
+      curated_stories: published
+    };
+  }
+
+  window._adminPreviewStory = function() {
+    const story = collectStoryForm();
+    if (!story) return;
+
+    const isDiveLog = story.type === 'dive-log';
+    const coverFn = story.cover_filename || (story.photo_filenames || [])[0] || '';
+    const coverSrc = coverFn ? fullPath(coverFn) : '';
+    const lang = localStorage.getItem('iris-lang') || 'zh';
+    
+    const title = story['title_'+lang] || story['trip_name_'+lang] || story.id;
+    const subtitle = isDiveLog ? '' : (story['subtitle_'+lang] || '');
+    const narrative = story['narrative_'+lang] || '';
+    const photoCount = (story.photo_filenames || []).length;
+    const typeLabel = isDiveLog ? 'Dive Log' : 'Curated';
+
+    const overlay = document.createElement('div');
+    overlay.className = 'preview-modal-overlay';
+    overlay.id = 'previewModal';
+    overlay.innerHTML = `
+      <div class="preview-modal">
+        <div class="preview-cover">
+          ${coverSrc ? `<img src="${coverSrc}" alt="">` : '<div style="height:100%;background:var(--surface);display:flex;align-items:center;justify-content:center;color:var(--dim);">No Cover</div>'}
+          <div class="preview-type-badge">${typeLabel}</div>
+        </div>
+        <div class="preview-body">
+          <h3>${esc(title)}</h3>
+          ${subtitle ? `<div class="preview-subtitle">${esc(subtitle)}</div>` : ''}
+          <div class="preview-narrative">${esc(narrative || '(无叙事内容)')}</div>
+          <div class="preview-meta">📸 ${photoCount} 张照片 · 状态：${story.status==='draft'?'草稿':'已发布'}</div>
+        </div>
+        <div class="preview-actions">
+          <button onclick="document.getElementById('previewModal').remove()">关闭</button>
+        </div>
+      </div>`;
+    document.body.appendChild(overlay);
+    overlay.addEventListener('click', function(e) { if (e.target === overlay) overlay.remove(); });
+  };
+
+  // ─── Legacy Save (keep for compatibility) ─────────
+  window._adminSaveStory = function() {
+    window._adminPublishStory();
+  };
+
+  // ─── Export ───────────────────────────────────────
+  window._adminExportJSON = function() {
+    window._adminPublishStory();
   };
 
   // ─── Photo Browser ────────────────────────────────
@@ -1232,17 +1520,210 @@ h2:first-of-type { margin-top: 0; }
 
     $('filterCount').textContent = `${filtered.length} photo${filtered.length !== 1 ? 's' : ''}`;
 
+    const isSelectMode = browserSelectMode;
+
     const grid = $('browserGrid');
+    grid.className = 'browser-grid' + (isSelectMode ? ' browser-select-mode' : '');
     grid.innerHTML = filtered.map(p => {
       const ai = p.ai_tags || {};
       const thumb = thumbPath(p.filename);
+      const isSel = selectedForDelete.has(p.filename);
       return `
-        <div class="browser-item" onclick="window._adminBrowserLightbox('${esc(p.filename)}')">
+        <div class="browser-item${isSel?' selected-for-delete':''}" 
+             data-filename="${esc(p.filename)}"
+             onclick="${isSelectMode ? `window._adminToggleBrowserSelect('${esc(p.filename)}')` : `window._adminBrowserLightbox('${esc(p.filename)}')`}">
           <img src="${thumb}" alt="" loading="lazy">
+          <div class="browser-check">✓</div>
           <div class="browser-info">${esc(p.date||'')} · ${esc(ai.category||'')}</div>
         </div>`;
     }).join('');
+
+    updateBrowserSelectUI();
   }
+
+  // ─── Browser Select Mode ──────────────────────────
+  let browserSelectMode = false;
+  let selectedForDelete = new Set();
+
+  function updateBrowserSelectUI() {
+    const count = selectedForDelete.size;
+    $('btnSelectMode').textContent = browserSelectMode ? '☑ 退出选择' : '☐ 选择模式';
+    $('btnSelectMode').className = browserSelectMode ? 'primary' : 'outline';
+    $('btnSelectAll').style.display = browserSelectMode ? '' : 'none';
+    $('btnDeselectAll').style.display = browserSelectMode ? '' : 'none';
+    $('btnDeleteSelected').style.display = browserSelectMode ? '' : 'none';
+    $('selectedCount').style.display = browserSelectMode ? '' : 'none';
+    $('selectedCount').textContent = count > 0 ? `已选 ${count} 张` : '';
+    if (!browserSelectMode) selectedForDelete.clear();
+  }
+
+  window._adminToggleSelectMode = function() {
+    browserSelectMode = !browserSelectMode;
+    if (!browserSelectMode) selectedForDelete.clear();
+    applyPhotoFilters();
+  };
+
+  window._adminToggleBrowserSelect = function(filename) {
+    if (!browserSelectMode) return;
+    if (selectedForDelete.has(filename)) {
+      selectedForDelete.delete(filename);
+    } else {
+      selectedForDelete.add(filename);
+    }
+    applyPhotoFilters();
+  };
+
+  window._adminSelectAll = function() {
+    // Select all currently visible photos
+    const cat = $('filterCategory')?.value || '';
+    const date = $('filterDate')?.value || '';
+    const search = ($('filterSearch')?.value || '').toLowerCase();
+    let filtered = allPhotos;
+    if (cat) filtered = filtered.filter(p => (p.ai_tags||{}).category === cat);
+    if (date) filtered = filtered.filter(p => String(p.date||'').startsWith(date));
+    if (search) {
+      filtered = filtered.filter(p => {
+        const ai = p.ai_tags || {};
+        return p.filename.toLowerCase().includes(search) ||
+               (ai.species_cn||'').toLowerCase().includes(search) ||
+               (ai.species_latin||'').toLowerCase().includes(search);
+      });
+    }
+    filtered.forEach(p => selectedForDelete.add(p.filename));
+    applyPhotoFilters();
+  };
+
+  window._adminDeselectAll = function() {
+    selectedForDelete.clear();
+    applyPhotoFilters();
+  };
+
+  window._adminDeleteSelected = function() {
+    const count = selectedForDelete.size;
+    if (count === 0) return;
+    if (!confirm(`确定要删除 ${count} 张照片吗？此操作不可撤销。\n\n删除后请导出 Metadata 以保存更改。`)) return;
+    
+    allPhotos = allPhotos.filter(p => !selectedForDelete.has(p.filename));
+    // Update photoMap
+    photoMap = {};
+    allPhotos.forEach(p => { photoMap[p.filename] = p; });
+    
+    selectedForDelete.clear();
+    browserSelectMode = false;
+    
+    // Also rebuild filter dropdowns
+    const categories = [...new Set(allPhotos.map(p => (p.ai_tags||{}).category||'其他'))].sort();
+    $('filterCategory').innerHTML = '<option value="">All Categories</option>' +
+      categories.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
+    const dates = [...new Set(allPhotos.map(p => String(p.date||'').slice(0,7)))].filter(Boolean).sort();
+    $('filterDate').innerHTML = '<option value="">All Dates</option>' +
+      dates.map(d => `<option value="${d}">${d}</option>`).join('');
+    
+    applyPhotoFilters();
+    showToast(`已删除 ${count} 张照片。记得导出 Metadata！`);
+  };
+
+  // ─── Add Photo ────────────────────────────────────
+  window._adminAddPhoto = function() {
+    const overlay = document.createElement('div');
+    overlay.className = 'add-photo-modal-overlay';
+    overlay.id = 'addPhotoModal';
+    overlay.innerHTML = `
+      <div class="add-photo-modal">
+        <h4>添加新照片</h4>
+        <div class="field-group"><label>文件名 Filename *</label><input id="ap-filename" placeholder="e.g. 20260214-P2140999.JPG"></div>
+        <div class="form-row">
+          <div class="field-group"><label>日期 Date</label><input id="ap-date" type="date"></div>
+          <div class="field-group"><label>相机 Camera</label>
+            <select id="ap-camera">
+              <option value="Olympus E-M1 II">Olympus E-M1 II</option>
+              <option value="Sony A7R IV">Sony A7R IV</option>
+            </select></div>
+        </div>
+        <div class="form-row">
+          <div class="field-group"><label>光圈 f/</label><input id="ap-fnum" placeholder="e.g. 8"></div>
+          <div class="field-group"><label>快门 Exposure</label><input id="ap-exp" placeholder="e.g. 1/250s"></div>
+          <div class="field-group"><label>ISO</label><input id="ap-iso" placeholder="e.g. 200"></div>
+        </div>
+        <div class="form-row">
+          <div class="field-group"><label>分类 Category</label>
+            <select id="ap-category">
+              <option value="鱼">鱼</option>
+              <option value="海兔">海兔</option>
+              <option value="虾">虾</option>
+              <option value="蟹">蟹</option>
+              <option value="其他">其他</option>
+            </select></div>
+          <div class="field-group"><label>中文名 Species (CN)</label><input id="ap-species-cn" placeholder="物种中文名"></div>
+        </div>
+        <div class="form-row">
+          <div class="field-group"><label>拉丁名 Species (Latin)</label><input id="ap-species-latin" placeholder="物种拉丁学名"></div>
+          <div class="field-group"><label>主色 Primary Colors</label><input id="ap-colors" placeholder="e.g. 橙,白"></div>
+        </div>
+        <div class="field-group"><label>行为 Behavior</label><input id="ap-behavior" placeholder="e.g. 游动,静止"></div>
+        <div style="font-size:10px;color:var(--dim);margin-top:4px;">* 文件名必填。图片文件请手动放入 images/full/ 目录。</div>
+        <div class="btn-row">
+          <button onclick="document.getElementById('addPhotoModal').remove()">取消</button>
+          <button class="primary" onclick="window._adminConfirmAddPhoto()">添加</button>
+        </div>
+      </div>`;
+    document.body.appendChild(overlay);
+    overlay.addEventListener('click', function(e) { if (e.target === overlay) overlay.remove(); });
+  };
+
+  window._adminConfirmAddPhoto = function() {
+    const filename = $('ap-filename')?.value?.trim();
+    if (!filename) { alert('请输入文件名'); return; }
+    // Check duplicates
+    if (photoMap[filename]) { alert('文件名已存在！'); return; }
+
+    const newPhoto = {
+      filename: filename,
+      date: $('ap-date')?.value || '',
+      camera_info: { camera: $('ap-camera')?.value || 'Olympus E-M1 II', lens: '' },
+      f_number: $('ap-fnum')?.value || '',
+      exposure_time: $('ap-exp')?.value || '',
+      iso: $('ap-iso')?.value || '',
+      ai_tags: {
+        category: $('ap-category')?.value || '其他',
+        species_cn: $('ap-species-cn')?.value || '',
+        species_latin: $('ap-species-latin')?.value || '',
+        primary_colors: ($('ap-colors')?.value || '').split(',').map(s => s.trim()).filter(Boolean),
+        behavior: $('ap-behavior')?.value || '',
+        confidence: 1.0
+      }
+    };
+
+    allPhotos.push(newPhoto);
+    photoMap[filename] = newPhoto;
+
+    // Refresh filters
+    const categories = [...new Set(allPhotos.map(p => (p.ai_tags||{}).category||'其他'))].sort();
+    $('filterCategory').innerHTML = '<option value="">All Categories</option>' +
+      categories.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
+    const dates = [...new Set(allPhotos.map(p => String(p.date||'').slice(0,7)))].filter(Boolean).sort();
+    $('filterDate').innerHTML = '<option value="">All Dates</option>' +
+      dates.map(d => `<option value="${d}">${d}</option>`).join('');
+
+    applyPhotoFilters();
+    document.getElementById('addPhotoModal')?.remove();
+    showToast('照片已添加！记得导出 Metadata 保存。');
+  };
+
+  // ─── Export Metadata ──────────────────────────────
+  window._adminExportMetadata = function() {
+    const output = {
+      _comment: "Photo metadata for underwater gallery — auto-generated, do not edit manually",
+      photos: allPhotos
+    };
+    const blob = new Blob([JSON.stringify(output, null, 2)], {type: 'application/json'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = 'photos_metadata.json';
+    a.click();
+    URL.revokeObjectURL(url);
+    showToast('Metadata 已导出！');
+  };
 
   window._adminBrowserLightbox = function(filename) {
     const p = photoMap[filename];
